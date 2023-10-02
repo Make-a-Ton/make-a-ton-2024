@@ -1,5 +1,5 @@
-import React, { Fragment, useEffect } from 'react';
-import { TweenMax, Quart } from 'gsap';
+import React, {Fragment, useEffect} from 'react';
+import {TweenMax, Quart} from 'gsap';
 import Image from 'next/image';
 import $ from 'jquery';
 
@@ -98,7 +98,7 @@ const Countdown = () => {
                     onComplete: function () {
                         $top.html(value);
                         $bottom.html(value);
-                        TweenMax.set($top, { rotationX: 0 });
+                        TweenMax.set($top, {rotationX: 0});
                     },
                 });
 
@@ -133,8 +133,8 @@ const Countdown = () => {
 
     return (
         <Fragment>
-            <div className="flex items-center w-full">
-                <div className="countdown_container w-1/2 bg-white">
+            <div className="flex sm:flex-row  flex-col items-center w-full ">
+                <div className="flex countdown_container w-1/2 bg-white">
                     <div className="wrap">
                         <div className="countdown">
                             <div className="bloc-time days" data-init-value="5">
@@ -142,23 +142,23 @@ const Countdown = () => {
                                 <div className="figure days days-1">
                                     <span className="top">0</span>
                                     <span className="top-back">
-                    <span>0</span>
-                  </span>
+                                    <span>0</span>
+                                  </span>
                                     <span className="bottom">0</span>
                                     <span className="bottom-back">
-                    <span>0</span>
-                  </span>
+                                    <span>0</span>
+                                  </span>
                                 </div>
 
                                 <div className="figure days days-2">
                                     <span className="top">0</span>
                                     <span className="top-back">
-                    <span>0</span>
-                  </span>
+                                    <span>0</span>
+                                  </span>
                                     <span className="bottom">0</span>
                                     <span className="bottom-back">
-                    <span>0</span>
-                  </span>
+                                    <span>0</span>
+                                  </span>
                                 </div>
                             </div>
 
@@ -241,9 +241,10 @@ const Countdown = () => {
                     </div>
                 </div>
 
-                <div className="flex items-center justify-evenly w-1/2">
+                <div className="flex  items-center justify-evenly w-1/2">
                     <p className="text-white font-clash-bold text-3xl">Event Countdown</p>
-                    <button className="rounded-full bg-white border-2 border-gray-500 px-2 py-1 cursor-pointer ease-in-out active:scale-90">
+                    <button
+                        className="rounded-full bg-white border-2 border-gray-500 px-2 py-1 cursor-pointer ease-in-out active:scale-90">
                         <Image
                             src={'/assets/down.svg'}
                             alt={'down'}
