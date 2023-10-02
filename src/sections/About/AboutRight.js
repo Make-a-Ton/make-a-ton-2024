@@ -9,7 +9,7 @@ const AboutRight = () => {
         <div className="flex justify-left mb-4 pb-3">
           <Image src={logo} alt="Logo" width={120} height={120} />
         </div>
-        <p className="text-gray-700 text-left text-sm mt-10 ">
+        <p className="text-gray-700 text-left text-sm my-10 ">
           The Centre for Innovation, Technology Transfer and Industrial
           Collaboration (CITTIC), the technology business incubator of Cusat,
           has nurtured several young startups and has supported the growth of
