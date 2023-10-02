@@ -4,10 +4,10 @@ import Link from 'next/link';
 const navItems = [
     { name: 'Home', link: '#home' },
     { name: 'About', link: '#about' },
-    { name: 'Schedule', link: '#schedule' }, // Fixed typo in "Schedule"
+    { name: 'Schedule', link: '#schedule' },
     { name: 'Sponsor', link: '#sponsor' },
     { name: 'FAQ', link: '#faq' },
-    { name: 'Code of Conduct', link: '#codeOfConduct' }, // Fixed typo in "Code of Conduct"
+    { name: 'Code of Conduct', link: '#codeOfConduct' },
     { name: 'Team', link: '#team' },
     { name: 'REGISTER', link: '/register' },
 ];

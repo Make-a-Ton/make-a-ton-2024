@@ -1,10 +1,18 @@
-import React, {Fragment, useEffect} from 'react';
+import React, {Fragment, useEffect, useState} from 'react';
 import {TweenMax, Quart} from 'gsap';
 import Image from 'next/image';
 import $ from 'jquery';
 
 const Countdown = () => {
+
+    const [isMobile, setIsMobile] = useState(false);
+
     useEffect(() => {
+
+        if (window.innerWidth < 768) {
+            setIsMobile(true);
+        }
+
         const Countdown = {
             $el: $('.countdown'),
             countdown_interval: null,
@@ -133,128 +141,253 @@ const Countdown = () => {
 
     return (
         <Fragment>
-            <div className="flex sm:flex-row  flex-col items-center w-full ">
-                <div className="flex countdown_container w-1/2 bg-white">
-                    <div className="wrap">
-                        <div className="countdown">
-                            <div className="bloc-time days" data-init-value="5">
-                                <span className="count-title">Days</span>
-                                <div className="figure days days-1">
-                                    <span className="top">0</span>
-                                    <span className="top-back">
-                                    <span>0</span>
-                                  </span>
-                                    <span className="bottom">0</span>
-                                    <span className="bottom-back">
-                                    <span>0</span>
-                                  </span>
-                                </div>
+            {isMobile ? (
+                    <div className="flex flex-col items-center justify-center ">
+                        <div className="flex flex-col flex-wrap countdown_container bg-white">
+                            <div className="wrap flex">
+                                <div className="flex flex-row flex-wrap gap-10 countdown">
+                                    <div className=" bloc-time days" data-init-value="5">
+                                                <span className="count-title">Days</span>
+                                                <div className=" figure days days-1">
+                                                    <span className="top">0</span>
+                                                    <span className="top-back">
+                                            <span>0</span>
+                                          </span>
+                                                    <span className="bottom">0</span>
+                                                    <span className="bottom-back">
+                                            <span>0</span>
+                                          </span>
+                                                </div>
 
-                                <div className="figure days days-2">
-                                    <span className="top">0</span>
-                                    <span className="top-back">
-                                    <span>0</span>
-                                  </span>
-                                    <span className="bottom">0</span>
-                                    <span className="bottom-back">
-                                    <span>0</span>
-                                  </span>
-                                </div>
-                            </div>
+                                                <div className="figure days days-2">
+                                                    <span className="top">0</span>
+                                                    <span className="top-back">
+                                            <span>0</span>
+                                          </span>
+                                                    <span className="bottom">0</span>
+                                                    <span className="bottom-back">
+                                            <span>0</span>
+                                          </span>
+                                        </div>
+                                    </div>
 
-                            <div className="bloc-time hours" data-init-value="24">
-                                <span className="count-title">Hours</span>
-                                <div className="figure hours hours-1">
-                                    <span className="top">0</span>
-                                    <span className="top-back">
-                    <span>0</span>
-                  </span>
-                                    <span className="bottom">0</span>
-                                    <span className="bottom-back">
-                    <span>0</span>
-                  </span>
-                                </div>
+                                    <div className="bloc-time hours" data-init-value="24">
+                                        <span className="count-title">Hours</span>
+                                        <div className="figure hours hours-1">
+                                            <span className="top">0</span>
+                                            <span className="top-back">
+                                        <span>0</span>
+                                     </span>
+                                            <span className="bottom">0</span>
+                                            <span className="bottom-back">
+                                        <span>0</span>
+                                    </span>
+                                        </div>
 
-                                <div className="figure hours hours-2">
-                                    <span className="top">0</span>
-                                    <span className="top-back">
-                    <span>0</span>
-                  </span>
-                                    <span className="bottom">0</span>
-                                    <span className="bottom-back">
-                    <span>0</span>
-                  </span>
-                                </div>
-                            </div>
+                                        <div className="figure hours hours-2">
+                                            <span className="top">0</span>
+                                            <span className="top-back">
+                                        <span>0</span>
+                                    </span>
+                                            <span className="bottom">0</span>
+                                            <span className="bottom-back">
+                                        <span>0</span>
+                                    </span>
+                                        </div>
+                                    </div>
 
-                            <div className="bloc-time min" data-init-value="0">
-                                <span className="count-title">Minutes</span>
-                                <div className="figure min min-1">
-                                    <span className="top">0</span>
-                                    <span className="top-back">
-                    <span>0</span>
-                  </span>
-                                    <span className="bottom">0</span>
-                                    <span className="bottom-back">
-                    <span>0</span>
-                  </span>
-                                </div>
+                                    <div className="bloc-time min" data-init-value="0">
+                                        <span className="count-title">Minutes</span>
+                                        <div className="figure min min-1">
+                                            <span className="top">0</span>
+                                            <span className="top-back">
+                                        <span>0</span>
+                                    </span>
+                                            <span className="bottom">0</span>
+                                            <span className="bottom-back">
+                                        <span>0</span>
+                                    </span>
+                                        </div>
 
-                                <div className="figure min min-2">
-                                    <span className="top">0</span>
-                                    <span className="top-back">
-                    <span>0</span>
-                  </span>
-                                    <span className="bottom">0</span>
-                                    <span className="bottom-back">
-                    <span>0</span>
-                  </span>
-                                </div>
-                            </div>
+                                        <div className="figure min min-2">
+                                            <span className="top">0</span>
+                                            <span className="top-back">
+                                        <span>0</span>
+                                    </span>
+                                            <span className="bottom">0</span>
+                                            <span className="bottom-back">
+                                        <span>0</span>
+                                    </span>
+                                        </div>
+                                    </div>
 
-                            <div className="bloc-time sec" data-init-value="0">
-                                <span className="count-title">Seconds</span>
+                                    <div className="bloc-time sec" data-init-value="0">
+                                        <span className="count-title">Seconds</span>
 
-                                <div className="figure sec sec-1">
-                                    <span className="top">0</span>
-                                    <span className="top-back">
-                    <span>0</span>
-                  </span>
-                                    <span className="bottom">0</span>
-                                    <span className="bottom-back">
-                    <span>0</span>
-                  </span>
-                                </div>
+                                        <div className="figure sec sec-1">
+                                            <span className="top">0</span>
+                                            <span className="top-back">
+                                        <span>0</span>
+                                    </span>
+                                            <span className="bottom">0</span>
+                                            <span className="bottom-back">
+                                        <span>0</span>
+                                    </span>
+                                        </div>
 
-                                <div className="figure sec sec-2">
-                                    <span className="top">0</span>
-                                    <span className="top-back">
-                    <span>0</span>
-                  </span>
-                                    <span className="bottom">0</span>
-                                    <span className="bottom-back">
-                    <span>0</span>
-                  </span>
+                                        <div className="figure sec sec-2">
+                                            <span className="top">0</span>
+                                            <span className="top-back">
+                                        <span>0</span>
+                                    </span>
+                                            <span className="bottom">0</span>
+                                            <span className="bottom-back">
+                                        <span>0</span>
+                                    </span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
+                        <div className="flex flex-col items-center">
+                            <p className="text-white font-clash-bold text-3xl">Event Countdown</p>
+                            <button
+                                className="rounded-full bg-white border-2 border-gray-500 px-2 py-1 cursor-pointer ease-in-out active:scale-90">
+                                <Image
+                                    src={'/assets/down.svg'}
+                                    alt={'down'}
+                                    width={20}
+                                    height={20}
+                                />
+                            </button>
+                        </div>
                     </div>
-                </div>
+                )
+                : (
+                    <div className="flex sm:flex-row  flex-col items-center w-full ">
+                        <div className="flex countdown_container w-1/2 bg-white">
+                            <div className="wrap">
+                                <div className="countdown">
+                                    <div className="bloc-time days" data-init-value="5">
+                                        <span className="count-title">Days</span>
+                                        <div className="figure days days-1">
+                                            <span className="top">0</span>
+                                            <span className="top-back">
+                                    <span>0</span>
+                                  </span>
+                                            <span className="bottom">0</span>
+                                            <span className="bottom-back">
+                                    <span>0</span>
+                                  </span>
+                                        </div>
 
-                <div className="flex  items-center justify-evenly w-1/2">
-                    <p className="text-white font-clash-bold text-3xl">Event Countdown</p>
-                    <button
-                        className="rounded-full bg-white border-2 border-gray-500 px-2 py-1 cursor-pointer ease-in-out active:scale-90">
-                        <Image
-                            src={'/assets/down.svg'}
-                            alt={'down'}
-                            width={20}
-                            height={20}
-                        />
-                    </button>
+                                        <div className="figure days days-2">
+                                            <span className="top">0</span>
+                                            <span className="top-back">
+                                    <span>0</span>
+                                  </span>
+                                            <span className="bottom">0</span>
+                                            <span className="bottom-back">
+                                    <span>0</span>
+                                  </span>
+                                        </div>
+                                    </div>
 
-                </div>
-            </div>
+                                    <div className="bloc-time hours" data-init-value="24">
+                                        <span className="count-title">Hours</span>
+                                        <div className="figure hours hours-1">
+                                            <span className="top">0</span>
+                                            <span className="top-back">
+                                        <span>0</span>
+                                     </span>
+                                            <span className="bottom">0</span>
+                                            <span className="bottom-back">
+                                        <span>0</span>
+                                    </span>
+                                        </div>
+
+                                        <div className="figure hours hours-2">
+                                            <span className="top">0</span>
+                                            <span className="top-back">
+                                        <span>0</span>
+                                    </span>
+                                            <span className="bottom">0</span>
+                                            <span className="bottom-back">
+                                        <span>0</span>
+                                    </span>
+                                        </div>
+                                    </div>
+
+                                    <div className="bloc-time min" data-init-value="0">
+                                        <span className="count-title">Minutes</span>
+                                        <div className="figure min min-1">
+                                            <span className="top">0</span>
+                                            <span className="top-back">
+                                        <span>0</span>
+                                    </span>
+                                            <span className="bottom">0</span>
+                                            <span className="bottom-back">
+                                        <span>0</span>
+                                    </span>
+                                        </div>
+
+                                        <div className="figure min min-2">
+                                            <span className="top">0</span>
+                                            <span className="top-back">
+                                        <span>0</span>
+                                    </span>
+                                            <span className="bottom">0</span>
+                                            <span className="bottom-back">
+                                        <span>0</span>
+                                    </span>
+                                        </div>
+                                    </div>
+
+                                    <div className="bloc-time sec" data-init-value="0">
+                                        <span className="count-title">Seconds</span>
+
+                                        <div className="figure sec sec-1">
+                                            <span className="top">0</span>
+                                            <span className="top-back">
+                                        <span>0</span>
+                                    </span>
+                                            <span className="bottom">0</span>
+                                            <span className="bottom-back">
+                                        <span>0</span>
+                                    </span>
+                                        </div>
+
+                                        <div className="figure sec sec-2">
+                                            <span className="top">0</span>
+                                            <span className="top-back">
+                                        <span>0</span>
+                                    </span>
+                                            <span className="bottom">0</span>
+                                            <span className="bottom-back">
+                                        <span>0</span>
+                                    </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="flex  items-center justify-evenly w-1/2">
+                            <p className="text-white font-clash-bold text-3xl">Event Countdown</p>
+                            <button
+                                className="rounded-full bg-white border-2 border-gray-500 px-2 py-1 cursor-pointer ease-in-out active:scale-90">
+                                <Image
+                                    src={'/assets/down.svg'}
+                                    alt={'down'}
+                                    width={20}
+                                    height={20}
+                                />
+                            </button>
+                        </div>
+                    </div>
+                )
+            }
         </Fragment>
     );
 };
