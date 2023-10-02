@@ -2,12 +2,17 @@ import React, {Fragment, useState, useEffect} from 'react';
 import Image from "next/image";
 import Nav from "@/sections/Hero/Nav";
 import Countdown from "@/sections/Hero/Countdown";
+import Mobilenav from "@/sections/Hero/Mobilenav";
 
 const Hero = () => {
 
     const [animateShake, setAnimateShake] = useState(true);
+    const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
+        if (window.innerWidth < 768) {
+            setIsMobile(true);
+        }
         setTimeout(() => {
             setAnimateShake(false);
         }, 3000);
@@ -15,9 +20,9 @@ const Hero = () => {
 
     return (
         <Fragment>
-            <div className="bg-gray-900 min-h-screen ">
+            <div className="bg-gray-900 min-h-screen p-2">
                 <div className="p-5 py-10">
-                    <Nav/>
+                    {isMobile ? <Mobilenav/> : <Nav/>}
                 </div>
 
                 <div className="flex flex-col text-white font-satoshi-regular items-center justify-center">
