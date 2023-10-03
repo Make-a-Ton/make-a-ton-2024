@@ -2,3 +2,76 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+/*@font-face {*/
+/*    font-family: "SourceSans3";*/
+/*    src: url("../fonts/SourceSans3.ttf");*/
+/*}*/
+
+@font-face {
+    font-family: 'ClashDisplay-Semibold';
+    src: url('../fonts/clash/ClashDisplay-Semibold.woff2') format('woff2'),
+    url('../fonts/clash/ClashDisplay-Semibold.woff') format('woff'),
+    url('../fonts/clash/ClashDisplay-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'ClashDisplay-Bold';
+    src: url('../fonts/clash/ClashDisplay-Bold.woff2') format('woff2'),
+    url('../fonts/clash/ClashDisplay-Bold.woff') format('woff'),
+    url('../fonts/clash/ClashDisplay-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Satoshi-Regular';
+    src: url('../fonts/satoshi/Satoshi-Regular.woff2') format('woff2'),
+    url('../fonts/satoshi/Satoshi-Regular.woff') format('woff'),
+    url('../fonts/satoshi/Satoshi-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Satoshi-Italic';
+    src: url('../fonts/satoshi/Satoshi-Italic.woff2') format('woff2'),
+    url('../fonts/satoshi/Satoshi-Italic.woff') format('woff'),
+    url('../fonts/satoshi/Satoshi-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Satoshi-Medium';
+    src: url('../fonts/satoshi/Satoshi-Medium.woff2') format('woff2'),
+    url('../fonts/satoshi/Satoshi-Medium.woff') format('woff'),
+    url('../fonts/satoshi/Satoshi-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Satoshi-Bold';
+    src: url('../fonts/satoshi/Satoshi-Bold.woff2') format('woff2'),
+    url('../fonts/satoshi/Satoshi-Bold.woff') format('woff'),
+    url('../fonts/satoshi/Satoshi-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
