@@ -3,11 +3,11 @@ import React, { Fragment } from 'react';
 const Footer = () => {
   return (
     <Fragment>
-      <div className="text-white py-4" style={{ backgroundColor: '#204289' }}>
-        <div className='container mx-auto text-center flex flex-col space-y-6 pb-6 pt-3'>
+      <div className="text-white py-4 relative" style={{ backgroundColor: '#204289' }}>
+        <div className='container  mx-auto text-center flex flex-col space-y-7 pb-7 pt-3'>
 
           <div>
-            <h1 className='uppercase font-bold font-weight: 700;' style={{ fontSize: '40px' }}>Contact</h1>
+            <h1 className='uppercase font-bold font-weight: 700 text-4xl' >Contact</h1>
           </div>
 
 
@@ -52,6 +52,14 @@ const Footer = () => {
 
         </div>
 
+
+        <div className='image-wrapper absolute bottom-0 right-0'>
+            <img
+              src="/assets/group.png"
+              alt="group element"
+              style={{ maxWidth: '150px' }}
+            />
+        </div>
 
       </div>
       <div className="text-white p-7" style={{ backgroundColor: '#EAAF20' }}>
