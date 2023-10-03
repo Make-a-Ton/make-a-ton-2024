@@ -6,17 +6,17 @@ import Image from "next/image";
 
 const Statistics = () => {
   const stats = [
-    { name: "Registrations", count: 10, logo: man },
-    { name: "Collages", count: 20, logo: collage },
+    { name: "Registrations", count: 5000, logo: man },
+    { name: "Colleges", count: 50, logo: collage },
     { name: "Partners", count: 30, logo: partner },
   ];
 
   const [animatedCounts, setAnimatedCounts] = useState(stats.map(() => 0));
 
   useEffect(() => {
-    const animationDuration = 3000; // 2 seconds
+    const animationDuration = 100; // 2 seconds
     const interval = setInterval(() => {
-      const step = animationDuration / 100; // Divide animation into 100 steps
+      const step = animationDuration / 200; // Divide animation into 100 steps
 
       const newAnimatedCounts = animatedCounts.map((prevCount, index) => {
         if (prevCount < stats[index].count) {
@@ -39,7 +39,7 @@ const Statistics = () => {
             <Image src={stat.logo} alt={stat.name} className="h-7 mx-auto" />
           </div>
           <div className="flex flex-col items-center">
-            <p className="text-[25px] text-[#204289] font-bold">
+            <p className="text-[25px] text-[#204289] font-clash-bold font-bold">
               {animatedCounts[index]}+
             </p>
             <p className="text-sm font-bold mb-1">{stat.name}</p>

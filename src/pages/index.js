@@ -12,6 +12,7 @@ import Sponsor from '@/sections/sponsor/sponsor';
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+
     return (
         <main>
             <Hero />
