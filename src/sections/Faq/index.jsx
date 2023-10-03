@@ -1,8 +1,8 @@
 import React from 'react';
-import {FAQS} from "./faq";
+import {FAQS} from "./faq.js";
 import Accordion from "@/sections/Faq/Accordion";
 
-const Faq = () => {
+const Index = () => {
 
     return (
       <section className='bg-[#204289] lg:p-20'>
@@ -33,4 +33,4 @@ const Faq = () => {
     );
 };
 
-export default Faq;
+export default Index;
