@@ -22,18 +22,20 @@ module.exports = {
                 'gradient-conic':
                     'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
             },
-            rotate: {
-                '20': '-20deg',
-            },
             keyframes: {
                 shake: {
-                    '25%': { transform: 'translateX(-5px)' },
-                    '50%': { transform: 'translateX(5px)' },
-                    '75%': { transform: 'translateX(-5px)' },
+                    "0%": {transform: "translate(0,0)"},
+                    "3%": {transform: "translate(5px,0)"},
+                    "7%": {transform: "translate(0,0)"},
+                    "10.6%": {transform: "translate(5px,0)"},
+                    "14%": {transform: "translate(0,0)"},
+                    "18%": {transform: "translate(5px,0)"},
+                    "20%": {transform: "translate(0,0)"},
+                    "100%": {transform: "translate(0,0)"}
                 },
             },
             animation: {
-                shake: 'shake 1.5s ease-in-out infinite',
+                shake: 'shake 2.3s ease infinite',
             },
         },
     },

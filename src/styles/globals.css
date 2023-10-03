@@ -434,6 +434,6 @@
     }
 }
 
-html{
+html, body{
     overflow-x: clip;
 }
