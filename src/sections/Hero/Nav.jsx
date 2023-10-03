@@ -20,10 +20,10 @@ const Nav = () => {
                     {navItems.map((item, index) => (
                         <div
                             key={index}
-                            className={`flex text-[16] flex-row font-satoshi-regular items-center justify-center gap-2 text-white ${
+                            className={`flex text-[16] flex-row font-satoshi-regular items-center justify-center gap-2 ${
                                 item.name === 'REGISTER'
-                                    ? 'text-red-950 font-satoshi-bold rounded bg-white p-2'
-                                    : ''
+                                    ? 'text-gray-900 font-bold rounded bg-white p-2'
+                                    : 'text-white'
                             } `}
                         >
                             <Link href={item.link}>{item.name}</Link>

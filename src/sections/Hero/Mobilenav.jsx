@@ -62,10 +62,10 @@ const Mobilenav = () => {
                         {navItems.map((item, index) => (
                             <div
                                 key={index}
-                                className={`font-satoshi-regular  text-white my-4 ${
+                                className={`font-satoshi-regular my-4 ${
                                     item.name === 'REGISTER'
-                                        ? 'font-satoshi-bold rounded bg-white text-red-500 p-2'
-                                        : ''
+                                        ? 'text-gray-900 font-bold rounded bg-white p-2'
+                                        : 'text-white'
                                 } `}
                             >
                                 <Link href={item.link}>{item.name}</Link>
