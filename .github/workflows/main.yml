@@ -1,29 +1,36 @@
-name: deploy-workflow
+name: Node.js CI
+
 on:
   push:
-    branches: ["main", "master"]
-  workflow_dispatch:
+    branches: [ main ]
+
 jobs:
-  deploy-job:
+  build:
+
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checks out repo
-        uses: actions/checkout@v3
-      - name: Setup Node
-        id: setup-node
-        uses: actions/setup-node@v2
+      # https://github.com/actions/checkout
+      - uses: actions/checkout@v3
+
+      # a standard step for GitHub actions on Node
+      # https://github.com/actions/setup-node
+      - uses: actions/setup-node@v3
         with:
-          node-version: '18'
-          cache: 'npm'
-          # cache: 'npm' # https://github.com/actions/setup-node#caching-packages-dependencies
-      - name: Install Dependancies
-        run: npm ci
-      - run: npm run build
-      - name: Push Build
-        uses: s0/git-publish-subdir-action@develop
-        env:
-          REPO: self
-          BRANCH: build # The branch name where you want to push the assets
-          FOLDER: out # The directory where your assets are generated
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
-          MESSAGE: "Build: {msg}" # The commit message
+          # update the Node version to meet your needs
+          node-version: 16
+          cache: npm
+
+      - name: Build
+        run: |
+          npm ci
+          npm run build
+          npm run export
+          touch out/.nojekyll
+
+      - name: Deploy
+        # https://github.com/JamesIves/github-pages-deploy-action
+        uses: JamesIves/github-pages-deploy-action@4.4.0
+        with:
+          branch: gh-pages
+          folder: out
