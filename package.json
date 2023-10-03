@@ -9,12 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "gsap": "^3.12.2",
+    "jquery": "^3.7.1",
     "bootstrap-icons": "^1.11.1",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
   },
   "devDependencies": {
+    "@types/jquery": "^3.5.20",
     "autoprefixer": "latest",
     "eslint": "latest",
     "eslint-config-next": "latest",
