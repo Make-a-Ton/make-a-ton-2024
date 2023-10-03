@@ -39,7 +39,7 @@ const Statistics = () => {
             <Image src={stat.logo} alt={stat.name} className="h-7 mx-auto" />
           </div>
           <div className="flex flex-col items-center">
-            <p className="text-[25px] text-[#204289] font-bold">
+            <p className="text-[25px] text-[#204289] font-clash-bold font-bold">
               {animatedCounts[index]}+
             </p>
             <p className="text-sm font-bold mb-1">{stat.name}</p>
