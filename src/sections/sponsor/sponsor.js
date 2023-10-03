@@ -87,7 +87,7 @@ const sponsor = () => {
                         <div className=' flex flex-col justify-center items-center md:w-1/4 w-1/2 md:ml-0 ml-20 mt-3 p-4'>
                             <img src='/assets/ieee.png' alt="IEEE Image" className="object-contain w-full h-full" />
                         </div>
-                        <div className='bg-white flex flex-col justify-center items-center md:w-1/5 w-1/4 md:ml-0 ml-20 mt-3 p-4'>
+                        <div className='bg-white flex flex-col justify-center items-center md:w-1/5 w-1/2 md:ml-0 ml-20 mt-3 p-4'>
                             <img src='/assets/echo.png' alt="Echo Image" className="object-contain w-full h-full" />
                         </div>
                     </div>
