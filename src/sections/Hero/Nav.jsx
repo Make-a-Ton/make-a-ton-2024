@@ -9,7 +9,7 @@ const navItems = [
     { name: 'FAQ', link: '#faq' },
     { name: 'Code of Conduct', link: '#codeOfConduct' },
     { name: 'Team', link: '#team' },
-    { name: 'REGISTER', link: '/register' },
+    { name: 'REGISTER', link: 'https://forms.eventsradar.in/makeaton/' },
 ];
 
 const Nav = () => {
