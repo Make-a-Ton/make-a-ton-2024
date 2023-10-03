@@ -6,8 +6,8 @@ import Image from "next/image";
 
 const Statistics = () => {
   const stats = [
-    { name: "Registrations", count: 10, logo: man },
-    { name: "Collages", count: 20, logo: collage },
+    { name: "Registrations", count: 5000, logo: man },
+    { name: "Colleges", count: 50, logo: collage },
     { name: "Partners", count: 30, logo: partner },
   ];
 
