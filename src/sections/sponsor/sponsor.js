@@ -34,10 +34,10 @@ const sponsor = () => {
                             </svg>
                         </div >
                         <div className=' flex flex-col justify-center items-center m-auto'>
-                            <div className="flex items-center justify-center h-full">
-                                <div className="text-#1e3a8a font-satoshi text-4xl  whitespace-nowrap max-w-screen-xl mx-auto">
+                            <div className="flex items-center justify-center text-center h-full">
+                                <div className="text-#1e3a8a font-satoshi text-4xl justify-center items-center  whitespace-nowrap max-w-screen-xl mx-auto">
                                     <span className="block mb-5 text-center">Title Sponsor</span>
-                                    <span className="block mt-5 mx-auto">
+                                    <span className="block mt-5 md:ml-0 ml-8 ">
                                         <img src="/assets/wolfram.png" alt="wolfram" />
                                     </span>
                                 </div>
