@@ -72,7 +72,7 @@ const sponsor = () => {
                 </div>
 
                 <div className='flex text-blue-900 p-4 py-5 md:justify-center justify-center md:items-center items-center md:flex-row flex-col md:mb-0 mb-3 mt-6'>
-                    <div className="flex justify-center items-center flex-wrap px-4 my-5 py-5 mr-9 md:ml-0 ml-[95px]">
+                    <div className="flex justify-center text-center items-center flex-wrap px-4 my-5 py-5 mr-9 md:ml-0 ml-[95px]">
                         <h1 className="text-5xl font-bold mb-4">Silver Sponsor</h1>
                     </div>
                     <div className='w-full flex md:flex-row flex-col md:justify-between justify-center  md:items-start items-center'>
@@ -94,7 +94,7 @@ const sponsor = () => {
                 </div>
 
                 <div className='flex text-blue-900 p-4 py-5 md:justify-center justify-center md:items-center items-center md:flex-row flex-col md:mb-0 mb-3 mt-6'>
-                    <div className="flex justify-center items-center flex-wrap px-4 my-5 py-5 -mr-9 md:ml-0 ml-[89px]">
+                    <div className="flex justify-center items-center text-center flex-wrap px-4 my-5 py-5 -mr-9 md:ml-0 ml-[89px]">
                         <h1 className="text-5xl font-bold mb-4">Community Partner</h1>
                     </div>
                     <div className='w-full flex md:flex-row flex-col md:justify-between justify-center  md:items-start items-center'>
