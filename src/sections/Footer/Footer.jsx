@@ -4,14 +4,14 @@ const Footer = () => {
   return (
     <Fragment>
       <div className="text-white py-4" style={{ backgroundColor: '#204289' }}>
-        <div className='container mx-auto text-center'>
+        <div className='container mx-auto text-center flex flex-col space-y-6 pb-6 pt-3'>
 
           <div>
-            <h1 className='uppercase font-bold' style={{ fontSize: '40px' }}>Contact</h1>
+            <h1 className='uppercase font-bold font-weight: 700;' style={{ fontSize: '40px' }}>Contact</h1>
           </div>
 
 
-          <div className='flex flex-col items-center space-y-2 mt-6 mb-3'>
+          <div className='flex flex-col items-center space-y-2'>
             {/* Icon */}
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-envelope" viewBox="0 0 16 16">
@@ -19,34 +19,35 @@ const Footer = () => {
               </svg>
             </div>
             {/* Email Address */}
-            <p><a href="mailto:organizer@makeaton.in">organizer@makeaton.in</a></p>
+            <p className='font-weight: 700; text-lg'><a href="mailto:organizer@makeaton.in">organizer@makeaton.in</a></p>
           </div>
 
           <div className='p-4'>
-            <hr class="w-1/2 mx-auto border-dashed border-t-2 border-white-500 my-4"/>
+            <hr class="w-1/3 mx-auto border-dashed border-t-2 border-white-500"/>
           </div>
 
 
-          <div className='w-1/3 mx-auto p-4 flex justify-between mt-1 mb-1'>
+          <div className='flex justify-evenly'>
             <div>
-              <h4 className='text-gray-300 font-light'>Sunith V S</h4>
+              <h4 className='text-gray-300 font-light text-lg'>Sunith V S</h4>
               <div className='flex items-center space-x-2'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
                   <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
                 </svg>
-                <h5><a href="tel:9072124291">9072124291</a></h5>
+                <h5 className='font-weight: 700 text-lg'><a href="tel:9072124291">9072124291</a></h5>
               </div>
             </div>
 
             <div>
-              <h4 className='text-gray-300 font-light'>Ajnas N B</h4>
+              <h4 className='text-gray-300 font-light text-lg'>Ajnas N B</h4>
               <div className='flex items-center space-x-2'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
                   <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
                 </svg>
-                <h5><a href="tel:8590708633">8590708633</a></h5>
+                <h5 className='font-weight: 700 text-lg'><a href="tel:8590708633">8590708633</a></h5>
               </div>
             </div>
+
           </div>
 
         </div>
@@ -55,7 +56,7 @@ const Footer = () => {
       </div>
       <div className="text-white p-7" style={{ backgroundColor: '#EAAF20' }}>
         <div className='container mx-auto text-center'>
-          <div className='flex justify-center space-x-6'>
+          <div className='flex justify-center space-x-12'>
             {/* Icon 1 */}
             <a href="#">
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#204289" className="bi bi-telegram" viewBox="0 0 16 16">
