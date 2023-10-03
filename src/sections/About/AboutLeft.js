@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
 const AboutLeft = () => {
   return (
-    <div className="relative bg-[#EAAF20] p-12">
+    <div className="flex justify-center py-8  p- md:p-12 text-left">
       <div className="w-[70%] h-[80%]">
-        <h1 className="text-2xl text-[#204289] font-semibold mb-4 text-left  pb-2">
+        <h1 className="md:text-2xl text-4xl text-[#204289] font-clash-bold font-semibold mb-4 text-left  pb-2">
           ABOUT
         </h1>
-        <p className="text-gray-700 text-left text-sm mt-10">
+        <p className="text-gray-700 text-left text-sm md:my-10 font-satoshi-regular">
           Make-a-Ton, presented by CITTIC, invites innovative solutions to
           tackle issues faced by the world today. This 24 hour open hackathon
           provides a platform for university students to pitch their ideas in
@@ -18,7 +18,7 @@ const AboutLeft = () => {
           Grand prizes await the winners!
         </p>
       </div>
-      <h1 className="absolute mt-5 w-[93%] top-[73px]  text-2xl font-bold mb-4 text-center border-b-2 border-dashed border-blue-500 pb-2"></h1>
+      <h1 className="hidden md:block absolute mt-5 w-1/2 top-[73px] text-3xl font-bold mb-4 text-center border-b-2 border-dashed border-blue-500 pb-2"></h1>{" "}
     </div>
   );
 };
