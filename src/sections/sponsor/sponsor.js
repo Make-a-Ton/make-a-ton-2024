@@ -71,43 +71,43 @@ const sponsor = () => {
 
                 </div>
 
-                <div className='text-blue-900 p-4 py-5 flex md:flex-row flex-col justify-center items-center md:mb-0 mb-3 mt-10'>
-                    <div className="flex justify-evenly items-center flex-wrap px-4 my-5 py-5 mr-10">
+                <div className='flex text-blue-900 p-4 py-5 md:justify-center justify-center md:items-center items-center md:flex-row flex-col md:mb-0 mb-3 mt-6'>
+                    <div className="flex justify-center items-center flex-wrap px-4 my-5 py-5 mr-9 md:ml-0 ml-[95px]">
                         <h1 className="text-5xl font-bold mb-4">Silver Sponsor</h1>
                     </div>
-                    <div className='w-full flex md:flex-row flex-col md:justify-between justify-center md:items-start'>
-                        <div className='bg-gray-400 flex flex-col justify-center items-center md:w-1/6 w-1/2 md:ml-0 ml-20 mt-3 p-4'>
+                    <div className='w-full flex md:flex-row flex-col md:justify-between justify-center  md:items-start items-center'>
+                        <div className=' flex flex-col justify-center items-center md:w-1/6 w-1/3 md:ml-0 ml-20 mt-3 p-4'>
                             <div className="flex justify-center items-center w-full h-full ">
-                                <img src="/assets/foss.svg" alt="FOSS Image" className="object-contain w-full h-full" />
+                                <img src="/assets/foss.svg" alt="FOSS Image" className="object-contain w-[70%] h-full" />
                             </div>
                         </div>
                         <div className='bg-white flex flex-col justify-center items-center md:w-1/4 w-1/2 md:ml-0 ml-20 mt-3 p-4'>
                             <img src='/assets/wolfram.png' alt="Wolfram Image" className="object-contain w-full h-full" />
                         </div>
-                        <div className='bg-gray-400 flex flex-col justify-center items-center md:w-1/4 w-1/2 md:ml-0 ml-20 mt-3 p-4'>
+                        <div className=' flex flex-col justify-center items-center md:w-1/4 w-1/2 md:ml-0 ml-20 mt-3 p-4'>
                             <img src='/assets/ieee.png' alt="IEEE Image" className="object-contain w-full h-full" />
                         </div>
-                        <div className='bg-white flex flex-col justify-center items-center md:w-1/4 w-1/2 md:ml-0 ml-20 mt-3 p-4'>
+                        <div className='bg-white flex flex-col justify-center items-center md:w-1/5 w-1/4 md:ml-0 ml-20 mt-3 p-4'>
                             <img src='/assets/echo.png' alt="Echo Image" className="object-contain w-full h-full" />
                         </div>
                     </div>
                 </div>
 
-                <div className='flex text-blue-900 p-4 py-5 justify-center items-center md:flex-row flex-col md:mb-0 mb-3 mt-6'>
-                    <div className="flex justify-evenly items-center flex-wrap px-4 my-5 py-5 -mr-9">
+                <div className='flex text-blue-900 p-4 py-5 md:justify-center justify-center md:items-center items-center md:flex-row flex-col md:mb-0 mb-3 mt-6'>
+                    <div className="flex justify-center items-center flex-wrap px-4 my-5 py-5 -mr-9 md:ml-0 ml-[89px]">
                         <h1 className="text-5xl font-bold mb-4">Community Partner</h1>
                     </div>
-                    <div className='flex justify-between w-full md:flex-row flex-col'>
-                        <div className='bg-gray-400 flex flex-col justify-center items-center md:w-1/6 w-1/2 md:ml-0 ml-20 p-4 '>
-                            <img src="/assets/dhishna.png" alt="dhishna Image" className="object-contain w-full h-full" />
+                    <div className='w-full flex md:flex-row flex-col md:justify-between justify-center  md:items-start items-center'>
+                        <div className=' flex flex-col  items-center md:w-1/6 w-1/4 md:ml-0 ml-20 p-4 '>
+                            <img src="/assets/dhishna.png" alt="dhishna Image" className="object-contain w-[70%]" />
                         </div>
-                        <div className='bg-white flex flex-col justify-center items-center md:w-1/4 w-1/2 md:ml-0 ml-20 mt-3 p-4'>
+                        <div className='bg-white flex flex-col justify-center items-center md:w-1/5 w-1/2 md:ml-0 ml-20 mt-4 p-4'>
                             <img src='/assets/tinkerhub.png' className="object-contain w-full h-full" alt="TinkerHub Image" />
                         </div>
-                        <div className='bg-gray-400 flex flex-col justify-center items-center md:w-1/4 w-1/2 md:ml-0 ml-20 mt-3 p-4'>
+                        <div className=' flex flex-col justify-center items-center md:w-1/5 w-1/2 md:ml-0 ml-20 mt-3 p-4'>
                             <img src='/assets/ieee cusat sb.png' className="object-contain w-full h-full" alt="IEEE CUSAT SB Image" />
                         </div>
-                        <div className='bg-white flex flex-col justify-center items-center md:w-1/4 w-1/2 md:ml-0 ml-20 mt-3 p-4'>
+                        <div className='bg-white flex flex-col justify-center items-center md:w-1/5 w-1/1 md:ml-0 ml-20 mt-3 p-4'>
                             <img src='/assets/gdsc cusat.png' className="object-contain w-full h-full" alt="GDSC CUSAT Image" />
                         </div>
                     </div>
