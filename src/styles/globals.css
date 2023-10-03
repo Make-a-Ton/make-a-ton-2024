@@ -3,4 +3,26 @@
 @tailwind utilities;
 
 
+/* custom-scrollbar.css */
 
+/* Set the scrollbar width and color */
+::-webkit-scrollbar {
+  width: 8px; /* Adjust the width as needed */
+}
+
+/* Track (the area behind the thumb) */
+::-webkit-scrollbar-track {
+  background-color: #d9d4d4; /* Set the background color of the track */
+  border-radius: 10px;
+}
+
+/* Thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background-color: #EAAF20; /* Set the thumb color to yellow */
+  border-radius: 10px; /* Add rounded corners to the thumb */
+}
+
+/* Handle (the top and bottom buttons) */
+::-webkit-scrollbar-button {
+  display: none; /* Hide the scrollbar buttons (optional) */
+}
