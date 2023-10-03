@@ -32,7 +32,7 @@ const Statistics = () => {
   }, [animatedCounts, stats]);
 
   return (
-    <div className="flex-1 bg-[#F6F5F5] p-4 ml-5 gap-4 md:flex md:flex-col md:items-center">
+    <div className="bg-[#F6F5F5] p-4 ml-5 md:gap-16 justify-evenly flex items-center lg:justify-center">
       {stats.map((stat, index) => (
         <div key={index} className="mb-4 text-center">
           <div className="mb-2">
