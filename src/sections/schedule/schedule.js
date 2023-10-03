@@ -4,10 +4,10 @@ import Box from './box-telegram'
 
 const schedule = () => {
     return (
-        <div>
+        <div className="flex flex-wrap justify-center ">
 
-            <div><Box /></div>
-            <div className="mb-10  sm:flex  sm:justify-center sm:items-center sm:flex-row sm:mb-10 sm:ml-0  sm:text-center text-center ml-[85px] justify-center items-center ">
+            <div className="hidden"><Box /></div>
+            <div className="mb-10 sm:flex sm:justify-center sm:items-center sm:flex-row my-10 sm:text-center text-center ustify-center items-center ">
 
                 <div className='relative bg-[#EAAF20]  h-[390px] w-[255px] p-12 flex justify-center items-center  '>
                     <div className="
