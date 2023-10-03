@@ -10,6 +10,7 @@ import Faq from "@/sections/Faq";
 const inter = Inter({subsets: ['latin']})
 
 export default function Home() {
+
     return (
         <main>
             <Hero/>
