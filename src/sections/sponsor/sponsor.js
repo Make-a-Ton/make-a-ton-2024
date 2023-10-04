@@ -33,18 +33,18 @@ const sponsor = () => {
                                 <rect x="57.1382" y="114.356" width="57.0547" height="57.0547" transform="rotate(90 57.1382 114.356)" fill="#204289" />
                             </svg>
                         </div >
-                        <div className=' flex flex-col justify-center items-center m-auto'>
-                            <div className="flex items-center justify-center h-full">
-                                <div className="text-#1e3a8a font-satoshi text-4xl  whitespace-nowrap max-w-screen-xl mx-auto">
-                                    <span className="block mb-5 text-center">Title Sponsor</span>
-                                    <span className="block mt-5 mx-5 lg:mx-auto">
-                                        <img height="100" src="/assets/wolfram.png" alt="wolfram" className="px-5 lg:px-auto" />
-                                    </span>
-                                </div>
-                            </div>
+                        // <div className=' flex flex-col justify-center items-center m-auto'>
+                        //     <div className="flex items-center justify-center h-full">
+                        //         <div className="text-#1e3a8a font-satoshi text-4xl  whitespace-nowrap max-w-screen-xl mx-auto">
+                        //             <span className="block mb-5 text-center">Title Sponsor</span>
+                        //             <span className="block mt-5 mx-5 lg:mx-auto">
+                        //                 // <img height="100" src="/assets/wolfram.png" alt="wolfram" className="px-5 lg:px-auto" />
+                        //             </span>
+                        //         </div>
+                        //     </div>
 
 
-                        </div>
+                        // </div>
                         <div className='sm:flex flex-row hidden md:visible'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="229" height="229" viewBox="0 0 229 229" fill="none">
                                 <rect x="227.651" y="57.3015" width="57.0547" height="57.0547" transform="rotate(90 227.651 57.3015)" fill="#204289" />
