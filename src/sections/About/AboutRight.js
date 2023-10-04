@@ -6,7 +6,7 @@ const AboutRight = () => {
   return (
     <div className="flex items-center justify-center my-8  pt-10  p-4 md:p-12 text-left">
       <div className="w-[70%] h-[80%]">
-        <div className="flex justify-left mb-4 pb-3">
+        <div className="flex justify-left -mx-4 mb-4 pb-3">
           <Image src={logo} alt="Logo" width={180} height={180} />
         </div>
         <p className="text-gray-700 text-left text-sm md:my-10 font-satoshi-regular ">
