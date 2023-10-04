@@ -70,6 +70,8 @@ const schedule = () => {
                     </div>
                     <div className='text-[#204289] font-satoshi-regular text-[22px] italic'>
                         5th Oct
+
+
                     </div>
                     <div className='mt-2 whitespace-nowrap flex items-center'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="24" viewBox="0 0 26 24" fill="none">
