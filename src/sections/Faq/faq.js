@@ -1,19 +1,19 @@
 export const FAQS =[
   {
-    ques: "What is the prize money",
-    ans: "First Prize - 30K, Second Prize: 20K. Track prices to be announced soon"
+    ques: "What are the prizes?",
+    ans: "Best Product - Rs. 30K, Runners Up: Rs. 20K and Best UI/UX hack: Rs 10k. Track prices to be announced soon."
   },
   {
-    ques: "What all tracks are available",
-    ans: "Seperate track for Software and Hardware"
+    ques: "What are the tracks available",
+    ans: "Seperate tracks for Software and Hardware have been announced currently. Stay tuned for more!"
   },
   {
     ques: "Is registration free?",
-    ans: "Yes, registration is  free of charge.",
+    ans: "Yes, registration is free of charge.",
   },
   {
     ques: "Is this hackathon only for CUSAT students?",
-    ans: "No. One category is exclusively for cusat students. The rest of the event is equally open to all.",
+    ans: "No. The event is equally open to all.",
   },
   {
     ques: "What is the theme of the hackathon?",
@@ -21,7 +21,7 @@ export const FAQS =[
   },
   {
     ques: "Are premade products allowed?",
-    ans: "No, we all start coding at the same time. It’s cool to work on designs beforehand, digital mockups, open source frameworks, and anything else available to everyone, but keep things within fair limits.",
+    ans: "No, we all start coding at the same time. It’s cool to work on designs beforehand, digital mockups, open source frameworks, and anything else available to everyone, but keep things within fair limits. The organizers have the right to disqualify any team who violates this rule.",
   },
   {
     ques: "Will I get certificates?",
@@ -29,18 +29,18 @@ export const FAQS =[
   },
   {
     ques: "When will prizes and other details be announced?",
-    ans: "Currently the cash prize alone stands worth 50K. More details regarding the schedule, sponsors, main prizes and other category awards will be informed in a mail to the registered candidates.",
+    ans: "Currently the cash prize alone stands at Rs. 50K. More details regarding the schedule, sponsors, main prizes and other category awards will be communicated in a mail to the registered candidates.",
   },
   {
-    ques: "Do we get any complementary?",
-    ans: "Yes, of course. T-shirts and other amazing swags are awaiting all the registered participants.",
+    ques: "Do we get any swag?",
+    ans: "Yes, of course. T-shirts and other amazing swag are awaiting all the participants that check-in to the event.",
   },
   {
-    ques: "I'm a newbie, is there any point in registering?",
-    ans: "Hackathons are a great way to learn about new technology and make new friends. We want a diverse audience and beginners are welcome.",
+    ques: "I'm a newbie; is there any point in registering?",
+    ans: "Hackathons are a great way to learn about new technology and make new friends. We strive to have a diverse audience and therefore welcome beginners to register.",
   },
   {
     ques: "I don't know how to code, is this event for me?",
-    ans: "Designers, marketers and all sorts of skills are required for a successful company. We believe there is something for everyone.",
+    ans: "Everybody is welcome to learn from each other and work on something you wish to. We believe there is something for everyone.",
   },
 ];
