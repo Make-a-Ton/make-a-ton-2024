@@ -1,22 +1,11 @@
-import React, {Fragment, useState, useEffect} from 'react';
 import Image from "next/image";
 import Nav from "@/sections/Hero/Nav";
-import Countdown from "@/sections/Hero/Countdown";
 import Mobilenav from "@/sections/Hero/Mobilenav";
 import Link from "next/link";
 
 const Hero = () => {
-
-    const [isMobile, setIsMobile] = useState(false);
-
-    useEffect(() => {
-        if (window.innerWidth < 768) {
-            setIsMobile(true);
-        }
-    }, []);
-
     return (
-        <Fragment>
+        <>
             <div className="star-container bg-[#204289] min-h-screen p-2">
                 <div className="line" />
                 <div className="line hidden lg:block" />
@@ -31,7 +20,8 @@ const Hero = () => {
                 <div className="line rotated" />
 
                 <div className="p-5 py-10">
-                    {isMobile ? <Mobilenav/> : <Nav/>}
+                    <Mobilenav/>
+                    <Nav/>
                 </div>
 
                 <div className="flex flex-col text-white font-satoshi-regular items-center justify-center">
@@ -53,7 +43,7 @@ const Hero = () => {
                 </div> */}
 
             </div>
-        </Fragment>
+        </>
     );
 };
 
