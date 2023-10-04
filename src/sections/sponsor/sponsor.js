@@ -72,7 +72,7 @@ const sponsor = () => {
                 </div>  */}
 
                 <div className='text-blue-900 p-4 py-5 flex md:flex-row flex-col justify-center items-center md:mb-0 mb-3 mt-10'>
-                    <h1 className="text-3xl lg:text-5xl font-bold mb-4">Silver Sponsor</h1>
+                    <h1 className="text-3xl font-bold mb-4">Silver Sponsor</h1>
                     <div className='w-full flex md:flex-row flex-col md:justify-between justify-center md:items-start'>
                         <div className=' flex flex-col justify-center items-center md:w-1/6 w-1/2 md:ml-0 ml-20 mt-3 p-4'>
                             <div className="flex justify-center items-center ">
@@ -89,7 +89,7 @@ const sponsor = () => {
                 </div>
 
                 <div className='flex text-blue-900 p-4 py-5 justify-center items-center md:flex-row flex-col md:mb-0 mb-3 mt-6'>
-                    <h1 className="text-3xl lg:text-5xl font-bold mb-4">Community Partner</h1>
+                    <h1 className="text-3xl font-bold mb-4">Community Partner</h1>
                     <div className='flex justify-between w-full md:flex-row flex-col'>
                         <div className=' flex flex-col justify-center items-center md:w-1/6 w-1/2 md:ml-0 ml-20 p-4 '>
                             <img height="50" src="/assets/dhishna.png" alt="dhishna Image" className="object-contain" />
