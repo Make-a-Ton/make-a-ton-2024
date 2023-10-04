@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from "next/image";
 
 const sponsor = () => {
     return (
@@ -102,8 +103,8 @@ const sponsor = () => {
                 <div className='flex text-blue-900 p-4 py-5 justify-center items-center md:flex-row flex-col md:mb-0 mb-3 mt-6'>
                     <h1 className="text-3xl font-bold mb-4">Community Partner</h1>
                     <div className='flex justify-between w-full md:flex-row flex-col'>
-                        <div className=' flex flex-col justify-center items-center md:w-1/6 w-1/2 md:ml-0 ml-20 p-4 '>
-                            <img height="50" src="/assets/dhishna.png" alt="dhishna Image" className="object-contain" />
+                        <div className=' flex flex-col justify-center items-center md:w-1/6 w-1/2 md:ml-0 ml-20 p-8 '>
+                            <Image width={100} height={100} src="/assets/dhishna.png" alt="dhishna Image" className="object-contain" />
                         </div>
                         <div className='bg-white flex flex-col justify-center items-center md:w-1/4 w-1/2 md:ml-0 ml-20 mt-3 p-4'>
                             <img height="100" src='/assets/tinkerhub.png' className="object-contain" alt="TinkerHub Image" />
