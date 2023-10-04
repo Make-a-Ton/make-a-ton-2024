@@ -1,13 +1,11 @@
 import Image from "next/image";
-import Nav from "@/sections/Hero/Nav";
-import Mobilenav from "@/sections/Hero/Mobilenav";
 import Link from "next/link";
 import Countdown from "@/sections/Hero/Countdown";
 
 const Hero = () => {
     return (
         <>
-            <div className="star-container bg-[#204289] min-h-screen">
+            <div className="star-container bg-[#204289] min-h-screen pt-5">
                 <div className="line" />
                 <div className="line hidden lg:block" />
                 <div className="line hidden lg:block" />
@@ -20,12 +18,7 @@ const Hero = () => {
                 <div className="line rotated" />
                 <div className="line rotated" />
 
-                <div className="p-5 py-10">
-                    <Mobilenav/>
-                    <Nav/>
-                </div>
-
-                <div className="flex flex-col text-white font-satoshi-regular items-center justify-center">
+                <div className="flex flex-col text-white font-satoshi-regular items-center justify-center mt-5">
                    <Image src={"/assets/logo.svg"} alt={"logo"} width={200} height={200}/>
                     <h1 className="hidden lg:block font-clash-bold text-5xl leading-10 py-10">Make-A-Ton<sup className="font-satoshi-regular">6.0</sup></h1>
                     <p className="text-center my-5 lg:my-1">A 24 HOUR HACKATHON TO EMBRACE THE SPIRIT OF INNOVATION</p>
