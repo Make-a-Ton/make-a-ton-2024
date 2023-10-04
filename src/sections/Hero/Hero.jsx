@@ -48,9 +48,9 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <div className="mt-10 hidden lg:block">
+{/*                 <div className="mt-10 hidden lg:block">
                         <Countdown/>
-                </div>
+                </div> */}
 
             </div>
         </Fragment>
