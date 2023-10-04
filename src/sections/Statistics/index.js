@@ -16,7 +16,7 @@ const Statistics = () => {
   useEffect(() => {
     const animationDuration = 100; // 2 seconds
     const interval = setInterval(() => {
-      const step = animationDuration / 200; // Divide animation into 100 steps
+      const step = animationDuration / 100; // Divide animation into 100 steps
 
       const newAnimatedCounts = animatedCounts.map((prevCount, index) => {
         if (prevCount < stats[index].count) {

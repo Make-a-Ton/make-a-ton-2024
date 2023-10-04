@@ -18,7 +18,7 @@ const AboutLeft = () => {
           Grand prizes await the winners!
         </p>
       </div>
-      <h1 className="hidden md:block absolute mt-5 w-auto left-[10.3%] right-[10.5%]  text-2xl top-[103px] font-bold mb-4 text-center border-b-[3px] border-dashed border-[#204289] pb-2"></h1>{" "}
+      <h1 className="hidden md:block absolute mt-5 w-auto left-[10%] right-[10%]  text-2xl top-[103px] font-bold mb-4 text-center border-b-[3px] border-dashed border-[#204289] pb-2"></h1>{" "}
     </div>
   );
 };
