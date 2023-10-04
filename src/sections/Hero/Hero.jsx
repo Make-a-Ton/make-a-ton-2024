@@ -22,7 +22,7 @@ const Hero = () => {
                     <Image src={"/assets/logo.svg"} alt={"logo"} width={200} height={200}/>
                     <h1 className="hidden lg:block font-clash-bold text-5xl leading-10 py-10">Make-A-Ton<sup
                         className="font-satoshi-regular">6.0</sup></h1>
-                    <p className="text-center my-5 lg:my-1">A 24 HOUR HACKATHON TO EMBRACE THE SPIRIT OF INNOVATION</p>
+                    <p className="text-center my-5 lg:my-1 px-2">A 24 HOUR HACKATHON TO EMBRACE THE SPIRIT OF INNOVATION</p>
                     <div className="flex justify-center items-center">
                         <Link href="https://forms.eventsradar.in/makeaton/"
                               className={"animate-shake mt-3 bg-white text-black font-satoshi-bold rounded-[15px] px-5 py-3 border-8 border-gray-500 mx-2"}>
