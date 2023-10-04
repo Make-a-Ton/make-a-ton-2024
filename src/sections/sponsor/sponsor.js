@@ -6,7 +6,7 @@ const sponsor = () => {
             <div className='flex flex-col  '>
                 <div className='flex justify-center items-center'>
                     <div className='text-blue-900 font-clash-bold text-5xl mt-10 mb-3 justify-center items-center'>
-                        SPONSOR
+                        PARTNERS
                     </div>
                 </div>
                 {/* <div className='mb-3'>
@@ -70,6 +70,16 @@ const sponsor = () => {
                     </div>
 
                 </div>  */}
+                <div className='text-blue-900 p-4 py-5 flex md:flex-row flex-col justify-center items-center md:mb-0 mb-3 mt-10'>
+                    <h1 className="text-3xl font-bold mb-4">Gold Sponsor</h1>
+                    <div className='w-full flex md:flex-row flex-col  justify-center items-center'>
+                        <div className=' flex flex-col justify-center items-center md:w-1/6 w-1/2 md:ml-0  mt-3 p-4'>
+                            <div className="flex justify-center items-center ">
+                                <img height="100" src="/assets/cusat_tech.png" alt="MLH logo" className="object-contain" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div className='text-blue-900 p-4 py-5 flex md:flex-row flex-col justify-center items-center md:mb-0 mb-3 mt-10'>
                     <h1 className="text-3xl font-bold mb-4">Silver Sponsor</h1>
@@ -88,6 +98,7 @@ const sponsor = () => {
                     </div>
                 </div>
 
+
                 <div className='flex text-blue-900 p-4 py-5 justify-center items-center md:flex-row flex-col md:mb-0 mb-3 mt-6'>
                     <h1 className="text-3xl font-bold mb-4">Community Partner</h1>
                     <div className='flex justify-between w-full md:flex-row flex-col'>
@@ -102,6 +113,17 @@ const sponsor = () => {
                         </div>
                         <div className='bg-white flex flex-col justify-center items-center md:w-1/4 w-1/2 md:ml-0 ml-20 mt-3 p-4'>
                             <img height="100" src='/assets/gdsc cusat.png' className="object-contain" alt="GDSC CUSAT Image" />
+                        </div>
+                    </div>
+                </div>
+
+                <div className='text-blue-900 p-4 py-5 flex md:flex-row flex-col justify-center items-center md:mb-0 mb-3 mt-10'>
+                    <h1 className="text-3xl font-bold mb-4">Hackathon Partner</h1>
+                    <div className='w-full flex md:flex-row flex-col  justify-center items-center'>
+                        <div className=' flex flex-col justify-center items-center md:w-1/6 w-1/2 md:ml-0  mt-3 p-4'>
+                            <div className="flex justify-center items-center ">
+                                <img height="100" src="/assets/mlh.png" alt="MLH logo" className="object-contain" />
+                            </div>
                         </div>
                     </div>
                 </div>

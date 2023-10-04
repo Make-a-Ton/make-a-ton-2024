@@ -7,7 +7,7 @@ const schedule = () => {
         <div className="flex flex-wrap justify-center ">
 
             <div className="hidden"><Box /></div>
-            <div className="mb-10 sm:flex sm:justify-center sm:items-center sm:flex-row my-10 sm:text-center text-center justify-center items-center ">
+            <div className="mb-10 sm:flex sm:justify-center sm:items-center sm:flex-row mb-10 sm:text-center text-center justify-center items-center ">
 
                 <div className='relative bg-[#EAAF20]  h-[290px] w-[255px] p-12 flex justify-center items-center  '>
                     <div className="
@@ -70,9 +70,6 @@ const schedule = () => {
                     </div>
                     <div className='text-[#204289] font-satoshi-regular text-[22px] italic'>
                         5th Oct
-                        <br />
-                        1.49 PM
-
                     </div>
                     <div className='mt-2 whitespace-nowrap flex items-center'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="24" viewBox="0 0 26 24" fill="none">
@@ -133,7 +130,8 @@ const schedule = () => {
                     <div className='text-[#ffffff] font-satoshi-regular text-[28px] text-center  '>
                         Hackathon Ends
                         <br />
-                        5th Nov
+                        5th Nov<br/>
+                        3 PM
 
 
                     </div>
