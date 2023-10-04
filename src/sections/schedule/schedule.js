@@ -70,8 +70,7 @@ const schedule = () => {
                     </div>
                     <div className='text-[#204289] font-satoshi-regular text-[22px] italic'>
                         5th Oct
-                        <br />
-                        1.49 PM
+
 
                     </div>
                     <div className='mt-2 whitespace-nowrap flex items-center'>
