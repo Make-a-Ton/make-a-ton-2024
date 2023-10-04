@@ -2,11 +2,12 @@ import Image from "next/image";
 import Nav from "@/sections/Hero/Nav";
 import Mobilenav from "@/sections/Hero/Mobilenav";
 import Link from "next/link";
+import Countdown from "@/sections/Hero/Countdown";
 
 const Hero = () => {
     return (
         <>
-            <div className="star-container bg-[#204289] min-h-screen p-2">
+            <div className="star-container bg-[#204289] min-h-screen">
                 <div className="line" />
                 <div className="line hidden lg:block" />
                 <div className="line hidden lg:block" />
@@ -38,9 +39,7 @@ const Hero = () => {
                     </div>
                 </div>
 
-{/*                 <div className="mt-10 hidden lg:block">
-                        <Countdown/>
-                </div> */}
+                <Countdown/>
 
             </div>
         </>
