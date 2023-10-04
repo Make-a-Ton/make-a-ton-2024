@@ -46,7 +46,7 @@ const Mobilenav = () => {
     }, []);
 
     return (
-        <Fragment>
+        <div className="block lg:hidden">
             <div className="button_container" id="toggle">
                 <span className="top"></span>
                 <span className="middle"></span>
@@ -74,7 +74,7 @@ const Mobilenav = () => {
                     </ul>
                 </nav>
             </div>
-        </Fragment>
+        </div>
     );
 };
 
