@@ -12,8 +12,16 @@ export const FAQS =[
     ans: "Yes, registration is free of charge.",
   },
   {
+    ques: "Is this a team event?",
+    ans: "Yes, the registration has to be done as a team of 2-4 hackers .",
+  },
+  {
     ques: "Is this hackathon only for CUSAT students?",
     ans: "No. The event is equally open to all.",
+  },
+  {
+    ques: "Will I be provided with food and accommodation during the event?",
+    ans: "All checked-in participants will be served food. Hackers will also be provided with a dedicated space to rest and refresh.",
   },
   {
     ques: "What is the theme of the hackathon?",
