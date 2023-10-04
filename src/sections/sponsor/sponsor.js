@@ -5,7 +5,7 @@ const sponsor = () => {
         <>
             <div className='flex flex-col  '>
                 <div className='flex justify-center items-center'>
-                    <div className='text-#1e3a8a font-clash-bold text-5xl mt-10 mb-3 justify-center items-center'>
+                    <div className='text-blue-900 font-clash-bold text-5xl mt-10 mb-3 justify-center items-center'>
                         SPONSOR
                     </div>
                 </div>
@@ -45,7 +45,7 @@ const sponsor = () => {
 
 
                         // </div> */}
-                        {/* <div className='sm:flex flex-row hidden md:visible'>
+                {/* <div className='sm:flex flex-row hidden md:visible'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="229" height="229" viewBox="0 0 229 229" fill="none">
                                 <rect x="227.651" y="57.3015" width="57.0547" height="57.0547" transform="rotate(90 227.651 57.3015)" fill="#204289" />
                                 <rect x="171.248" y="0.246826" width="57.0547" height="57.0547" transform="rotate(90 171.248 0.246826)" fill="#204289" />
