@@ -9,7 +9,7 @@ const sponsor = () => {
                         SPONSOR
                     </div>
                 </div>
-                <div className='mb-3'>
+                {/* <div className='mb-3'>
                     <div className=' w-100 h-100 mt-5 sm:flex flex-row justify-between   '>
                         <div className='hidden md:visible sm:flex flex-row'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="229" height="229" viewBox="0 0 229 229" fill="none">
@@ -32,7 +32,7 @@ const sponsor = () => {
                                 <rect x="57.7891" y="0.246826" width="57.0547" height="57.0547" transform="rotate(90 57.7891 0.246826)" fill="#204289" />
                                 <rect x="57.1382" y="114.356" width="57.0547" height="57.0547" transform="rotate(90 57.1382 114.356)" fill="#204289" />
                             </svg>
-                        </div >
+                        {/* </div >
                         // <div className=' flex flex-col justify-center items-center m-auto'>
                         //     <div className="flex items-center justify-center h-full">
                         //         <div className="text-#1e3a8a font-satoshi text-4xl  whitespace-nowrap max-w-screen-xl mx-auto">
@@ -44,8 +44,8 @@ const sponsor = () => {
                         //     </div>
 
 
-                        // </div>
-                        <div className='sm:flex flex-row hidden md:visible'>
+                        // </div> */}
+                        {/* <div className='sm:flex flex-row hidden md:visible'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="229" height="229" viewBox="0 0 229 229" fill="none">
                                 <rect x="227.651" y="57.3015" width="57.0547" height="57.0547" transform="rotate(90 227.651 57.3015)" fill="#204289" />
                                 <rect x="171.248" y="0.246826" width="57.0547" height="57.0547" transform="rotate(90 171.248 0.246826)" fill="#204289" />
@@ -69,7 +69,7 @@ const sponsor = () => {
                         </div>
                     </div>
 
-                </div>
+                </div>  */}
 
                 <div className='text-blue-900 p-4 py-5 flex md:flex-row flex-col justify-center items-center md:mb-0 mb-3 mt-10'>
                     <h1 className="text-3xl lg:text-5xl font-bold mb-4">Silver Sponsor</h1>
