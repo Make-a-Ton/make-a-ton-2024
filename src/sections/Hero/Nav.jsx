@@ -14,7 +14,7 @@ const navItems = [
 
 const Nav = () => {
     return (
-        <Fragment>
+        <div className="hidden lg:block">
             <div className="flex flex-row justify-center items-center px-5 py-3">
                 <div className="flex flex-col sm:flex-row text-gray-900 gap-5">
                     {navItems.map((item, index) => (
@@ -31,7 +31,7 @@ const Nav = () => {
                     ))}
                 </div>
             </div>
-        </Fragment>
+        </div>
     );
 };
 
