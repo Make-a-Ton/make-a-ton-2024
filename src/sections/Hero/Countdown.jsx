@@ -26,7 +26,7 @@ function Number({count, label}) {
     }, [count]);
 
     return (
-        <div className="text-center mx-3">
+        <div className="text-center">
             {[tens, ones].map((num, index) => (
                 <div className="digit mr-2" data-num={num} key={index}>
                     <span className="base">{index === 0 ? Math.floor(next/10) : next % 10}</span>
@@ -41,7 +41,12 @@ function Number({count, label}) {
 }
 
 export default function Countdown() {
-    const [date, setDate] = useState({});
+    const [date, setDate] = useState({
+        day: 0,
+        hour: 0,
+        minute: 0,
+        second: 0,
+    });
 
     useEffect(() => {
         const int = setInterval(
