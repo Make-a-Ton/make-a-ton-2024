@@ -4,9 +4,9 @@ import logo from "../../../public/assets/citticlogo.svg";
 
 const AboutRight = () => {
   return (
-    <div className="flex items-center justify-center  pt-10  p-4 md:p-12 text-left">
+    <div className="flex items-center justify-center my-8  pt-10  p-4 md:p-12 text-left">
       <div className="w-[70%] h-[80%]">
-        <div className="flex justify-left mb-4 pb-3">
+        <div className="flex justify-left -mx-4 mb-4 pb-3">
           <Image src={logo} alt="Logo" width={180} height={180} />
         </div>
         <p className="text-gray-700 text-left text-sm md:my-10 font-satoshi-regular ">
@@ -30,7 +30,9 @@ const AboutRight = () => {
         <div className="absolute bottom-8 right-40 h-8 w-8 bg-[#EAAF20]"></div>
         <div className="absolute bottom-16 right-8 h-8 w-8 bg-[#204289]"></div>
       </div>
-      <h1 className="hidden md:block absolute mt-5 w-1/2 top-[73px] text-2xl font-bold mb-4 text-center border-b-2 border-dashed border-blue-500 pb-2"></h1>{" "}
+      <h1
+        className="hidden md:block absolute mt-5 w-auto top-[103px] right-[8%] text-2xl font-bold mb-4 text-center border-b-2 border-dashed border-[#204289] pb-2"
+      ></h1>{" "}
     </div>
   );
 };
