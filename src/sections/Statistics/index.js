@@ -1,35 +1,15 @@
-import React, { useEffect, useState } from "react";
 import collage from "../../../public/assets/collage.svg";
 import man from "../../../public/assets/man.svg";
 import partner from "../../../public/assets/partner.svg";
 import Image from "next/image";
 
+const stats = [
+  { name: "Registrations", count: 5000, logo: man },
+  { name: "Colleges", count: 50, logo: collage },
+  { name: "Partners", count: 30, logo: partner },
+];
+
 const Statistics = () => {
-  const stats = [
-    { name: "Registrations", count: 5000, logo: man },
-    { name: "Colleges", count: 50, logo: collage },
-    { name: "Partners", count: 30, logo: partner },
-  ];
-
-  const [animatedCounts, setAnimatedCounts] = useState(stats.map(() => 0));
-
-  useEffect(() => {
-    const animationDuration = 100; // 2 seconds
-    const interval = setInterval(() => {
-      const step = animationDuration / 200; // Divide animation into 100 steps
-
-      const newAnimatedCounts = animatedCounts.map((prevCount, index) => {
-        if (prevCount < stats[index].count) {
-          return Math.min(prevCount + 1, stats[index].count);
-        }
-        return stats[index].count;
-      });
-
-      setAnimatedCounts(newAnimatedCounts);
-    }, animationDuration / 100); // Update every step
-
-    return () => clearInterval(interval);
-  }, [animatedCounts, stats]);
 
   return (
     <div className="bg-[#F6F5F5] p-4 ml-5 md:gap-16 justify-evenly flex items-center lg:justify-center">
@@ -40,7 +20,7 @@ const Statistics = () => {
           </div>
           <div className="flex flex-col items-center">
             <p className="text-[25px] text-[#204289] font-clash-bold font-bold">
-              {animatedCounts[index]}+
+              {stat.count}+
             </p>
             <p className="text-sm font-bold mb-1">{stat.name}</p>
           </div>
