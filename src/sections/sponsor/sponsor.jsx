@@ -4,25 +4,25 @@ import Link from "next/link";
 
 const SilverImages = [
     {image: "/assets/foss.svg", link: "https://fossunited.org/"},
-    {image: "/assets/ieee.png", link: "https://ieeekerala.org/kochi-subsection/"},
-    {image: "/assets/echo.png", link: "https://clusterdev.com/"},
-    {image: "/assets/seaa.png", link: "https://clusterdev.com/"},
-    {image: "/assets/wolfram.png", link: "https://clusterdev.com/"},
+    {image: "/assets/ieee cusat sb.png", link: "https://ieeekerala.org/kochi-subsection/"},
+    {image: "/assets/echo.png", link: "https://www.echo3d.com/"},
+    {image: "/assets/seaa.png", link: "https://www.soecusat.in/"},
+    {image: "/assets/wolfram.png", link: "https://www.wolframalpha.com/"},
 ]
 
 const CommunityImages = [
-    {image: "/assets/dhishna.png", link: "https://echoindia.co.in/"},
-    {image: "/assets/tinkerhub.png", link: "https://echoindia.co.in/"},
-    {image: "/assets/ieee cusat sb.png", link: "https://echoindia.co.in/"},
-    {image: "/assets/gdsc cusat.png", link: "https://echoindia.co.in/"},
+    {image: "/assets/dhishna.webp", link: "https://dhishna.org/"},
+    {image: "/assets/tinkerhub.png", link: "https://tinkerhub.org/"},
+    {image: "/assets/ieee.png", link: "https://ieeekerala.org/"},
+    {image: "/assets/gdsc cusat.png", link: "https://gdsc.community.dev/school-of-engineering-cusat-kochi/"},
 ]
 
 const HackathonImages = [
-    {image: "/assets/mlh.png", link: "https://echoindia.co.in/"},
+    {image: "/assets/mlh.png", link: "https://mlh.io/"},
 ]
 
 const GoldImages = [
-    {image: "/assets/echo.png", link: "https://echoindia.co.in/"},
+    {image: "/assets/cusat_tech.png", link: "https://cusatech.cusat.ac.in/index.php/Web/about"},
 ]
 
 
