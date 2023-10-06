@@ -5,7 +5,8 @@ import Link from "next/link";
 const SilverImages = [
     "/assets/foss.svg",
     "/assets/ieee.png",
-    "/assets/echo.png"
+    "/assets/echo.png",
+    "/assets/seaa.png",
 ]
 
 const CommunityImages = [
@@ -34,7 +35,7 @@ const sponsor = () => {
                 </div>
             </div>
 
-            <div className="flex justify-around items-center">
+            <div className="flex justify-around items-center mb-10">
                 <div className="flex flex-grow">
                     <div className='hidden md:visible sm:flex flex-row'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="229" height="229" viewBox="0 0 229 229"
@@ -131,7 +132,7 @@ const sponsor = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col sm:flex-row items-center justify-center w-full my-10">
+            <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-4 sm:mb-0 ">
                 <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-regular text-[30px]">
                     Gold Sponsors
                 </div>
@@ -139,7 +140,7 @@ const sponsor = () => {
                 <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
                     {GoldImages.map((image, i) => (
                         <div key={i}
-                             className={`flex flex-grow justify-center min-h-[150px] p-10 ${i % 2 == 0 ? 'bg-[#F6F5F5]' : ''}`}>
+                             className={`flex   justify-center min-h-[150px] p-10 ${i % 2 == 0 ? 'bg-[#F6F5F5]' : ''}`}>
                             <Image src={image} width={100} height={100} className="object-contain"/>
                         </div>
                     ))}
@@ -147,7 +148,7 @@ const sponsor = () => {
             </div>
 
 
-            <div className="flex flex-col sm:flex-row items-center justify-center w-full my-10">
+            <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-4 sm:mb-0 ">
                 <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-regular text-[30px]">
                     Silver Sponsors
                 </div>
@@ -155,14 +156,14 @@ const sponsor = () => {
                 <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
                     {SilverImages.map((image, i) => (
                         <div key={i}
-                             className={`flex flex-grow justify-center min-h-[150px] p-10 ${i % 2 == 0 ? 'bg-[#F6F5F5]' : ''}`}>
+                             className={`flex   justify-center min-h-[150px] p-10 ${i % 2 != 0 ? 'bg-[#F6F5F5]' : ''}`}>
                             <Image src={image} width={100} height={100} className="object-contain"/>
                         </div>
                     ))}
                 </div>
             </div>
 
-            <div className="flex flex-col sm:flex-row items-center justify-center w-full my-10">
+            <div className="flex flex-col sm:flex-row items-center justify-center w-full  mb-4 sm:mb-0  ">
                 <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-regular text-[30px]">
                     Community Partners
                 </div>
@@ -170,14 +171,14 @@ const sponsor = () => {
                 <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
                     {CommunityImages.map((image, i) => (
                         <div key={i}
-                             className={`flex flex-grow justify-center  min-h-[150px] p-10 ${i % 2 != 0 ? 'bg-[#F6F5F5]' : ''}`}>
+                             className={`flex   justify-center  min-h-[150px] p-10 ${i % 2 == 0 ? 'bg-[#F6F5F5]' : ''}`}>
                             <Image src={image} width={100} height={100} className="object-contain"/>
                         </div>
                     ))}
                 </div>
             </div>
 
-            <div className="flex flex-col sm:flex-row items-center justify-center w-full my-10">
+            <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-4 sm:mb-4 ">
                 <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-regular text-[30px]">
                     Hackathon Partner
                 </div>
@@ -185,7 +186,7 @@ const sponsor = () => {
                 <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
                     {HackathonImages.map((image, i) => (
                         <div key={i}
-                             className={`flex flex-grow justify-center  min-h-[150px] p-10 ${i % 2 != 0 ? 'bg-[#F6F5F5]' : ''}`}>
+                             className={`flex   justify-center  min-h-[150px] p-10 ${i % 2 != 0 ? 'bg-[#F6F5F5]' : ''}`}>
                             <Image src={image} width={100} height={100} className="object-contain"/>
                         </div>
                     ))}
