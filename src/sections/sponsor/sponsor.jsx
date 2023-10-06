@@ -7,6 +7,7 @@ const SilverImages = [
     "/assets/ieee.png",
     "/assets/echo.png",
     "/assets/seaa.png",
+    "/assets/wolfram.png",
 ]
 
 const CommunityImages = [
@@ -30,12 +31,12 @@ const sponsor = () => {
         <Fragment>
 
             <div className='flex justify-center items-center'>
-                <div className='text-blue-900 font-clash-bold text-5xl mt-10 mb-10 justify-center items-center'>
+                <div className='text-blue-900 font-clash-bold text-5xl mt-10 mb-14 justify-center items-center'>
                     PARTNERS
                 </div>
             </div>
 
-            <div className="flex justify-around items-center mb-10">
+            <div className="flex justify-around items-center mb-14">
                 <div className="flex flex-grow">
                     <div className='hidden md:visible sm:flex flex-row'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="229" height="229" viewBox="0 0 229 229"
@@ -132,7 +133,7 @@ const sponsor = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-4 sm:mb-0 ">
+            <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-14 sm:mb-0 ">
                 <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-regular text-[30px]">
                     Gold Sponsors
                 </div>
@@ -148,7 +149,7 @@ const sponsor = () => {
             </div>
 
 
-            <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-4 sm:mb-0 ">
+            <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-14 sm:mb-0 ">
                 <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-regular text-[30px]">
                     Silver Sponsors
                 </div>
@@ -156,14 +157,14 @@ const sponsor = () => {
                 <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
                     {SilverImages.map((image, i) => (
                         <div key={i}
-                             className={`flex   justify-center min-h-[150px] p-10 ${i % 2 != 0 ? 'bg-[#F6F5F5]' : ''}`}>
+                             className={`flex justify-center min-h-[150px] p-10 ${i % 2 != 0 ? 'bg-[#F6F5F5]' : ''}`}>
                             <Image src={image} width={100} height={100} className="object-contain"/>
                         </div>
                     ))}
                 </div>
             </div>
 
-            <div className="flex flex-col sm:flex-row items-center justify-center w-full  mb-4 sm:mb-0  ">
+            <div className="flex flex-col sm:flex-row items-center justify-center w-full  mb-14 sm:mb-0  ">
                 <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-regular text-[30px]">
                     Community Partners
                 </div>
