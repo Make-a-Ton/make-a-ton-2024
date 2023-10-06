@@ -3,26 +3,26 @@ import Image from "next/image";
 import Link from "next/link";
 
 const SilverImages = [
-    "/assets/foss.svg",
-    "/assets/ieee.png",
-    "/assets/echo.png",
-    "/assets/seaa.png",
-    "/assets/wolfram.png",
+    {image: "/assets/foss.svg", link: "https://fossunited.org/"},
+    {image: "/assets/ieee.png", link: "https://ieeekerala.org/kochi-subsection/"},
+    {image: "/assets/echo.png", link: "https://clusterdev.com/"},
+    {image: "/assets/seaa.png", link: "https://clusterdev.com/"},
+    {image: "/assets/wolfram.png", link: "https://clusterdev.com/"},
 ]
 
 const CommunityImages = [
-    "/assets/dhishna.png",
-    "/assets/tinkerhub.png",
-    "/assets/ieee cusat sb.png",
-    "/assets/gdsc cusat.png",
+    {image: "/assets/dhishna.png", link: "https://echoindia.co.in/"},
+    {image: "/assets/tinkerhub.png", link: "https://echoindia.co.in/"},
+    {image: "/assets/ieee cusat sb.png", link: "https://echoindia.co.in/"},
+    {image: "/assets/gdsc cusat.png", link: "https://echoindia.co.in/"},
 ]
 
 const HackathonImages = [
-    "/assets/mlh.png",
+    {image: "/assets/mlh.png", link: "https://echoindia.co.in/"},
 ]
 
 const GoldImages = [
-    "/assets/cusat_tech.png",
+    {image: "/assets/echo.png", link: "https://echoindia.co.in/"},
 ]
 
 
@@ -139,11 +139,13 @@ const sponsor = () => {
                 </div>
 
                 <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
-                    {GoldImages.map((image, i) => (
-                        <div key={i}
-                             className={`flex   justify-center min-h-[150px] p-10 ${i % 2 == 0 ? 'bg-[#F6F5F5]' : ''}`}>
-                            <Image src={image} width={100} height={100} className="object-contain"/>
-                        </div>
+                    {GoldImages.map((data, i) => (
+                        <Link key={i} href={data.link} target={"_blank"}>
+                            <div
+                                className={`flex   justify-center min-h-[150px] p-10 ${i % 2 == 0 ? 'bg-[#F6F5F5]' : ''}`}>
+                                <Image src={data.image} width={100} height={100} className="object-contain"/>
+                            </div>
+                        </Link>
                     ))}
                 </div>
             </div>
@@ -155,11 +157,13 @@ const sponsor = () => {
                 </div>
 
                 <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
-                    {SilverImages.map((image, i) => (
-                        <div key={i}
-                             className={`flex justify-center min-h-[150px] p-10 ${i % 2 != 0 ? 'bg-[#F6F5F5]' : ''}`}>
-                            <Image src={image} width={100} height={100} className="object-contain"/>
-                        </div>
+                    {SilverImages.map((data, i) => (
+                        <Link key={i} href={data.link} target={"_blank"}>
+                            <div
+                                className={`flex justify-center min-h-[150px] p-10 ${i % 2 != 0 ? 'bg-[#F6F5F5]' : ''}`}>
+                                <Image src={data.image} width={100} height={100} className="object-contain"/>
+                            </div>
+                        </Link>
                     ))}
                 </div>
             </div>
@@ -170,11 +174,13 @@ const sponsor = () => {
                 </div>
 
                 <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
-                    {CommunityImages.map((image, i) => (
-                        <div key={i}
-                             className={`flex   justify-center  min-h-[150px] p-10 ${i % 2 == 0 ? 'bg-[#F6F5F5]' : ''}`}>
-                            <Image src={image} width={100} height={100} className="object-contain"/>
-                        </div>
+                    {CommunityImages.map((data, i) => (
+                        <Link key={i} href={data.link} target={"_blank"}>
+                            <div
+                                className={`flex   justify-center  min-h-[150px] p-10 ${i % 2 == 0 ? 'bg-[#F6F5F5]' : ''}`}>
+                                <Image src={data.image} width={100} height={100} className="object-contain"/>
+                            </div>
+                        </Link>
                     ))}
                 </div>
             </div>
@@ -185,11 +191,13 @@ const sponsor = () => {
                 </div>
 
                 <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
-                    {HackathonImages.map((image, i) => (
-                        <div key={i}
-                             className={`flex   justify-center  min-h-[150px] p-10 ${i % 2 != 0 ? 'bg-[#F6F5F5]' : ''}`}>
-                            <Image src={image} width={100} height={100} className="object-contain"/>
-                        </div>
+                    {HackathonImages.map((data, i) => (
+                        <Link key={i} href={data.link} target={"_blank"}>
+                            <div
+                                className={`flex   justify-center  min-h-[150px] p-10 ${i % 2 != 0 ? 'bg-[#F6F5F5]' : ''}`}>
+                                <Image src={data.image} width={100} height={100} className="object-contain"/>
+                            </div>
+                        </Link>
                     ))}
                 </div>
             </div>
