@@ -20,8 +20,13 @@ const Hero = () => {
 
                 <div className="flex flex-col text-white font-satoshi-regular items-center justify-center mt-5">
                     <Image src={"/assets/logo.svg"} alt={"logo"} width={200} height={200}/>
-                    <h1 className="hidden lg:block font-clash-bold text-5xl leading-10 py-10">Make-A-Ton<sup
+                    <h1 className="hidden lg:block font-clash-bold text-5xl leading-10 pt-10">Make-A-Ton<sup
                         className="font-satoshi-regular">6.0</sup></h1>
+                    <div className="lg:flex mb-5">
+                        <span className="">powered by </span><Link href={"https://clusterdev.com/"} target={"_blank"}>
+                        <Image src={"/assets/clusterdev-logo2.png"} alt={"clusterdev"} width={200} height={50}/>
+                    </Link>
+                    </div>
                     <p className="text-center my-5 lg:my-1 px-2">A 24 HOUR HACKATHON TO EMBRACE THE SPIRIT OF INNOVATION</p>
                     <div className="flex justify-center items-center">
                         <Link href="https://forms.eventsradar.in/makeaton/"
