@@ -7,15 +7,15 @@ const schedule = () => {
         <div className="flex flex-wrap justify-center ">
 
             <div className="hidden"><Box /></div>
-            <div className="mb-10 sm:flex sm:justify-center sm:items-center sm:flex-row my-10 sm:text-center text-center ustify-center items-center ">
+            <div className="mb-10 sm:flex sm:justify-center sm:items-center sm:flex-row mb-10 sm:text-center text-center justify-center items-center ">
 
-                <div className='relative bg-[#EAAF20]  h-[390px] w-[255px] p-12 flex justify-center items-center  '>
+                <div className='relative bg-[#EAAF20]  h-[290px] w-[255px] p-12 flex justify-center items-center  '>
                     <div className="
                      text-[#204289] text-center font-clash-bold text-4xl leading-10    sm:rotate-[-90deg] rotate-0">
                         Schedule
                     </div>
                 </div>
-                <div className="top-1/2 sm:translate-y-1/2 sm:mt-0 mt-4 sm:translate-x-0 translate-x-1/4">
+                <div className="top-1/2 sm:translate-y-1/2 sm:mt-0 mt-4 sm:translate-x-0 translate-x-1/4 sm:ml-0 ml-12">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="41"
@@ -31,7 +31,7 @@ const schedule = () => {
                 <div />
 
 
-                <div className='relative border-2 border-[#204289] bg-[#F6F5F5]  h-[390px] flex flex-col justify-center items-center w-[255px] p-12 '>
+                <div className='relative border-2 border-[#204289] bg-[#F6F5F5]  h-[290px] flex flex-col justify-center items-center w-[255px] p-12 '>
                     <div className='text-[#204289] font-satoshi-medium text-[25px] whitespace-nowrap '>
                         Registration Starts
 
@@ -48,7 +48,7 @@ const schedule = () => {
                         </svg><span className='ml-1 text-[#204289]'>Online</span>
                     </div>
                 </div>
-                <div className="top-1/2 sm:translate-y-1/2 sm:mt-0 mt-4 sm:translate-x-0 translate-x-1/4">
+                <div className="top-1/2 sm:translate-y-1/2 sm:mt-0 mt-4 sm:ml-0 ml-12  sm:translate-x-0 translate-x-1/4">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="41"
@@ -63,16 +63,13 @@ const schedule = () => {
                 <div />
 
 
-                <div className='relative border-2 border-[#204289] bg-[#F6F5F5]  h-[390px] w-[255px] p-12 flex flex-col justify-center items-center'>
+                <div className='relative border-2 border-[#204289] bg-[#F6F5F5]  h-[290px] w-[255px] p-12 flex flex-col justify-center items-center'>
                     <div className='text-[#204289] font-satoshi-medium text-[25px] whitespace-nowrap '>
                         Registration Ends
 
                     </div>
                     <div className='text-[#204289] font-satoshi-regular text-[22px] italic'>
-                        5th Oct
-                        <br />
-                        1.49 PM
-
+                        8th Oct
                     </div>
                     <div className='mt-2 whitespace-nowrap flex items-center'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="24" viewBox="0 0 26 24" fill="none">
@@ -83,7 +80,7 @@ const schedule = () => {
                         </svg><span className='ml-1 text-[#204289]'>Online</span>
                     </div>
                 </div>
-                <div className="top-1/2 sm:translate-y-1/2 sm:mt-0 mt-4 sm:translate-x-0 translate-x-1/4">
+                <div className="top-1/2 sm:translate-y-1/2 sm:mt-0 mt-4 sm:ml-0 ml-12 sm:translate-x-0 translate-x-1/4">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="41"
@@ -97,7 +94,7 @@ const schedule = () => {
                 </div>
                 <div />
 
-                <div className='relative bg-[#204289]  h-[390px] w-[255px] p-12 flex flex-col justify-center items-center'>
+                <div className='relative bg-[#204289]  h-[290px] w-[255px] p-12 flex flex-col justify-center items-center'>
                     <div className='text-[#ffffff] font-satoshi-regular text-[22px] text-center  '>
                         Reporting at the Venue
                         <br />
@@ -113,7 +110,7 @@ const schedule = () => {
                         <span className='ml-1 text-[#ffffff]'>CUSAT</span>
                     </div>
                 </div>
-                <div className="top-1/2 sm:translate-y-1/2 sm:mt-0 mt-4 sm:translate-x-0 translate-x-1/4">
+                <div className="top-1/2 sm:translate-y-1/2 sm:mt-0 mt-4 sm:translate-x-0 translate-x-1/4 sm:ml-0 ml-12">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="41"
@@ -128,12 +125,13 @@ const schedule = () => {
                 <div />
 
 
-                <div className='relative bg-[#204289]  h-[390px] w-[255px] p-12 flex flex-col justify-center items-center whitespace-nowrap'>
+                <div className='relative bg-[#204289]  h-[290px] w-[255px] p-12 flex flex-col justify-center items-center whitespace-nowrap'>
 
                     <div className='text-[#ffffff] font-satoshi-regular text-[28px] text-center  '>
                         Hackathon Ends
                         <br />
-                        5th Nov
+                        5th Nov<br/>
+                        3 PM
 
 
                     </div>

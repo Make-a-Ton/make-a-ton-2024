@@ -5,7 +5,7 @@ import Accordion from "@/sections/Faq/Accordion";
 const Index = () => {
 
     return (
-        <section className='bg-[#204289] lg:p-20'>
+        <section className='bg-[#204289] lg:p-20 pb-5'>
             <div className="flex flex-wrap justify-center items-center">
                 {/* FAQ Heading on the left for desktop */}
                 <div className="w-6/12 lg:w-4/12 ">

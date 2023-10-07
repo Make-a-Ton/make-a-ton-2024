@@ -1,4 +1,6 @@
 import React, { Fragment } from 'react';
+import Image from "next/image";
+import Link from "next/link";
 
 const Prizes = () => {
     const hrElements = [];
@@ -137,7 +139,7 @@ const Prizes = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-full hidden md:flex justify-around items-center text-white">
+                <div className="w-full py-20 hidden md:flex justify-around items-center text-white">
                     <p className="font-black text-6xl">
                         ₹20K
                     </p>
@@ -229,6 +231,12 @@ const Prizes = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="flex justify-around items-center my-10 px-3">
+                <Link href={"https://t.me/+oBvav5sdIcxkMzNl"} target={"_blank"}>
+<Image src={"/assets/tele.png"} alt={"telegram"} width={900} height={200}></Image>
+
+                </Link>
             </div>
         </Fragment>
     );

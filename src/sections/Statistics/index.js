@@ -12,7 +12,7 @@ const stats = [
 const Statistics = () => {
 
   return (
-    <div className="bg-[#F6F5F5] p-4 ml-5 md:gap-16 justify-evenly flex items-center lg:justify-center">
+    <div className="bg-[#F6F5F5] p-4 pt-8 ml-5 md:gap-16 justify-evenly flex items-center lg:justify-center">
       {stats.map((stat, index) => (
         <div key={index} className="mb-4 text-center">
           <div className="mb-2">
