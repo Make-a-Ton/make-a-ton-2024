@@ -23,6 +23,7 @@ const HackathonImages = [
 
 const GoldImages = [
     {image: "/assets/cusat_tech.png", link: "https://cusatech.cusat.ac.in/index.php/Web/about"},
+    {image: "/assets/GitHub_Logo.png", link: "https://github.com"},
 ]
 
 
@@ -135,7 +136,7 @@ const sponsor = () => {
 
             <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-14 sm:mb-0 ">
                 <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-regular text-[30px]">
-                    Gold Sponsors
+                    Platinum Sponsors
                 </div>
 
                 <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
