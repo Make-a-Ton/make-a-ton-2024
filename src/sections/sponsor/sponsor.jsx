@@ -146,9 +146,9 @@ const sponsor = () => {
 
                 <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
                     {GoldImages.map((data, i) => (
-                        <Link key={i} href={data.link} target={"_blank"}>
+                        <Link key={i} href={data.link} target={"_blank"} className='items-center'>
                             <div
-                                className={`flex   justify-center min-h-[150px] p-10 ${i % 2 == 0 ? 'bg-[#F6F5F5]' : ''}`}>
+                                className={`flex justify-center min-h-[200px] p-10 ${i % 2 == 0 ? 'bg-[#F6F5F5]' : ''}`}>
                                 <Image src={data.image} width={100} height={100} className="object-contain"/>
                             </div>
                         </Link>
@@ -184,7 +184,7 @@ const sponsor = () => {
                     {OpenSourceImages.map((data, i) => (
                         <Link key={i} href={data.link} target={"_blank"}>
                             <div
-                                className={`flex justify-center min-h-[150px] p-10 ${i % 2 != 0 ? 'bg-[#F6F5F5]' : ''}`}>
+                                className={`flex justify-center min-h-[150px] p-10 ${i % 2 == 0 ? 'bg-[#F6F5F5]' : ''}`}>
                                 <Image src={data.image} width={100} height={100} className="object-contain"/>
                             </div>
                         </Link>
@@ -201,7 +201,7 @@ const sponsor = () => {
                     {CommunityImages.map((data, i) => (
                         <Link key={i} href={data.link} target={"_blank"}>
                             <div
-                                className={`flex   justify-center  min-h-[150px] p-10 ${i % 2 == 0 ? 'bg-[#F6F5F5]' : ''}`}>
+                                className={`flex   justify-center  min-h-[150px] p-10 ${i % 2 != 0 ? 'bg-[#F6F5F5]' : ''}`}>
                                 <Image src={data.image} width={100} height={100} className="object-contain"/>
                             </div>
                         </Link>
