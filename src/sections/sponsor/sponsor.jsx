@@ -14,11 +14,16 @@ const CommunityImages = [
     {image: "/assets/dhishna.webp", link: "https://dhishna.org/"},
     {image: "/assets/tinkerhub.png", link: "https://tinkerhub.org/"},
     {image: "/assets/ieee.png", link: "https://ieeekerala.org/"},
+    {image: "/assets/gdg-cloud-kochi.webp", link: "https://gdg.community.dev/gdg-cloud-kochi/"},
     {image: "/assets/gdsc cusat.png", link: "https://gdsc.community.dev/school-of-engineering-cusat-kochi/"},
 ]
 
 const HackathonImages = [
     {image: "/assets/mlh.png", link: "https://mlh.io/"},
+]
+
+const OpenSourceImages = [
+    {image: "/assets/Loft.svg", link: "https://loft.sh/"},
 ]
 
 const GoldImages = [
@@ -159,6 +164,24 @@ const sponsor = () => {
 
                 <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
                     {SilverImages.map((data, i) => (
+                        <Link key={i} href={data.link} target={"_blank"}>
+                            <div
+                                className={`flex justify-center min-h-[150px] p-10 ${i % 2 != 0 ? 'bg-[#F6F5F5]' : ''}`}>
+                                <Image src={data.image} width={100} height={100} className="object-contain"/>
+                            </div>
+                        </Link>
+                    ))}
+                </div>
+            </div>
+
+
+            <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-14 sm:mb-0 ">
+                <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-regular text-[30px]">
+                    Open Source Partners
+                </div>
+
+                <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
+                    {OpenSourceImages.map((data, i) => (
                         <Link key={i} href={data.link} target={"_blank"}>
                             <div
                                 className={`flex justify-center min-h-[150px] p-10 ${i % 2 != 0 ? 'bg-[#F6F5F5]' : ''}`}>
