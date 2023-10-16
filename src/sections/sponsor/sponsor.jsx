@@ -24,6 +24,7 @@ const HackathonImages = [
 
 const OpenSourceImages = [
     {image: "/assets/Loft.svg", link: "https://loft.sh/"},
+    {image: "/assets/devchat.svg", link: "https://github.com/devchat-ai/devchat"}
 ]
 
 const GoldImages = [
