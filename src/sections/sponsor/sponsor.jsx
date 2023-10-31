@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const CloudImages = [
-    {image: "/assets/awsugkochi.png", link: "https://awsugkochi.in/"},
+    {image: "/assets/awsugkochi.png", link: "https://communityday.awsugkochi.in/"},
 ]
 
 const SilverImages = [
