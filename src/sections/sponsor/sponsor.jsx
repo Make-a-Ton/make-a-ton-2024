@@ -2,6 +2,10 @@ import React, {Fragment} from 'react'
 import Image from "next/image";
 import Link from "next/link";
 
+const CloudImages = [
+    {image: "/assets/awsugkochi.png", link: "https://awsugkochi.in/"},
+]
+
 const SilverImages = [
     {image: "/assets/foss.svg", link: "https://fossunited.org/"},
     {image: "/assets/ieee.png", link: "https://ieeekerala.org/"},
@@ -177,7 +181,6 @@ const sponsor = () => {
                 </div>
             </div>
 
-
             <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-14 sm:mb-0 ">
                 <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-regular text-[30px]">
                     Open Source Partners
@@ -195,6 +198,24 @@ const sponsor = () => {
                 </div>
             </div>
 
+            <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-14 sm:mb-0 ">
+                <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-regular text-[30px]">
+                    Cloud Partners
+                </div>
+
+                <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
+                    {CloudImages.map((data, i) => (
+                        <Link key={i} href={data.link} target={"_blank"}>
+                            <div
+                                className={`flex justify-center min-h-[150px] p-10 ${i % 2 !== 0 ? 'bg-[#F6F5F5]' : ''}`}>
+                                <Image src={data.image} width={100} height={100} className="object-contain"/>
+                            </div>
+                        </Link>
+                    ))}
+                </div>
+            </div>
+
+
             <div className="flex flex-col sm:flex-row items-center justify-center w-full  mb-14 sm:mb-0  ">
                 <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-regular text-[30px]">
                     Community Partners
@@ -204,7 +225,7 @@ const sponsor = () => {
                     {CommunityImages.map((data, i) => (
                         <Link key={i} href={data.link} target={"_blank"}>
                             <div
-                                className={`flex   justify-center  min-h-[150px] p-10 ${i % 2 !== 0 ? 'bg-[#F6F5F5]' : ''}`}>
+                                className={`flex   justify-center  min-h-[150px] p-10 ${i % 2 === 0 ? 'bg-[#F6F5F5]' : ''}`}>
                                 <Image src={data.image} width={100} height={100} className="object-contain"/>
                             </div>
                         </Link>
