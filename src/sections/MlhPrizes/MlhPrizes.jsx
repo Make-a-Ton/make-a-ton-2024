@@ -12,33 +12,69 @@ import Image from "next/image";
 
 const MlhPrizes = () => {
   return (
-    <div className="my-8 grid grid-cols-1 mx-28 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-0">
-      <div className="">
-        <Image src={track2} alt="Image 1" />
+    <div className="my-8 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-0 md:mx-28">
+      <div>
+        <Image
+          loading="lazy"
+          src={track2}
+          alt="Image 1"
+        />
       </div>
-      <div >
-        <Image src={img7} alt="Image 2" />
+      <div>
+        <Image
+          loading="lazy"
+          src={img7}
+          alt="Image 2"
+        />
       </div>
-      <div >
-        <Image src={img6} alt="Image 3" />
+      <div>
+        <Image
+          loading="lazy"
+          src={img6}
+          alt="Image 3"
+        />
       </div>
-      <div >
-        <Image src={img4} alt="Image 1" />
+      <div>
+        <Image
+          loading="lazy"
+          src={img3}
+          alt="Image 1"
+        />
       </div>
-      <div >
-        <Image src={img5} alt="Image 2" />
+      <div>
+        <Image
+          loading="lazy"
+          src={img4}
+          alt="Image 2"
+        />
       </div>
-      <div >
-        <Image src={img3} alt="Image 3" />
+      <div>
+        <Image
+          loading="lazy"
+          src={img5}
+          alt="Image 3"
+        />
       </div>
-      <div >
-        <Image src={img2} alt="Image 1" />
+      <div>
+        <Image
+          loading="lazy"
+          src={img2}
+          alt="Image 1"
+        />
       </div>
-      <div >
-        <Image src={img1} alt="Image 2" />
+      <div>
+        <Image
+          loading="lazy"
+          src={img1}
+          alt="Image 2"
+        />
       </div>
-      <div >
-        <Image src={trackprize} alt="Image 3" />
+      <div>
+        <Image
+          loading="lazy"
+          src={trackprize}
+          alt="Image 3"
+        />
       </div>
     </div>
   );
