@@ -8,6 +8,7 @@ import Footer from "@/sections/Footer/Footer";
 import Faq from "@/sections/Faq";
 import Schedule from "@/sections/schedule/schedule";
 import Sponsor from '@/sections/sponsor/sponsor';
+import MlhPrizes from "@/sections/MlhPrizes/MlhPrizes";
 
 const inter = Inter({subsets: ['latin']})
 
@@ -41,6 +42,7 @@ export default function Home() {
             <About/>
             <Statistics/>
             <Prizes/>
+            <MlhPrizes/>
             <Schedule/>
             <Sponsor/>
             <Faq/>
