@@ -13,8 +13,7 @@ const AboutLeft = () => {
           provides a platform for university students to pitch their ideas in
           front of an eminent panel of judges. Projects and ideas can be
           presented even if they lack a full fledged business plan, as
-          Make-a-Ton focusses on bringing out passionate innovators. Solutions
-          can be provided to problems that fall under four different categories.
+          Make-a-Ton focusses on bringing out passionate innovators.
           Grand prizes await the winners!
         </p>
       </div>
