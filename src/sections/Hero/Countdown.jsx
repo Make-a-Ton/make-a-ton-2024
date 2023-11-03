@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 
-const endDate = new Date("2023-11-04T00:00:00");
+const endDate = new Date("2023-11-05T11:00:00");
 
 function Number({count, label}) {
     const [flip, setFlip] = useState("block");
