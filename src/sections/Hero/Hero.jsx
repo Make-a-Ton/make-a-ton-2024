@@ -18,7 +18,7 @@ const Hero = () => {
                 <div className="line rotated"/>
                 <div className="line rotated"/>
 
-                <div className="flex flex-col text-white font-satoshi-regular items-center justify-center mt-5">
+                <div className="flex flex-col text-white font-satoshi-regular items-center justify-center mt-10">
                     <Image src={"/assets/logo.svg"} alt={"logo"} width={200} height={200}/>
                     <h1 className="hidden lg:block font-clash-bold text-5xl leading-10 pt-10">Make-A-Ton<sup
                         className="font-satoshi-regular">6.0</sup></h1>
@@ -39,6 +39,18 @@ const Hero = () => {
                         <Link href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target={"_blank"}
                               className=" mt-3  mx-2  font-satoshi-bold rounded-[15px] px-5 py-3 border-2 border-gray-500">
                             Code of Conduct</Link>
+
+                    </div>
+                      <div className="flex justify-center items-center">
+                        {/*<Link href="https://forms.eventsradar.in/makeaton/"*/}
+                        {/*      className={"animate-shake mt-3 bg-white text-black font-satoshi-bold rounded-[15px] px-5 py-3 border-8 border-gray-500 mx-2"}>*/}
+                        {/*    register</Link>*/}
+                        {/*<div*/}
+                        {/*      className={" mt-3 bg-white text-black font-satoshi-bold rounded-[15px] px-5 py-3 border-8 border-gray-500 mx-2"}>*/}
+                        {/*    registration </div>*/}
+                        <Link href="https://guide.makeaton.in/" target={"_blank"}
+                              className=" mt-3  mx-2  font-satoshi-bold rounded-[15px] px-5 py-3 border-2 border-gray-500">
+                            Hacker Guide</Link>
 
                     </div>
 
