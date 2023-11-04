@@ -48,9 +48,9 @@ const Hero = () => {
                         {/*<div*/}
                         {/*      className={" mt-3 bg-white text-black font-satoshi-bold rounded-[15px] px-5 py-3 border-8 border-gray-500 mx-2"}>*/}
                         {/*    registration </div>*/}
-                        <Link href="https://bit.ly/makeaton-hacker-guide" target={"_blank"}
+                        <Link href="https://makeaton.devpost.com" target={"_blank"}
                               className=" mt-3  mx-2  font-satoshi-bold rounded-[15px] px-5 py-3 border-2 border-gray-500">
-                            Hacker Guide</Link>
+                            Submit Your Project</Link>
 
                     </div>
 
