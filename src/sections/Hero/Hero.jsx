@@ -52,13 +52,13 @@ const Hero = () => {
               {/*<div*/}
               {/*      className={" mt-3 bg-white text-black font-satoshi-bold rounded-[15px] px-5 py-3 border-8 border-gray-500 mx-2"}>*/}
               {/*    registration </div>*/}
-              <Link
-                href="https://makeaton.devpost.com"
-                target={"_blank"}
-                className=" mt-3  mx-2  font-satoshi-bold rounded-[15px] px-5 py-3 border-2 border-gray-500"
-              >
-                Submit Your Project
-              </Link>
+              {/*<Link*/}
+              {/*  href="https://makeaton.devpost.com"*/}
+              {/*  target={"_blank"}*/}
+              {/*  className=" mt-3  mx-2  font-satoshi-bold rounded-[15px] px-5 py-3 border-2 border-gray-500"*/}
+              {/*>*/}
+              {/*  Submit Your Project*/}
+              {/*</Link>*/}
             </div>
             <div className="flex justify-center items-center">
               {/*<Link href="https://forms.eventsradar.in/makeaton/"*/}
@@ -98,7 +98,7 @@ const Hero = () => {
               width={200}
               height={200}
             />
-            <Countdown />
+            {/*<Countdown />*/}
             <Image
               className="hidden md:block"
               src={"/assets/hero_effect.png"}
