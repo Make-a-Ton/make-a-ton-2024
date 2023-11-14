@@ -42,9 +42,9 @@ const Hero = () => {
             <p className="text-center my-5 lg:my-1 px-2">
               A 24 HOUR HACKATHON TO EMBRACE THE SPIRIT OF INNOVATION
             </p>
-            <p className="text-center my-5 lg:my-1 px-2 font-satoshi-bold">
+            {/* <p className="text-center my-5 lg:my-1 px-2 font-satoshi-bold">
               Registration closed
-            </p>
+            </p> */}
             <div className="flex justify-center items-center">
               {/*<Link href="https://forms.eventsradar.in/makeaton/"*/}
               {/*      className={"animate-shake mt-3 bg-white text-black font-satoshi-bold rounded-[15px] px-5 py-3 border-8 border-gray-500 mx-2"}>*/}
@@ -52,13 +52,13 @@ const Hero = () => {
               {/*<div*/}
               {/*      className={" mt-3 bg-white text-black font-satoshi-bold rounded-[15px] px-5 py-3 border-8 border-gray-500 mx-2"}>*/}
               {/*    registration </div>*/}
-              {/*<Link*/}
+              {/* <Link*/}
               {/*  href="https://makeaton.devpost.com"*/}
               {/*  target={"_blank"}*/}
               {/*  className=" mt-3  mx-2  font-satoshi-bold rounded-[15px] px-5 py-3 border-2 border-gray-500"*/}
               {/*>*/}
               {/*  Submit Your Project*/}
-              {/*</Link>*/}
+              {/*</Link> */}
             </div>
             <div className="flex justify-center items-center">
               {/*<Link href="https://forms.eventsradar.in/makeaton/"*/}
@@ -68,11 +68,11 @@ const Hero = () => {
               {/*      className={" mt-3 bg-white text-black font-satoshi-bold rounded-[15px] px-5 py-3 border-8 border-gray-500 mx-2"}>*/}
               {/*    registration </div>*/}
               <Link
-                href="https://bit.ly/makeaton-hacker-guide"
+                href="https://makeaton.devpost.com/project-gallery"
                 target={"_blank"}
                 className=" mt-3  mx-2  font-satoshi-bold rounded-[15px] px-5 py-3 border-2 border-gray-500"
               >
-                Hacker Guide
+                Project Gallery
               </Link>
             </div>
 
