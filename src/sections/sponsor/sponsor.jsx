@@ -8,7 +8,6 @@ const CloudImages = [
 
 const SilverImages = [
     {image: "/assets/foss.svg", link: "https://fossunited.org/"},
-    {image: "/assets/ieee.png", link: "https://ieeekerala.org/"},
     {image: "/assets/echo.png", link: "https://www.echo3d.com/"},
     {image: "/assets/seaa.png", link: "https://www.soecusat.in/"},
     {image: "/assets/wolfram.png", link: "https://www.wolframalpha.com/"},
