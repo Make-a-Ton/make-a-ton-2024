@@ -16,7 +16,7 @@ export default function Home() {
 
     return (
         <main>
-            <a
+            {/* <a
                 className="right-4 md:right-[80px]"
                 id="mlh-trust-badge"
                 style={{
@@ -37,14 +37,14 @@ export default function Home() {
                     alt="Major League Hacking 2024 Hackathon Season"
                     style={{width: '100%'}}
                 />
-            </a>
+            </a> */}
             <Hero/>
             <About/>
             <Statistics/>
-            <Prizes/>
-            <MlhPrizes/>
-            <Schedule/>
-            <Sponsor/>
+            {/* <Prizes/> */}
+            {/* <MlhPrizes/> */}
+            {/* <Schedule/> */}
+            {/* <Sponsor/> */}
             <Faq/>
             <Join/>
             <Footer/>

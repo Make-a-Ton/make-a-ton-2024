@@ -1,13 +1,5 @@
 export const FAQS =[
   {
-    ques: "What are the prizes?",
-    ans: "Best Product - Rs. 30K, Runners Up: Rs. 20K and Best UI/UX hack: Rs 10k. Track prices to be announced soon."
-  },
-  {
-    ques: "What are the tracks available",
-    ans: "Seperate tracks for Software and Hardware have been announced currently. Stay tuned for more!"
-  },
-  {
     ques: "Is registration free?",
     ans: "Yes, registration is free of charge.",
   },
