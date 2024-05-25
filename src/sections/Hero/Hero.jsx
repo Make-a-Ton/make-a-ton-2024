@@ -18,14 +18,14 @@ const Hero = () => {
           <div className="line rotated" />
           <div className="line rotated" />
 
-          <div className="flex flex-col text-white font-satoshi-regular items-center justify-center mt-10">
+          <div className="flex flex-col text-white font-satoshi-regular items-center justify-center mt-10 mb-20 md:mb-0">
             {/* <Image
               src={"/assets/logo.svg"}
               alt={"logo"}
               width={200}
               height={200}
             /> */}
-            <h1 className="block font-clash-bold text-5xl leading-10 pt-10 mt-40 mt-lg-52">
+            <h1 className="block font-clash-bold text-4xl md:text-6xl leading-10 pt-10 mt-20 lg:mt-52">
               Make-A-Ton<sup className="font-satoshi-regular">7.0</sup>
             </h1>
             {/* <div className="lg:flex mb-5">
@@ -39,7 +39,7 @@ const Hero = () => {
                 />
               </Link>
             </div> */}
-            <p className="text-center my-5 lg:mt-6 px-2">
+            <p className="text-center my-5 lg:mt-6 px-2 text-base lg:text-lg">
               A 24 HOUR HACKATHON TO EMBRACE THE SPIRIT OF INNOVATION
             </p>
             {/* <p className="text-center my-5 lg:my-1 px-2 font-satoshi-bold">
@@ -62,7 +62,7 @@ const Hero = () => {
               </Link>
             </div>
 
-            <p className="mt-10">19th - 20th October, 2024</p>
+            <p className="mt-10 text-base">19th - 20th October, 2024</p>
             <div className="flex flex-row mt-5 justify-center items-center">
               <Image
                 src={"/assets/location.svg"}
