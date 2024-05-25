@@ -12,7 +12,7 @@ const Join = () => {
                     <p>Get mentored from industry experts to help you build better.</p>
                 </div>
                 <div className="p-5 mx-auto" style={{background: "#204289", color: "white", maxWidth: '95%'}}>
-                    <p>Opportunity to take home prizes and swags worth 400K.</p>
+                    <p>Opportunity to take home prizes and exclusive swags.</p>
                 </div>
             </div>
         </div>
