@@ -54,7 +54,7 @@ const Hero = () => {
                 Sponsor Us
               </Link>
               <Link
-                href="/blog"
+                href="https://2023.makeaton.in"
                 target={"_blank"}
                 className=" mt-3  mx-2  font-satoshi-bold rounded-[15px] px-5 py-3 border-2 border-gray-500"
               >
