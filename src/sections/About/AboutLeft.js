@@ -8,16 +8,9 @@ const AboutLeft = () => {
           ABOUT
         </h1>
         <p className="text-gray-700 text-left text-sm md:my-10 font-satoshi-regular">
-          Welcome to Make-a-ton 7.0: Where Innovation Meets Opportunity! The
-          most exciting hackathon of the year is back with a bang! With a
-          staggering 60K prize pool, cutting-edge gadgets, and coveted
-          internship opportunities up for grabs, we&apos;re set to make history.
-          Following in the footsteps of our past champions who revolutionized
-          hiring processes and medical assistance, we challenge you to push the
-          boundaries of technology and creativity. Organized by CITTIC,
-          Make-a-ton is a 24-hour coding marathon that fuels innovation. Whether
-          you&apos;re a coding maestro or a design virtuoso, this is your arena
-          to shine.Join us and leave your mark on the tech world!
+        Welcome to Make-a-ton 7.0: Where Innovation Meets Opportunity!
+        The most exciting hackathon of the year is back with a bang! With a staggering 60K prize pool, cutting-edge gadgets, and coveted internship opportunities up for grabs, we're set to make history. Organized by CITTIC, Make-a-ton is a 24-hour coding marathon that fuels innovation. Whether you're a coding maestro or a design virtuoso, this is your arena to shine. Get ready for intense coding sessions, groundbreaking solutions, and yes – plenty of coffee!
+        Join us and leave your mark on the tech world!
         </p>
       </div>
       <h1 className="hidden md:block absolute mt-5 w-auto left-[10%] right-[10%]  text-2xl top-[103px] font-bold mb-4 text-center border-b-[3px] border-dashed border-[#204289] pb-2"></h1>{" "}
