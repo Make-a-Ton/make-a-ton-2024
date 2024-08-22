@@ -31,7 +31,7 @@ const Footer = () => {
                 </svg>
               </div>
               {/* Email Address */}
-              <p className='font-weight: 700; text-lg'><a href="mailto:organizer@makeaton.in">organizer@makeaton.in</a></p>
+              <p className='font-weight: 700; text-lg'><a href="mailto:organizer@makeaton.in">contact@makeaton.in</a></p>
 
             </div>
           </div>

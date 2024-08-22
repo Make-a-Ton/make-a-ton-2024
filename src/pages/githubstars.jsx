@@ -1,9 +1,9 @@
-
+import React from 'react'
 
 function githubstars() {
   return (
     <div>
-      Hi this is githubstars
+      Hi i am githubstars
     </div>
   )
 }

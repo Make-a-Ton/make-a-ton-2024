@@ -1,16 +1,30 @@
-import Image from "next/image";
-import Link from "next/link";
-import Countdown from "@/sections/Hero/Countdown";
+  import Image from "next/image";
+  import Link from "next/link";
 
-const Hero = () => {
+  const Hero = () => {
     return (
       <>
-        <div className="star-container bg-[#204289]  pt-5 pb-5 pb-lg-0">
+        <div className="star-container bg-[#204289] pt-5 pb-5 pb-lg-0 relative">
+          {/* <Link
+            href="https://2023.makeaton.in"
+            target={"_blank"}
+                className="absolute top-5 right-5 md:top-10 md:right-10 font-satoshi-bold rounded-[15px] px-5 py-3 border-2 border-gray-500 text-white"
+          >
+            Last Edition
+          </Link>
+          <Link
+            href="/assets/docs/Sponsorship-Doc.pdf"
+            target={"_blank"}
+            className="absolute top-5 left-5 md:top-10 md:left-10 font-satoshi-bold rounded-[15px] px-5 py-3 border-2 border-gray-500 text-white"
+          >
+            Sponsor Us
+          </Link> */}
+
           <div className="line" />
           <div className="line hidden lg:block" />
           <div className="line hidden lg:block" />
           <div className="line" />
-          <div className="line " />
+          <div className="line" />
 
           <div className="line rotated" />
           <div className="line rotated" />
@@ -28,38 +42,31 @@ const Hero = () => {
             <h1 className="block font-clash-bold text-4xl md:text-6xl leading-10 pt-10 mt-20 lg:mt-52">
               Make-A-Ton<sup className="font-satoshi-regular">7.0</sup>
             </h1>
-            {/* <div className="lg:flex mb-5">
-              <span className="">powered by </span>
-              <Link href={"https://clusterdev.com/"} target={"_blank"}>
-                <Image
-                  src={"/assets/clusterdev-logo2.png"}
-                  alt={"clusterdev"}
-                  width={200}
-                  height={50}
-                />
-              </Link>
-            </div> */}
             <p className="text-center my-5 lg:mt-6 px-2 text-base lg:text-lg">
               A 24 HOUR HACKATHON TO EMBRACE THE SPIRIT OF INNOVATION
             </p>
-            {/* <p className="text-center my-5 lg:my-1 px-2 font-satoshi-bold">
-              Registration closed
-            </p> */}
             <div className="flex justify-center items-center">
               <Link
+                href="https://lu.ma/j58nctcm"
+                target={"_blank"}
+                className="mt-3 mx-2 font-satoshi-bold rounded-[15px] px-5 py-3 border-2 border-gray-500"
+              >
+                Register
+              </Link>
+              {/* <Link
                 href="/assets/docs/Sponsorship-Doc.pdf"
                 target={"_blank"}
-                className=" mt-3  mx-2  font-satoshi-bold rounded-[15px] px-5 py-3 border-2 border-gray-500"
+                className="mt-3 mx-2 font-satoshi-bold rounded-[15px] px-5 py-3 border-2 border-gray-500"
               >
                 Sponsor Us
-              </Link>
-              <Link
+              </Link> */}
+              {/* <Link
                 href="https://2023.makeaton.in"
                 target={"_blank"}
-                className=" mt-3  mx-2  font-satoshi-bold rounded-[15px] px-5 py-3 border-2 border-gray-500"
+                className="mt-3 mx-2 font-satoshi-bold rounded-[15px] px-5 py-3 border-2 border-gray-500"
               >
                 Last Edition
-              </Link>
+              </Link> */}
             </div>
 
             <p className="mt-10 text-base">19th - 20th October, 2024</p>
@@ -84,7 +91,6 @@ const Hero = () => {
               width={200}
               height={200}
             />
-            {/*<Countdown />*/}
             <Image
               className="hidden md:block"
               src={"/assets/hero_effect.png"}
@@ -96,6 +102,6 @@ const Hero = () => {
         </div>
       </>
     );
-};
+  };
 
-export default Hero;
+  export default Hero;
