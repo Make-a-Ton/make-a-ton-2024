@@ -88,28 +88,28 @@
               A 24 HOUR HACKATHON TO EMBRACE THE SPIRIT OF INNOVATION
             </p>
             <div className="flex justify-center items-center">
-              <Link
+              {/* <Link
                 href="https://lu.ma/j58nctcm"
                 target={"_blank"}
                 className="-mt-4 mx-2 font-clash-semi rounded-[15px] px-8 py-3 border-8 bg-gray-200 text-gray-700 border-gray-500 "
                 style={{ transform: "rotate(-8.81deg)" }}
               >
                 Register
-              </Link>
-              {/* <Link
+              </Link> */}
+              <Link
                 href="/assets/docs/Sponsorship-Doc.pdf"
                 target={"_blank"}
                 className="mt-3 mx-2 font-satoshi-bold rounded-[15px] px-5 py-3 border-2 border-gray-500"
               >
                 Sponsor Us
-              </Link> */}
-              {/* <Link
+              </Link>
+              <Link
                 href="https://2023.makeaton.in"
                 target={"_blank"}
                 className="mt-3 mx-2 font-satoshi-bold rounded-[15px] px-5 py-3 border-2 border-gray-500"
               >
                 Last Edition
-              </Link> */}
+              </Link>
             </div>
 
             <p className="mt-16 text-lg md:text-lg lg:text-2xl font-satoshi-medium">19th - 20th October, 2024</p>
