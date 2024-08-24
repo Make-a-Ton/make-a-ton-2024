@@ -4,7 +4,7 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <>
-      <div className="star-container bg-[#204289] pt-5 pb-5 pb-lg-0 relative">
+      <div className="star-container bg-[#204289] pt-5 pb-5 pb-lg-0 relative h-screen">
         <div className="line" />
         <div className="line hidden lg:block" />
         <div className="line hidden lg:block" />
