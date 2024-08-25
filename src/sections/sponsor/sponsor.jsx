@@ -155,7 +155,7 @@ const sponsor = () => {
                         <Link key={i} href={data.link} target={"_blank"} className='items-center'>
                             <div
                                 className={`flex justify-center min-h-[200px] p-10 ${i % 2 === 0 ? 'bg-[#F6F5F5]' : ''}`}>
-                                <Image src={data.image} width={100} height={100} className="object-contain"/>
+                                <Image src={data.image} alt =""width={100} height={100} className="object-contain"/>
                             </div>
                         </Link>
                     ))}
@@ -173,7 +173,7 @@ const sponsor = () => {
                         <Link key={i} href={data.link} target={"_blank"}>
                             <div
                                 className={`flex justify-center min-h-[150px] p-10 ${i % 2 !== 0 ? 'bg-[#F6F5F5]' : ''}`}>
-                                <Image src={data.image} width={100} height={100} className="object-contain"/>
+                                <Image src={data.image} alt="" width={100} height={100} className="object-contain"/>
                             </div>
                         </Link>
                     ))}
@@ -190,7 +190,7 @@ const sponsor = () => {
                         <Link key={i} href={data.link} target={"_blank"}>
                             <div
                                 className={`flex justify-center min-h-[150px] p-10 ${i % 2 === 0 ? 'bg-[#F6F5F5]' : ''}`}>
-                                <Image src={data.image} width={100} height={100} className="object-contain"/>
+                                <Image src={data.image} alt="" width={100} height={100} className="object-contain"/>
                             </div>
                         </Link>
                     ))}
@@ -207,7 +207,7 @@ const sponsor = () => {
                         <Link key={i} href={data.link} target={"_blank"}>
                             <div
                                 className={`flex justify-center min-h-[150px] p-10 ${i % 2 !== 0 ? 'bg-[#F6F5F5]' : ''}`}>
-                                <Image src={data.image} width={100} height={100} className="object-contain"/>
+                                <Image src={data.image} alt="" width={100} height={100} className="object-contain"/>
                             </div>
                         </Link>
                     ))}
@@ -225,7 +225,7 @@ const sponsor = () => {
                         <Link key={i} href={data.link} target={"_blank"}>
                             <div
                                 className={`flex   justify-center  min-h-[150px] p-10 ${i % 2 === 0 ? 'bg-[#F6F5F5]' : ''}`}>
-                                <Image src={data.image} width={100} height={100} className="object-contain"/>
+                                <Image src={data.image} alt=""width={100} height={100} className="object-contain"/>
                             </div>
                         </Link>
                     ))}
@@ -242,7 +242,7 @@ const sponsor = () => {
                         <Link key={i} href={data.link} target={"_blank"}>
                             <div
                                 className={`flex   justify-center  min-h-[150px] p-10 ${i % 2 !== 0 ? 'bg-[#F6F5F5]' : ''}`}>
-                                <Image src={data.image} width={100} height={100} className="object-contain"/>
+                                <Image src={data.image} alt="" width={100} height={100} className="object-contain"/>
                             </div>
                         </Link>
                     ))}
@@ -258,7 +258,7 @@ const sponsor = () => {
                         <Link key={i} href={data.link} target={"_blank"}>
                             <div
                                 className={`flex   justify-center  min-h-[150px] p-10 ${i % 2 === 0 ? 'bg-[#F6F5F5]' : ''}`}>
-                                <Image src={data.image} width={100} height={100} className="object-contain"/>
+                                <Image src={data.image} alt="" width={100} height={100} className="object-contain"/>
                             </div>
                         </Link>
                     ))}

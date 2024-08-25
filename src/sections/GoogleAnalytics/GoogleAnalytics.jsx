@@ -6,9 +6,9 @@ const GoogleAnalytics = () => {
     <React.Fragment>
       <Script
         strategy="lazyOnload"
-         src="https://www.googletagmanager.com/gtag/js?id=G-6M49GGKGMT"
+        src="https://www.googletagmanager.com/gtag/js?id=G-6M49GGKGMT"
       />
-      <Script strategy="lazyOnload">
+      <Script id="google-analytics-inline-script" strategy="lazyOnload">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
