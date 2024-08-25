@@ -74,8 +74,9 @@ const Prizes = () => {
     return (
         <Fragment>
             <div className="bg-[#204289] text-white  overflow-x-hidden space-y-10 pt-10">
+                
                 <div className="w-full flex flex-col md:flex-row justify-center items-center md:justify-around">
-                    <p className="text-center md:text-start py-5 md:py-0">
+                    {/* <p className="text-center md:text-start py-5 md:py-0">
                         Have the
                         FREEDOM <br />
                         of choosing your
@@ -83,8 +84,10 @@ const Prizes = () => {
                     </p>
                     <p className="text-3xl font-bold">
                         #OPENHACK
-                    </p>
+                    </p> */}
                 </div>
+                
+                
                 <div className="w-full flex justify-center md:hidden">--------------------------------------------------</div>
                 <div className="flex justify-center mt-4 hidden md:flex"> {/* Add margin-top for vertical spacing */}
                     {hrElements}
@@ -96,7 +99,7 @@ const Prizes = () => {
                     <div className="flex  md:hidden">
                         {whiteBoxesSmall}
                     </div>
-                    <div className="flex flex-col items-center justify-center text-black space-y-3">
+                    {/* <div className="flex flex-col items-center justify-center text-black space-y-3">
                         <div className="bg-white w-full px-6 md:px-20 py-1 mx-2 md:py-2">
                             <p className="md:text-xl text-[#2E57AC] font-semibold text-center">
                                 Software <br/> Track
@@ -107,7 +110,12 @@ const Prizes = () => {
                                 Hardware <br/> Track
                             </p>
                         </div>
-                    </div>
+                    </div> */}
+                    
+                    <h1 className="block font-clash-semi text-xl md:text-4xl leading-10 pt-0">
+                        Coming Soon
+                    </h1>
+                    
                     <div className="flex hidden md:flex">
                         {whiteBoxes}
                     </div>
@@ -139,7 +147,7 @@ const Prizes = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-full py-20 hidden md:flex justify-around items-center text-white">
+                {/* <div className="w-full py-20 hidden md:flex justify-around items-center text-white">
                     <p className="font-black text-6xl">
                         ₹20K
                     </p>
@@ -149,8 +157,8 @@ const Prizes = () => {
                     <p className="font-black text-5xl">
                         ₹10K
                     </p>
-                </div>
-                <div className="w-full flex flex-col md:hidden justify-center w-full items-center text-white space-y-16">
+                </div> */}
+                {/* <div className="w-full flex flex-col md:hidden justify-center w-full items-center text-white space-y-16">
                     <div className=" flex flex-col h-24 flex items-center  ">
                         <p className="font-black text-6xl mb-5">
                             ₹30K
@@ -187,8 +195,8 @@ const Prizes = () => {
                             UI/UX
                         </p>
                     </div>
-                </div>
-                <div>
+                </div> */}
+                {/* <div>
                     <div className="w-full hidden md:flex justify-between items-end text-white">
                         <div className="w-1/3 bg-[#F6F5F5] h-28 flex items-center justify-center">
                             <p className="font-black text-[#2E57AC] text-4xl">
@@ -230,10 +238,10 @@ const Prizes = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
             <div className="flex justify-around items-center my-10 px-3">
-                <Link href={"https://t.me/+oBvav5sdIcxkMzNl"} target={"_blank"}>
+                <Link href={"https://t.me/+iMqdZkcEeM42MTU9"} target={"_blank"}>
 <Image src={"/assets/tele.png"} alt={"telegram"} width={900} height={200}></Image>
 
                 </Link>

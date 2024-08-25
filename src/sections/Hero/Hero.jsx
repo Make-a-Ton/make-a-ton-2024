@@ -4,7 +4,7 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <>
-      <div className="star-container bg-[#204289] pt-5 pb-5 pb-lg-0 relative h-screen">
+      <div className="star-container bg-[#204289] pt-20 md:pt-5 pb-5 pb-lg-0 relative h-screen">
         <div className="line" />
         <div className="line hidden lg:block" />
         <div className="line hidden lg:block" />
@@ -68,25 +68,37 @@ const Hero = () => {
             />
           </div> */}
 
-        <div className="flex flex-col text-white font-satoshi-regular items-center justify-center mt-20 md:mt-44 mb-20 md:mb-0">
-          <Image
-            src={"/assets/logo.png"}
-            alt={"logo"}
-            width={200}
-            height={200}
-          />
+          <div className="flex flex-col text-white font-satoshi-regular items-center justify-center -mt-2 md:mt-32 mb-20 md:mb-0">
 
-          <h1 className="block font-clash-bold text-4xl md:text-6xl leading-10 pt-10">
-            Make-A-Ton<sup className="font-satoshi-regular">7.0</sup>
-          </h1>
-          <p className="text-center my-5 lg:mt-6 px-2 text-base font-satoshi-small lg:text-lg">
-            A 24 HOUR HACKATHON TO EMBRACE THE SPIRIT OF INNOVATION
-          </p>
-          <div className="flex justify-center items-center">
-            {/* <Link
+            <Image
+              src={"/assets/logo.png"}
+              alt={"logo"}
+              width={200}
+              height={200}
+            />
+          
+            <h1 className="block font-clash-bold text-4xl md:text-6xl leading-10 pt-10">
+              Make-A-Ton<sup className="font-satoshi-regular">7.0</sup>
+            </h1>
+            <div className="lg:flex gap-4 mb-5">
+              <span className="">powered by </span>
+              <Link href={"https://eduport.app/"} target={"_blank"}>
+                <Image
+                  src={"/assets/titlesponsor.png"}
+                  alt={"eduport"}
+                  width={200}
+                  height={50}
+                />
+              </Link>
+            </div>
+            <p className="text-center my-5 lg:mt-2 px-2 text-base font-satoshi-small lg:text-lg">
+              A 24 HOUR HACKATHON TO EMBRACE THE SPIRIT OF INNOVATION
+            </p>
+            <div className="flex justify-center items-center">
+              {/* <Link
                 href="https://lu.ma/j58nctcm"
                 target={"_blank"}
-                className="-mt-4 mx-2 font-clash-semi rounded-[15px] px-8 py-3 border-8 bg-gray-200 text-gray-700 border-gray-500 "
+                className="-mt-0 mx-2 font-clash-semi rounded-[15px] px-8 py-3 border-8 bg-gray-200 text-gray-700 border-gray-500 "
                 style={{ transform: "rotate(-8.81deg)" }}
               >
                 Register
@@ -107,41 +119,41 @@ const Hero = () => {
             </Link>
           </div>
 
-          <p className="mt-16 text-lg md:text-lg lg:text-2xl font-satoshi-bold">
-            19th - 20th October, 2024
-          </p>
-          <div className="flex flex-row mt-5 justify-center items-center">
+            <p className="mt-10 text-lg md:text-lg lg:text-2xl font-satoshi-bold">19th - 20th October, 2024</p>
+            <div className="flex flex-row mt-5 justify-center items-center">
+              <Image
+                src={"/assets/location.svg"}
+                alt={"location"}
+                width={20}
+                height={20}
+              />
+              <p className="mx-3 hidden font-satoshi-small lg:block">
+                Cochin University of Science and Technology
+              </p>
+              <p className="mx-3 block lg:hidden">CUSAT</p>
+            </div>
+          </div>
+          <div className={"flex justify-between -mt-40 mb-20"}>
             <Image
-              src={"/assets/location.svg"}
-              alt={"location"}
-              width={20}
-              height={20}
+              className=" mb-8 hidden md:block"
+              src={"/assets/makeaton_logo.png"}
+              alt={"logo"}
+              width={200}
+              height={200}
+              
             />
-            <p className="mx-3 hidden font-satoshi-small lg:block">
-              Cochin University of Science and Technology
-            </p>
-            <p className="mx-3 block lg:hidden">CUSAT</p>
+            <Image
+              className="mb-8 hidden md:block"
+              src={"/assets/hero_effect.png"}
+              alt={"logo"}
+              width={300}
+              height={200}
+              
+            />
           </div>
         </div>
-        <div className={"flex justify-between -mt-40 mb-20"}>
-          <Image
-            className=" mb-8 hidden md:block"
-            src={"/assets/makeaton_logo.png"}
-            alt={"logo"}
-            width={200}
-            height={200}
-          />
-          <Image
-            className="mb-8 hidden md:block"
-            src={"/assets/hero_effect.png"}
-            alt={"logo"}
-            width={300}
-            height={200}
-          />
-        </div>
-      </div>
-    </>
-  );
-};
+      </>
+    );
+  };
 
 export default Hero;

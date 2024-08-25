@@ -10,9 +10,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/third-parties": "^14.2.6",
     "axios": "^1.7.4",
     "bootstrap-icons": "^1.11.1",
     "next": "^14.2.3",
+    "nextjs-google-analytics": "^2.3.7",
     "react": "latest",
     "react-dom": "latest"
   },

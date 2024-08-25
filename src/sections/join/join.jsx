@@ -7,7 +7,7 @@ const Join = () => {
         className="text-3xl font-clash-bold mb-9 ml-2"
         style={{ color: "#204289" }}
       >
-        WHY JOIN MAKE-A-TON?
+        WHY JOIN&nbsp; MAKE-A-TON?
       </h1>
       <div className="grid md:grid-cols-3 grid-cols-1 gap-3">
         <div
