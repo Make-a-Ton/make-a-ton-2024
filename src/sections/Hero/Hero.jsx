@@ -99,8 +99,8 @@ const Hero = () => {
             <Link
                 href="https://lu.ma/j58nctcm"
                 target={"_blank"}
-                className="rotate-custom -mt-0 mx-2 font-clash-semi rounded-[15px] px-8 py-3 border-8 bg-gray-200 text-gray-700 border-gray-500 transition-transform duration-300 hover:bg-white hover:text-[#204289] hover:border-[#EAAF20]"
-              >
+                className="rotate-custom -mt-0 mx-2 font-clash-semi rounded-[15px] px-8 py-3 text-[#204289] border-[#EAAF20] border-8 bg-white md:text-gray-700 md:border-gray-500 transition-transform duration-300 hover:bg-white hover:text-[#204289] hover:border-[#EAAF20]"
+              > 
                 Register
             </Link>
 
