@@ -44,7 +44,7 @@ const sponsor = () => {
 
             <div className='flex justify-center items-center'>
                 <div className='text-blue-900 font-clash-bold text-5xl mt-10 mb-14 justify-center items-center'>
-                    PARTNERS
+                    PARTNER
                 </div>
             </div>
 
@@ -92,10 +92,10 @@ const sponsor = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col flex-grow items-center justify-center">
+                <div className="flex flex-col flex-grow gap-5 items-center justify-center">
                     <h3 className="block mb-1 text-center text-[#204289] font-satoshi-bold text-3xl ">Title Sponsor</h3>
-                    <Link href={"https://clusterdev.com/"} target={"_blank"}>
-                        <Image height={240} width={240} src="/assets/clusterdev.png" alt="clusterdev"
+                    <Link href={"https://eduport.app/"} target={"_blank"}>
+                        <Image height={240} width={240} src="/assets/titlesponsor.png" alt="eduport"
                                className="px-5 lg:px-auto"/>
                     </Link>
 
@@ -144,7 +144,7 @@ const sponsor = () => {
                     </div>
                 </div>
             </div>
-
+{/* 
             <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-14 sm:mb-0 ">
                 <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-regular text-[30px]">
                     Platinum Sponsors
@@ -160,10 +160,10 @@ const sponsor = () => {
                         </Link>
                     ))}
                 </div>
-            </div>
+            </div> */}
 
 
-            <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-14 sm:mb-0 ">
+            {/* <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-14 sm:mb-0 ">
                 <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-regular text-[30px]">
                     Silver Sponsors
                 </div>
@@ -178,9 +178,9 @@ const sponsor = () => {
                         </Link>
                     ))}
                 </div>
-            </div>
+            </div> */}
 
-            <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-14 sm:mb-0 ">
+            {/* <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-14 sm:mb-0 ">
                 <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-regular text-[30px]">
                     Open Source Partners
                 </div>
@@ -195,9 +195,9 @@ const sponsor = () => {
                         </Link>
                     ))}
                 </div>
-            </div>
+            </div> */}
 
-            <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-14 sm:mb-0 ">
+            {/* <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-14 sm:mb-0 ">
                 <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-regular text-[30px]">
                     Cloud Partners
                 </div>
@@ -212,10 +212,10 @@ const sponsor = () => {
                         </Link>
                     ))}
                 </div>
-            </div>
+            </div> */}
 
 
-            <div className="flex flex-col sm:flex-row items-center justify-center w-full  mb-14 sm:mb-0  ">
+            {/* <div className="flex flex-col sm:flex-row items-center justify-center w-full  mb-14 sm:mb-0  ">
                 <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-regular text-[30px]">
                     Community Partners
                 </div>
@@ -230,9 +230,9 @@ const sponsor = () => {
                         </Link>
                     ))}
                 </div>
-            </div>
+            </div> */}
 
-            <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-4 sm:mb-4 ">
+            {/* <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-4 sm:mb-4 ">
                 <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-regular text-[30px]">
                     Hackathon Partner
                 </div>
@@ -247,8 +247,8 @@ const sponsor = () => {
                         </Link>
                     ))}
                 </div>
-            </div>
-            <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-4 sm:mb-4 ">
+            </div> */}
+            {/* <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-4 sm:mb-4 ">
                 <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-regular text-[30px]">
                     Hardware Partner
                 </div>
@@ -263,7 +263,7 @@ const sponsor = () => {
                         </Link>
                     ))}
                 </div>
-            </div>
+            </div> */}
 
         </Fragment>
     )

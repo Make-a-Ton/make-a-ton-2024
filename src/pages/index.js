@@ -41,10 +41,10 @@ export default function Home() {
             <Hero/>
             <About/>
             <Statistics/>
-            {/* <Prizes/> */}
+            <Prizes/>
             {/* <MlhPrizes/> */}
             {/* <Schedule/> */}
-            {/* <Sponsor/> */}
+            <Sponsor/>
             <Faq/>
             <Join/>
             <Footer/>
