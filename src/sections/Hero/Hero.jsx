@@ -4,7 +4,7 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <>
-      <div className="star-container bg-[#204289] pt-20 md:pt-5 pb-5 pb-lg-0 relative h-screen">
+      <div className="star-container bg-[#204289] pt-20 md:pt-5  relative h-screen">
         <div className="line" />
         <div className="line hidden lg:block" />
         <div className="line hidden lg:block" />
@@ -95,14 +95,16 @@ const Hero = () => {
               A 24 HOUR HACKATHON TO EMBRACE THE SPIRIT OF INNOVATION
             </p>
             <div className="flex justify-center items-center">
-              <Link
+              
+            <Link
                 href="https://lu.ma/j58nctcm"
                 target={"_blank"}
-                className="-mt-0 mx-2 font-clash-semi rounded-[15px] px-8 py-3 border-8 bg-gray-200 text-gray-700 border-gray-500 "
-                style={{ transform: "rotate(-8.81deg)" }}
+                className="rotate-custom -mt-0 mx-2 font-clash-semi rounded-[15px] px-8 py-3 border-8 bg-gray-200 text-gray-700 border-gray-500 transition-transform duration-300 hover:bg-white hover:text-[#204289] hover:border-[#EAAF20]"
               >
                 Register
-              </Link>
+            </Link>
+
+
             {/* <Link
               href="/assets/docs/Sponsorship-Doc.pdf"
               target={"_blank"}

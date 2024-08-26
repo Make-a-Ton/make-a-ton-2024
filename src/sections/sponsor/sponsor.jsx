@@ -144,8 +144,8 @@ const sponsor = () => {
                     </div>
                 </div>
             </div>
-{/* 
-            <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-14 sm:mb-0 ">
+
+            {/* <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-14 sm:mb-0 ">
                 <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-regular text-[30px]">
                     Platinum Sponsors
                 </div>

@@ -73,25 +73,31 @@ const Prizes = () => {
 
     return (
         <Fragment>
-            <div className="bg-[#204289] text-white  overflow-x-hidden space-y-10 pt-10">
+            <div className="bg-[#204289] text-white  overflow-x-hidden space-y-10 pt-0">
                 
-                <div className="w-full flex flex-col md:flex-row justify-center items-center md:justify-around">
-                    {/* <p className="text-center md:text-start py-5 md:py-0">
-                        Have the
-                        FREEDOM <br />
-                        of choosing your
-                        own problem statement
-                    </p>
-                    <p className="text-3xl font-bold">
-                        #OPENHACK
-                    </p> */}
+                {/* <div className="w-full flex flex-col md:flex-row justify-center items-center md:justify-around">
+                  
+                </div> */}
+                <div className="hidden md:flex items-center">
+                    <div className="w-full bg-[#F6F5F5] h-max flex items-center ">
+                        <div className="flex">
+                            {PRIZES}
+                        </div>
+                    </div>
+                    <div className="w-full bg-[#EAAF20] h-max flex items-center justify-center space-x-6">
+                        <div className="flex">
+                            {PRIZES2}
+                        </div>
+                    </div>
+                    <div className="w-full bg-[#F6F5F5] h-max flex items-center ">
+                        <div className="flex">
+                            {PRIZES}
+                        </div>
+                    </div>
                 </div>
-                
                 
                 <div className="w-full flex justify-center md:hidden">--------------------------------------------------</div>
-                <div className="flex justify-center mt-4 hidden md:flex"> {/* Add margin-top for vertical spacing */}
-                    {hrElements}
-                </div>
+               
                 <div className="w-full flex justify-between items-center">
                     <div className="flex hidden md:flex">
                         {whiteBoxes}

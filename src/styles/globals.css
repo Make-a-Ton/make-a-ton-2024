@@ -94,7 +94,12 @@
 }
 
 
-
+.rotate-custom {
+    transform: rotate(-8.81deg);
+  }
+  .rotate-custom:hover {
+    transform: rotate(0deg);
+  }
 
 .countdown_container {
     background-color: #ffffff;
