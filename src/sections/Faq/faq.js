@@ -33,7 +33,7 @@ export const FAQS =[
   },
   {
     ques: "Do we get any swag?",
-    ans: "Yes, of course. T-shirts and other amazing swag are awaiting all the participants that check-in to the event.",
+    ans: "Yes, of course. Amazing swags are awaiting all the participants that check-in to the event.",
   },
   {
     ques: "I'm a newbie; is there any point in registering?",
