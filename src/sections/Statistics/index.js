@@ -12,7 +12,7 @@ const stats = [
 const Statistics = () => {
 
   return (
-    <div className="bg-[#F6F5F5] p-4 pt-8 md:gap-16 justify-evenly flex items-center lg:justify-center">
+    <div className="bg-[#F6F5F5] p-4 pt-28 pb-20 md:gap-16 justify-evenly flex items-center lg:justify-center">
       {stats.map((stat, index) => (
         <div key={index} className="mb-4 text-center">
           <div className="mb-2">
@@ -22,7 +22,7 @@ const Statistics = () => {
             <p className="text-[25px] text-[#204289] font-clash-bold font-bold">
               {stat.count}+
             </p>
-            <p className="text-sm font-bold mb-1">{stat.name}</p>
+            <p className="text-sm font-bold mb-0">{stat.name}</p>
           </div>
         </div>
       ))}

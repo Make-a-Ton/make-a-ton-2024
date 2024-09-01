@@ -87,11 +87,23 @@ const Prizes = () => {
 
   return (
     <Fragment>
-      <div className="bg-[#204289] text-white  overflow-x-hidden space-y-10 pt-0">
+      <div className="bg-[#204289] text-white  overflow-x-hidden space-y-32 pt-0">
         {/* <div className="w-full flex flex-col md:flex-row justify-center items-center md:justify-around">
                   
                 </div> */}
-        <div className="hidden md:flex items-center">
+        {/* <div className="hidden md:flex items-center">
+          <div className="w-full bg-[#F6F5F5] h-max flex items-center ">
+            <div className="flex">{PRIZES}</div>
+          </div>
+          <div className="w-full bg-[#EAAF20] h-max flex items-center justify-center space-x-6">
+            <div className="flex">{PRIZES2}</div>
+          </div>
+          <div className="w-full bg-[#F6F5F5] h-max flex items-center ">
+            <div className="flex">{PRIZES}</div>
+          </div>
+        </div> */}
+        
+         <div className="hidden md:flex items-center">
           <div className="w-full bg-[#F6F5F5] h-max flex items-center ">
             <div className="flex">{PRIZES}</div>
           </div>
@@ -102,10 +114,15 @@ const Prizes = () => {
             <div className="flex">{PRIZES}</div>
           </div>
         </div>
+        {/* <div className="flex md:hidden items-center">
+          <div className="w-full bg-[#EAAF20] h-max flex items-center justify-center space-x-6">
+            <div className="flex">{PRIZES2Small}</div>
+          </div>
+        </div> */}
 
-        <div className="w-full flex justify-center md:hidden">
+        {/* <div className="w-full flex justify-center md:hidden">
           --------------------------------------------------
-        </div>
+        </div> */}
 
         <div className="w-full flex justify-between items-center">
           <div className="flex hidden md:flex">{whiteBoxes}</div>
@@ -239,7 +256,7 @@ const Prizes = () => {
                     </div>
                 </div> */}
       </div>
-      <div className="flex justify-around items-center my-10 px-3">
+      <div className="flex justify-around items-center mt-24 px-3">
         <Link href={"https://t.me/makeaton7"} target={"_blank"}>
           <Image
             src={"/assets/tele.png"}

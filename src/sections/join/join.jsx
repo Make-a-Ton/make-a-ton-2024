@@ -1,8 +1,11 @@
 import React from "react";
+import Gallery from "../Gallery/Gallery"
 
 const Join = () => {
   return (
-    <div className=" font-satoshi-regular p-5 m-20 md:ml-20 md:mr-20 ml-1 mr-1">
+    <div className="mb-20">
+    <div className=" font-satoshi-regular p-5 m-32 md:ml-20 md:mr-32 ml-1 mr-1">
+      <div>
       <h1
         className="text-3xl font-clash-bold mb-9 ml-2"
         style={{ color: "#204289" }}
@@ -32,6 +35,13 @@ const Join = () => {
           <p>Opportunity to take home prizes and exclusive swags.</p>
         </div>
       </div>
+      </div>
+      <div>
+      </div>
+    </div>
+    {/* <div className="mb-24">
+    <Gallery />
+    </div> */}
     </div>
   );
 };

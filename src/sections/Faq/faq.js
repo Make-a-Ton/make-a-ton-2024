@@ -41,6 +41,6 @@ export const FAQS =[
   },
   {
     ques: "I don't know how to code, is this event for me?",
-    ans: "Everybody is welcome to learn from each other and work on something you wish to. We believe there is something for everyone.",
+    ans: "Every University student is welcome to learn from each other and work on something you wish to. We believe there is something for everyone.",
   },
 ];

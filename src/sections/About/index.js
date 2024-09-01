@@ -6,7 +6,7 @@ const About = () => {
   return (
     <Fragment>
       <div className="relative">
-        <div className="flex md:flex-row flex-col   justify-center">
+        <div className="flex md:flex-row flex-col justify-center">
           <div className="flex-1 bg-[#EAAF20]">
             <AboutLeft />
           </div>

@@ -43,15 +43,15 @@ const sponsor = () => {
         <Fragment>
 
             <div className='flex justify-center items-center'>
-                <div className='text-blue-900 font-clash-bold text-5xl mt-10 mb-14 justify-center items-center'>
+                <div className='text-blue-900 font-clash-bold text-4xl mt-20 mb-14 justify-center items-center'>
                     PARTNER
                 </div>
             </div>
 
-            <div className="flex justify-around items-center mb-14">
+            <div className="flex justify-around items-center mb-32">
                 <div className="flex flex-grow">
                     <div className='hidden md:visible sm:flex flex-row'>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="229" height="229" viewBox="0 0 229 229"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 229 229"
                              fill="none">
                             <rect x="227.651" y="57.3015" width="57.0547" height="57.0547"
                                   transform="rotate(90 227.651 57.3015)" fill="#204289"/>
@@ -70,7 +70,7 @@ const sponsor = () => {
                             <rect x="57.1382" y="114.356" width="57.0547" height="57.0547"
                                   transform="rotate(90 57.1382 114.356)" fill="#204289"/>
                         </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="229" height="229" viewBox="0 0 229 229"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 229 229"
                              fill="none">
                             <rect x="227.651" y="57.3015" width="57.0547" height="57.0547"
                                   transform="rotate(90 227.651 57.3015)" fill="#204289"/>
@@ -103,7 +103,7 @@ const sponsor = () => {
 
                 <div className="flex flex-grow justify-end">
                     <div className='sm:flex flex-row hidden md:visible'>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="229" height="229" viewBox="0 0 229 229"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 229 229"
                              fill="none">
                             <rect x="227.651" y="57.3015" width="57.0547" height="57.0547"
                                   transform="rotate(90 227.651 57.3015)" fill="#204289"/>
@@ -122,7 +122,7 @@ const sponsor = () => {
                             <rect x="57.1382" y="114.356" width="57.0547" height="57.0547"
                                   transform="rotate(90 57.1382 114.356)" fill="#204289"/>
                         </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="229" height="229" viewBox="0 0 229 229"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 229 229"
                              fill="none">
                             <rect x="227.651" y="57.3015" width="57.0547" height="57.0547"
                                   transform="rotate(90 227.651 57.3015)" fill="#204289"/>
