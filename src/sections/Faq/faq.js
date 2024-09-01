@@ -36,11 +36,16 @@ export const FAQS =[
     ans: "Yes, of course. Amazing swags are awaiting all the participants that check-in to the event.",
   },
   {
-    ques: "I'm a newbie; is there any point in registering?",
+    ques: "I'm a newbie. Is there any point in registering?",
     ans: "Hackathons are a great way to learn about new technology and make new friends. We strive to have a diverse audience and therefore welcome beginners to register.",
   },
   {
     ques: "I don't know how to code, is this event for me?",
     ans: "Every University student is welcome to learn from each other and work on something you wish to. We believe there is something for everyone.",
   },
+  // {
+  //   "ques": "Is there a Code of Conduct?",
+  //   "ans": "Absolutely! We adhere to the <a href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf' target='_blank' class='underline text-white'>Major League Hacking Code of Conduct</a> to ensure a welcoming and inclusive environment for all participants."
+  // }
+  
 ];

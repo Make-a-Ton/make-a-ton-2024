@@ -36,7 +36,7 @@ function AccordionItem({question, answer}) {
                     isOpen ? "max-h-96" : "max-h-0"
                 } overflow-hidden `}
                 >
-                    <p>{answer}</p>
+                    <p dangerouslySetInnerHTML={{ __html: answer }} />
                 </div>
             )}
         </div>

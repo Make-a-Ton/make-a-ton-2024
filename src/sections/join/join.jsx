@@ -12,7 +12,7 @@ const Join = () => {
       >
         WHY JOIN&nbsp; MAKE-A-TON?
       </h1>
-      <div className="grid md:grid-cols-3 grid-cols-1 gap-3">
+      <div className="grid  md:grid-cols-3 grid-cols-1 gap-3">
         <div
           className="p-5 mx-auto"
           style={{ background: "#204289", color: "white", maxWidth: "95%" }}

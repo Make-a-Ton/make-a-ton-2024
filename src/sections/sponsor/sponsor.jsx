@@ -14,10 +14,11 @@ const SilverImages = [
 ]
 
 const CommunityImages = [
-    {image: "/assets/dhishna.webp", link: "https://dhishna.org/"},
+   
     {image: "/assets/tinkerhub.png", link: "https://tinkerhub.org/"},
+    {image: "/assets/GDG Cochin.png", link: "https://gdg.community.dev/gdg-cochin/"},
     {image: "/assets/gdg-cloud-kochi.webp", link: "https://gdg.community.dev/gdg-cloud-kochi/"},
-    {image: "/assets/gdsc cusat.png", link: "https://gdsc.community.dev/school-of-engineering-cusat-kochi/"},
+    // {image: "/assets/gdsc cusat.png", link: "https://gdsc.community.dev/school-of-engineering-cusat-kochi/"},
 ]
 
 const HackathonImages = [
@@ -48,7 +49,7 @@ const sponsor = () => {
                 </div>
             </div>
 
-            <div className="flex justify-around items-center mb-32">
+            <div className="flex justify-around items-center mb-20">
                 <div className="flex flex-grow">
                     <div className='hidden md:visible sm:flex flex-row'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 229 229"
@@ -93,7 +94,7 @@ const sponsor = () => {
                 </div>
 
                 <div className="flex flex-col flex-grow gap-5 items-center justify-center">
-                    <h3 className="block mb-1 text-center text-[#204289] font-satoshi-bold text-3xl ">Title Sponsor</h3>
+                    <h3 className="block mb-1 text-center text-[#204289] font-satoshi-bold text-4xl ">Title Sponsor</h3>
                     <Link href={"https://eduport.app/"} target={"_blank"}>
                         <Image height={240} width={240} src="/assets/titlesponsor.png" alt="eduport"
                                className="px-5 lg:px-auto"/>
@@ -215,22 +216,30 @@ const sponsor = () => {
             </div> */}
 
 
-            {/* <div className="flex flex-col sm:flex-row items-center justify-center w-full  mb-14 sm:mb-0  ">
-                <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-regular text-[30px]">
+            <div className="flex flex-col gap-10 sm:flex-row items-center justify-center w-full  mb-28">
+                <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-medium text-[30px]">
                     Community Partners
                 </div>
 
                 <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
-                    {CommunityImages.map((data, i) => (
-                        <Link key={i} href={data.link} target={"_blank"}>
-                            <div
-                                className={`flex   justify-center  min-h-[150px] p-10 ${i % 2 === 0 ? 'bg-[#F6F5F5]' : ''}`}>
-                                <Image src={data.image} alt=""width={100} height={100} className="object-contain"/>
-                            </div>
-                        </Link>
-                    ))}
+                        {CommunityImages.map((data, i) => (
+                            <Link key={i} href={data.link} target={"_blank"}>
+                                <div
+                                    className={`flex justify-center items-center min-h-[150px] p-10 ${i % 2 === 0 ? 'bg-[#F6F5F5]' : ''}`}
+                                    style={{ width: '175px', height: '175px' }} 
+                                >
+                                    <Image 
+                                        src={data.image} 
+                                        alt="" 
+                                        width={150} 
+                                        height={150} 
+                                        className="object-contain" 
+                                    />
+                                </div>
+                            </Link>
+                        ))}
                 </div>
-            </div> */}
+            </div>
 
             {/* <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-4 sm:mb-4 ">
                 <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-regular text-[30px]">
