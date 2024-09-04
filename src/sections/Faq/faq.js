@@ -43,9 +43,9 @@ export const FAQS =[
     ques: "I don't know how to code, is this event for me?",
     ans: "Every University student is welcome to learn from each other and work on something you wish to. We believe there is something for everyone.",
   },
-  // {
-  //   "ques": "Is there a Code of Conduct?",
-  //   "ans": "Absolutely! We adhere to the <a href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf' target='_blank' class='underline text-white'>Major League Hacking Code of Conduct</a> to ensure a welcoming and inclusive environment for all participants."
-  // }
+  {
+    "ques": "Is there a Code of Conduct?",
+    "ans": "Absolutely! We adhere to the <a href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf' target='_blank' class='underline text-white'>Major League Hacking Code of Conduct</a> to ensure a welcoming and inclusive environment for all participants."
+  }
   
 ];

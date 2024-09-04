@@ -33,13 +33,13 @@ const Hero = () => {
           >
             Sponsor Us
           </Link>  */}
-        <Image
+        {/* <Image
           src={"/assets/racetrack.png"}
           alt={"logo"}
           width={320}
           height={550}
           className="absolute -top-48 right-0 hidden md:block"
-        />
+        /> */}
         <Image
           src={"/assets/hero_effect.png"}
           alt={"logo"}
