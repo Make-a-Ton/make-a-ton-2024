@@ -49,7 +49,7 @@ export default function Home() {
             <Sponsor/>
             <Faq/>
             <Join/>
-            {/* <Gallery/> */}
+            <Gallery/>
             <Footer/>
         </main>
     )
