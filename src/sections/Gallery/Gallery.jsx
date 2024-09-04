@@ -109,9 +109,9 @@ const Gallery = () => {
                 className='h-full w-full'
               />
           </div>
-          <div className="w-72 h-64 bg-[#204289] border border-[#204289]"onMouseEnter={() => handleMouseEnter(8)} onMouseLeave={handleMouseLeave}>
+          <div className="w-72 h-64 bg-[#204289] border border-[#204289]"onMouseEnter={() => handleMouseEnter(9)} onMouseLeave={handleMouseLeave}>
           <Image
-                src={hoveredImageIndex === 8  ? "/assets/hero_effect.png": "/assets/Gallery/7.jpg"}
+                src={hoveredImageIndex === 9  ? "/assets/hero_effect.png": "/assets/Gallery/7.jpg"}
                 alt={"gallery"}
                 width={5184}
                 height={3456}
@@ -119,9 +119,9 @@ const Gallery = () => {
                 className='h-full w-full'
               />
           </div>
-          <div className="w-72 h-64 bg-[#204289] border border-[#204289]"onMouseEnter={() => handleMouseEnter(8)} onMouseLeave={handleMouseLeave}>
+          <div className="w-72 h-64 bg-[#204289] border border-[#204289]"onMouseEnter={() => handleMouseEnter(10)} onMouseLeave={handleMouseLeave}>
           <Image
-                src={hoveredImageIndex === 8  ? "/assets/hero_effect.png": "/assets/Gallery/8.jpg"}
+                src={hoveredImageIndex === 10  ? "/assets/hero_effect.png": "/assets/Gallery/8.jpg"}
                 alt={"gallery"}
                 width={5184}
                 height={3456}
@@ -129,9 +129,9 @@ const Gallery = () => {
                 className='h-full w-full'
               />
           </div>
-          <div className="w-72 h-64 bg-[#204289] border border-[#204289]"onMouseEnter={() => handleMouseEnter(8)} onMouseLeave={handleMouseLeave}>
+          <div className="w-72 h-64 bg-[#204289] border border-[#204289]"onMouseEnter={() => handleMouseEnter(11)} onMouseLeave={handleMouseLeave}>
           <Image
-                src={hoveredImageIndex === 8  ? "/assets/hero_effect.png": "/assets/Gallery/21.jpg"}
+                src={hoveredImageIndex === 11  ? "/assets/hero_effect.png": "/assets/Gallery/21.jpg"}
                 alt={"gallery"}
                 width={5184}
                 height={3456}
@@ -139,9 +139,9 @@ const Gallery = () => {
                 className='h-full w-full'
               />
           </div>
-          <div className="w-72 h-64 bg-[#204289] border border-[#204289]"onMouseEnter={() => handleMouseEnter(8)} onMouseLeave={handleMouseLeave}>
+          <div className="w-72 h-64 bg-[#204289] border border-[#204289]"onMouseEnter={() => handleMouseEnter(12)} onMouseLeave={handleMouseLeave}>
           <Image
-                src={hoveredImageIndex === 8  ? "/assets/hero_effect.png": "/assets/Gallery/12.jpg"}
+                src={hoveredImageIndex === 12  ? "/assets/hero_effect.png": "/assets/Gallery/12.jpg"}
                 alt={"gallery"}
                 width={5184}
                 height={3456}
@@ -149,9 +149,9 @@ const Gallery = () => {
                 className='h-full w-full'
               />
           </div>
-          <div className="w-72 h-64 bg-[#204289] border border-[#204289]"onMouseEnter={() => handleMouseEnter(8)} onMouseLeave={handleMouseLeave}>
+          <div className="w-72 h-64 bg-[#204289] border border-[#204289]"onMouseEnter={() => handleMouseEnter(13)} onMouseLeave={handleMouseLeave}>
           <Image
-                src={hoveredImageIndex === 8  ? "/assets/hero_effect.png": "/assets/Gallery/20.jpg"}
+                src={hoveredImageIndex === 13  ? "/assets/hero_effect.png": "/assets/Gallery/20.jpg"}
                 alt={"gallery"}
                 width={5184}
                 height={3456}
