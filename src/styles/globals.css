@@ -770,3 +770,37 @@ html, body {
     cursor: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzE0IiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDMxNCA1MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOTQuMDM2OCA2MS4xNDE0VjkyLjQ4NzlIMTI1LjM4NlYxMjMuODM0SDE1Ni43MzNWMTU1LjE4MUgxODguMDhWMTg2LjUzMUgyMTkuNDI2VjIxNy44NzdIMjUwLjc3NlYyNDkuMjI0SDI4Mi4xMjJWMjgwLjU3SDE4OC4wOFYzNDMuMjY2SDIxOS40MjZWNDA1Ljk1OUgyNTAuNzc2VjQ2OC42NTZIMTg4LjA4VjQwNS45NTlIMTU2LjczM1YzNDMuMjY2SDEyNS4zODZWMzExLjkySDk0LjAzNjhWMzQzLjI2Nkg2Mi42OTA0VjM3NC42MTNIMzEuMzQzOFYzMS4zNDY3SDYyLjY5MDRWNjEuMTQxNEg5NC4wMzY4WiIgZmlsbD0iIzIwNDU4QSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTMxLjM0MjggMC41NzQyMVYwSDYyLjY5NDhWMjkuNzkzOUg5NC4wMzc4VjYxLjE0MTNINjIuNjk0OFYzMS4zNDc0SDMxLjM0MjhWMzc0LjYxNUg2Mi42OTQ4VjQwNS45NjJIMFYwLjU3NDIxSDMxLjM0MjhaTTYyLjY5NDggMzc0LjYxNVYzNDMuMjY3SDk0LjAzNzhWMzc0LjYxNUg2Mi42OTQ4Wk05NC4wMzc4IDM0My4yNjdWMzExLjkySDEyNS4zOVYzNDMuMjY3SDk0LjAzNzhaTTEyNS4zOSAzNDMuMjY3SDE1Ni43MzNWNDA1Ljk2MkgxMjUuMzlWMzQzLjI2N1pNMTU2LjczMyA0MDUuOTYySDE4OC4wNzZWNDY4LjY1N0gxNTYuNzMzVjQwNS45NjJaTTE4OC4wNzYgNDY4LjY1N0gyNTAuNzc5VjUwMEgxODguMDc2VjQ2OC42NTdaTTI1MC43NzkgNDY4LjY1N1Y0MDUuOTYySDI4Mi4xMjJWNDY4LjY1N0gyNTAuNzc5Wk0yNTAuNzc5IDQwNS45NjJIMjE5LjQyN1YzNDMuMjY3SDI1MC43NzlWNDA1Ljk2MlpNMjE5LjQyNyAzNDMuMjY3SDE4OC4wNzZWMjgwLjU3MkgyODIuMTIyVjI0OS4yMjZIMzEzLjQ3NFYzMTEuOTJIMjE5LjQyN1YzNDMuMjY3Wk0yODIuMTIyIDI0OS4yMjZIMjUwLjc3OVYyMTcuODc4SDI4Mi4xMjJWMjQ5LjIyNlpNMjUwLjc3OSAyMTcuODc4SDIxOS40MjdWMTg2LjUzMUgyNTAuNzc5VjIxNy44NzhaTTIxOS40MjcgMTg2LjUzMUgxODguMDc2VjE1NS4xODRIMjE5LjQyN1YxODYuNTMxWk0xODguMDc2IDE1NS4xODRIMTU2LjczM1YxMjMuODM2SDE4OC4wNzZWMTU1LjE4NFpNMTU2LjczMyAxMjMuODM2SDEyNS4zOVY5Mi40ODg3SDE1Ni43MzNWMTIzLjgzNlpNMTI1LjM5IDkyLjQ4ODdIOTQuMDM3OFY2MS4xNDEzSDEyNS4zOVY5Mi40ODg3WiIgZmlsbD0iI0VBQUUyMCIvPgo8L3N2Zz4K') !important;
 
   }
+
+  button {
+    /* Variables */
+    --button_radius: 0.75em;
+    --button_color: #e8e8e8;
+    --button_outline_color:#505256;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: var(--button_radius);
+    background: var(--button_outline_color);
+  }
+  
+  .button_top {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid var(--button_outline_color);
+    border-radius: var(--button_radius);
+    padding: 0.75em 1.5em;
+    background: var(--button_color);
+    color: var(--button_outline_color);
+    transform: translateY(-0.2em);
+    transition: transform 0.1s ease;
+  }
+  
+  button:hover .button_top {
+    /* Pull the button upwards when hovered */
+    transform: translateY(-0.55em);
+  }
+  
+  button:active .button_top {
+    /* Push the button downwards when pressed */
+    transform: translateY(0);
+  }

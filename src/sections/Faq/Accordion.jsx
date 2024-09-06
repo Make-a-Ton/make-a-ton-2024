@@ -11,7 +11,7 @@ function AccordionItem({question, answer}) {
         <div className="border-[1px] border-white mb-3">
             <button
                 onClick={toggleAccordion}
-                className="w-full text-white ] text-left p-3  focus:outline-none flex justify-between items-center"
+                className="w-full text-white bg-[#204289] text-left p-3  focus:outline-none flex justify-between items-center"
             >
                 <span>{question}</span>
                 <svg

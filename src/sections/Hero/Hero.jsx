@@ -48,6 +48,15 @@ const Hero = () => {
           className="absolute top-0 left-0 hidden md:block"
           style={{ transform: "rotate(-180deg)" }}
         />
+        <Link href="/star-a-ton">
+        <Image
+          src={"/assets/staraton1.1.png"}
+          alt={"staraton"}
+          width={300}
+          height={200}
+          className="absolute top-1/3 right-0 hidden md:block cursor-pointer transition-transform duration-300 ease-in-out hover:scale-125"
+        />
+          </Link>
 
         {/* <div className="line"/>
           <div className="line hidden lg:block" />
@@ -145,11 +154,14 @@ const Hero = () => {
                 height={20}
               />
               <p className="mx-3 hidden font-satoshi-small lg:block">
+              <a href="" target="_blank">
                 Cochin University of Science and Technology
+              </a>
               </p>
-              <p className="mx-3 block lg:hidden">CUSAT</p>
+              <p className="mx-3 block lg:hidden"><a href="" target="_blank">CUSAT</a></p>
             </div>
           </div>
+          
           <div className={"flex justify-between -mt-40 "}>
             <Image
               className="  hidden md:block"
@@ -167,6 +179,14 @@ const Hero = () => {
               height={200}
               
             />
+            {/* <Image
+              className=" hidden z-20 md:block"
+              src={"/assets/staraton1.1.png"}
+              alt={"logo"}
+              width={300}
+              height={200}
+              
+            /> */}
           </div>
         </div>
       </>
