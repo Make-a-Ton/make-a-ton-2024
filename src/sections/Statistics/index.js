@@ -4,8 +4,8 @@ import partner from "../../../public/assets/partner.svg";
 import Image from "next/image";
 
 const stats = [
-  { name: "Registrations", count: 7000, logo: man },
   { name: "Colleges", count: 50, logo: collage },
+  { name: "Registrations", count: 7000, logo: man },
   { name: "Partners", count: 30, logo: partner },
 ];
 
