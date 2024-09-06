@@ -38,7 +38,7 @@ export default function StarredCheckForm() {
         `https://api.github.com/users/${username}/starred`,
         {
           headers: {
-            Authorization: `token ${process.env.GITHUB_TOKEN}`,
+            Authorization: `token ${process.env.PERSONAL_ACCESS_TOKEN}`,
           },
 
         }
