@@ -10,19 +10,22 @@ const stats = [
 ];
 
 const Statistics = () => {
-
   return (
-    <div className="bg-[#F6F5F5] p-4 pt-28 pb-28 md:gap-20 justify-evenly flex items-center lg:justify-center">
+    <div className="bg-[#F6F5F5] p-4 pt-8 md:gap-16 justify-evenly flex md:flex-row flex-col items-center lg:justify-center">
       {stats.map((stat, index) => (
         <div key={index} className="mb-4 text-center">
           <div className="mb-2">
-            <Image src={stat.logo} alt={stat.name} className="h-10 w-10 mx-auto" />
+            <Image
+              src={stat.logo}
+              alt={stat.name}
+              className="h-10 w-10 mx-auto"
+            />
           </div>
           <div className="flex flex-col items-center">
-            <p className="text-3xl text-[#204289] font-clash-bold font-bold">
+            <p className="md:text-[25px] text-xl text-[#204289] font-clash-bold font-bold">
               {stat.count}+
             </p>
-            <p className="text-2xl font-satoshi-medium mb-0">{stat.name}</p>
+            <p className="md:text-sm text-md font-bold mb-1">{stat.name}</p>
           </div>
         </div>
       ))}
