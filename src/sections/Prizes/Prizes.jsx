@@ -114,11 +114,11 @@ const Prizes = () => {
             <div className="flex">{PRIZES}</div>
           </div>
         </div>
-        <div className="flex md:hidden items-center">
+        {/* <div className="flex md:hidden items-center">
           <div className="w-full bg-[#EAAF20] flex items-center justify-center ">
             <div className="flex">{PRIZES2Small}</div>
           </div>
-        </div>
+        </div> */}
 
         {/* <div className="w-full flex justify-center md:hidden">
           --------------------------------------------------
