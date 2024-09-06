@@ -2,7 +2,8 @@ import { useState } from "react";
 import axios from "axios";
 import Image from "next/image";
 import { db } from "../../lib/firebaseConfig";
-import { collection, addDoc, query, where, getDocs } from "firebase/firestore";
+import { collection, addDoc, query, where } from "firebase/firestore";
+import { getDocs } from "firebase/firestore";
 
 export default function StarredCheckForm() {
   const [name, setName] = useState("");
@@ -21,10 +22,12 @@ export default function StarredCheckForm() {
 
     try {
       // Check for existing submission
+      console.log("Checking for existing submission...");
       const q = query(
         collection(db, "users"),
         where("username", "==", username)
       );
+
       const querySnapshot = await getDocs(q);
 
       if (!querySnapshot.empty) {
@@ -49,9 +52,8 @@ export default function StarredCheckForm() {
         return;
       }
 
-      setResult("All checks passed! Repository is starred.");
+      // setResult("All checks passed! Repository is starred.");
 
-      // Save data to Firebase
       try {
         await addDoc(collection(db, "users"), {
           name,
