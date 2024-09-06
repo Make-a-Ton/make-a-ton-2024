@@ -48,7 +48,7 @@ const Hero = () => {
           className="absolute top-0 left-0 hidden md:block"
           style={{ transform: "rotate(-180deg)" }}
         />
-        <Link href="/star-a-ton">
+        {/* <Link href="/star-a-ton">
         <Image
           src={"/assets/staraton1.1.png"}
           alt={"staraton"}
@@ -56,7 +56,7 @@ const Hero = () => {
           height={200}
           className="absolute top-1/3 right-0 hidden md:block cursor-pointer transition-transform duration-300 ease-in-out hover:scale-125"
         />
-          </Link>
+          </Link> */}
 
         {/* <div className="line"/>
           <div className="line hidden lg:block" />
@@ -179,41 +179,45 @@ const Hero = () => {
             </Link> */}
           </div>
 
-            <p className="mt-10 text-lg md:text-lg lg:text-2xl font-satoshi-bold">19th - 20th October, 2024</p>
-            <div className="flex flex-row mt-5 justify-center items-center">
-              <Image
-                src={"/assets/location.svg"}
-                alt={"location"}
-                width={20}
-                height={20}
-              />
-              <p className="mx-3 hidden font-satoshi-small lg:block">
+          <p className="mt-10 text-lg md:text-lg lg:text-2xl font-satoshi-bold">
+            19th - 20th October, 2024
+          </p>
+          <div className="flex flex-row mt-5 justify-center items-center">
+            <Image
+              src={"/assets/location.svg"}
+              alt={"location"}
+              width={20}
+              height={20}
+            />
+            <p className="mx-3 hidden font-satoshi-small lg:block">
               <a href="" target="_blank">
                 Cochin University of Science and Technology
               </a>
-              </p>
-              <p className="mx-3 block lg:hidden"><a href="" target="_blank">CUSAT</a></p>
-            </div>
+            </p>
+            <p className="mx-3 block lg:hidden">
+              <a href="" target="_blank">
+                CUSAT
+              </a>
+            </p>
           </div>
-          
-          <div className={"flex justify-between -mt-40 "}>
-            <Image
-              className="  hidden md:block"
-              src={"/assets/makeaton_logo.png"}
-              alt={"logo"}
-              width={200}
-              height={200}
-              
-            />
-            <Image
-              className=" hidden md:block"
-              src={"/assets/hero_effect.png"}
-              alt={"logo"}
-              width={300}
-              height={200}
-              
-            />
-            {/* <Image
+        </div>
+
+        <div className={"flex justify-between -mt-40 "}>
+          <Image
+            className="  hidden md:block"
+            src={"/assets/makeaton_logo.png"}
+            alt={"logo"}
+            width={200}
+            height={200}
+          />
+          <Image
+            className=" hidden md:block"
+            src={"/assets/hero_effect.png"}
+            alt={"logo"}
+            width={300}
+            height={200}
+          />
+          {/* <Image
               className=" hidden z-20 md:block"
               src={"/assets/staraton1.1.png"}
               alt={"logo"}
@@ -221,10 +225,10 @@ const Hero = () => {
               height={200}
               
             /> */}
-          </div>
         </div>
-      </>
-    );
-  };
+      </div>
+    </>
+  );
+};
 
 export default Hero;

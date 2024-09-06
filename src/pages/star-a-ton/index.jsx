@@ -35,7 +35,7 @@ export default function StarredCheckForm() {
         setLoading(false);
         return;
       }
-
+      setResult("All check passed for starred repo...");
       // Check for starred repositories
       const starredResponse = await axios.get(
         `https://api.github.com/users/${username}/starred`,
@@ -81,15 +81,15 @@ export default function StarredCheckForm() {
         <div className="flex flex-col w-full md:w-1/2 h-screen bg-[#204289] p-8 space-y-6 justify-center text-white">
           <div className="flex  items-center justify-center">
             <div className="flex flex-col sm:flex-row  p-6 sm:p-8 rounded-lg">
-              <div className="flex justify-center sm:justify-start">
+              {/* <div className="flex justify-center sm:justify-start">
                 <Image
                   src={"/assets/staraton1.1.png"}
                   alt={"staraton"}
-                  width={400}
+                  width={300}
                   height={400}
                   className=""
                 />
-              </div>
+              </div> */}
 
               <div className="flex flex-col items-center justify-center sm:ml-8 mt-6 sm:mt-0">
                 <div className="flex flex-col items-center gap-8">
@@ -103,9 +103,7 @@ export default function StarredCheckForm() {
                         )
                       }
                     >
-                      <span class="button_top">
-                        Star&nbsp; A&nbsp; Ton&nbsp; Repo
-                      </span>
+                      <span class="button_top">Star&nbsp; the&nbsp; Repo</span>
                     </button>
                   </div>
                   <div className="flex justify-end w-full z-10 md: -mt-16 ">
@@ -156,28 +154,28 @@ export default function StarredCheckForm() {
                     </span>
                     <span className="text-sm md:text-base">Star the</span>
                     <span className="text-yellow-500 font-clash-semi text-sm md:text-base">
-                      Star-A-Ton
+                      <a href="https://github.com/conductor-oss/conductor">
+                        Repo Here
+                      </a>
                     </span>
-                    <span className="text-sm md:text-base">Repo</span>
                   </li>
                   <li className="flex flex-wrap items-center gap-2">
                     <span className="text-yellow-500 font-clash-semi text-base md:text-xl">
                       2.
                     </span>
-                    <span className="text-sm md:text-base">
-                      Fill out the form
-                    </span>
+                    <span className="text-sm md:text-base">Fill the form</span>
                   </li>
                   <li className="flex flex-wrap items-center gap-2">
                     <span className="text-yellow-500 font-clash-semi text-base md:text-xl">
                       3.
                     </span>
                     <span className="text-sm md:text-base">
-                      Submit and get a chance
+                      Get a chance to win{" "}
+                      <span className="text-yellow-500">JBL</span> speakers and{" "}
                     </span>
                     <div className="ml-6 md:ml-7 lg:ml-7">
                       <span className="text-sm md:text-base">
-                        to win speakers and other goodies!
+                        other Make-A-Ton goodies!
                       </span>
                     </div>
                   </li>
