@@ -78,7 +78,7 @@ export default function StarredCheckForm() {
   return (
     <>
       <div className="flex flex-col md:flex-row">
-        <div className="flex flex-col w-full md:w-1/2 h-screen bg-[#204289] p-8 space-y-6 justify-center text-white">
+        <div className="flex flex-col w-full md:w-1/2 h-auto bg-[#204289] p-8 space-y-6 justify-center text-white">
           <div className="flex  items-center justify-center">
             <div className="flex flex-col sm:flex-row  p-6 sm:p-8 rounded-lg">
               {/* <div className="flex justify-center sm:justify-start">
@@ -165,19 +165,19 @@ export default function StarredCheckForm() {
                     </span>
                     <span className="text-sm md:text-base">Fill the form</span>
                   </li>
-                  <li className="flex flex-wrap items-center gap-2">
+                  <li className="flex flex-wrap items-start gap-2">
                     <span className="text-yellow-500 font-clash-semi text-base md:text-xl">
                       3.
                     </span>
-                    <span className="text-sm md:text-base">
+                    <span className="text-sm md:text-base w-48 md:w-2/3 ">
                       Get a chance to win{" "}
-                      <span className="text-yellow-500">JBL</span> speakers and{" "}
-                    </span>
-                    <div className="ml-6 md:ml-7 lg:ml-7">
-                      <span className="text-sm md:text-base">
-                        other Make-A-Ton goodies!
+                      <span className="text-yellow-500">JBL</span> speakers{" "}
+                      <span className="  text-sm md:text-base">
+                        and other Make-A-Ton goodies!
                       </span>
-                    </div>
+                    </span>
+
+                    <div className=""></div>
                   </li>
                 </ol>
               </div>
@@ -185,7 +185,23 @@ export default function StarredCheckForm() {
           </div>
         </div>
 
-        <div className="w-full md:w-1/2 h-full bg-white">
+        <div className="w-full md:w-1/2 h-auto bg-white">
+          <div className="md:hidden absolute ">
+            <Image
+              src="/assets/yellowthread.png"
+              alt=""
+              width={50}
+              height={50}
+              className="absolute ml-64 mt-0"
+            />
+            <Image
+              src="/assets/arrowthread.png"
+              alt=""
+              width={50}
+              height={50}
+              className="-mt-8 ml-24"
+            />
+          </div>
           <div className="flex items-center justify-center min-h-screen bg-[#204289] px-4">
             <Image
               src={"/assets/racetrack.png"}
@@ -216,6 +232,7 @@ export default function StarredCheckForm() {
               width={150}
               height={100}
             />
+
             <div className="bg-white shadow-md rounded-lg p-6 sm:p-8 w-full max-w-xs sm:max-w-md relative">
               <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
                 <div>
