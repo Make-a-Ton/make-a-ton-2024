@@ -302,6 +302,7 @@ export default function StarredCheckForm() {
                       <a
                         href="https://github.com/conductor-oss/conductor"
                         className="underline"
+                        target="_blank"
                       >
                         conductor
                       </a>{" "}
