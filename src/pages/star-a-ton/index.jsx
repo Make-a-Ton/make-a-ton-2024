@@ -18,7 +18,7 @@ export default function StarredCheckForm() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("name", name);
+    // console.log("name", name);
     setLoading(true);
     setResult(null);
 
