@@ -2,18 +2,29 @@ import Image from "next/image";
 const StarATon = () => {
   return (
     <div
-      className="relative w-screen h-max bg-[#204289] py-12  flex flex-col md:flex-row gap-10 justify-around items-center overflow-hidden"
+      className="relative w-screen h-max bg-[#204289] md:py-40  flex flex-col md:flex-row gap-10 justify-around items-center overflow-hidden"
       style={{ backgroundImage: "url(/assets/grid.png)" }}
     >
-      <div className="md:ml-5">
-        <Image
-          src="/assets/staraton1.1.png"
-          alt=""
-          width={300}
-          height={300}
-          style={{ color: "yellow" }}
-        />
-      </div>
+  <div className="relative md:ml-5" style={{ width: 300, height: 300 }}>
+  <Image
+    src="/assets/staraton.png"
+    alt=""
+    width={300}
+    height={300}
+    style={{ position: 'relative', zIndex: 10 }} // Ensure this is on top
+  />
+  <div className="absolute top-0 left-0 w-full h-full">
+    <Image
+      src="/assets/GodRays.png"
+      alt=""
+      width={600}
+      height={600}
+     
+    />
+  </div>
+</div>
+
+
       <div className="absolute md:-bottom-2 md:right-1/3 left-6 md:left-16 bottom-[38%]">
         <Image src="/assets/search.png" alt="" width={50} height={50} />
       </div>
@@ -101,6 +112,43 @@ const StarATon = () => {
           right: -40px;
         }
       `}</style> */}
+    {/* <style jsx>{`
+  @keyframes slow-pause-spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(90deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    75% {
+      transform: rotate(270deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .animate-godrays-spin {
+    animation: slow-pause-spin 600s steps(4) infinite;
+  }
+`}</style> */}
+<style jsx>{`
+  @keyframes slow-pause-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .animate-godrays-spin {
+    animation: slow-pause-spin 600s linear infinite;
+  }
+`}</style>
     </div>
   );
 };

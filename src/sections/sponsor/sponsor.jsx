@@ -30,9 +30,9 @@ const OpenSourceImages = [
     {image: "/assets/devchat.svg", link: "https://github.com/devchat-ai/devchat"}
 ]
 
-const GoldImages = [
-    {image: "/assets/cusat_tech.png", link: "https://cusatech.cusat.ac.in/index.php/Web/about"},
-    {image: "/assets/GitHub_Logo.png", link: "https://github.com"},
+const PlatinumImages = [
+    {image: "/assets/orkes.png", link: "https://www.orkes.io/"},
+    // {image: "/assets/GitHub_Logo.png", link: "https://github.com"},
 ]
 const HardwareImages = [
     {image: "/assets/makergram.png", link: "https://makergram.com"},
@@ -146,22 +146,22 @@ const sponsor = () => {
                 </div>
             </div>
 
-            {/* <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-14 sm:mb-0 ">
-                <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-regular text-[30px]">
-                    Platinum Sponsors
+            <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-4 sm:mb-20 ">
+                <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-medium text-[30px]">
+                    Platinum Sponsor
                 </div>
 
                 <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
-                    {GoldImages.map((data, i) => (
+                    {PlatinumImages.map((data, i) => (
                         <Link key={i} href={data.link} target={"_blank"} className='items-center'>
                             <div
-                                className={`flex justify-center min-h-[200px] p-10 ${i % 2 === 0 ? 'bg-[#F6F5F5]' : ''}`}>
+                                className={`flex justify-center min-h-[175px] p-10 md:ml-7 sm:mt-24 ${i % 2 === 0 ? 'bg-[#F6F5F5]' : ''}`}>
                                 <Image src={data.image} alt =""width={100} height={100} className="object-contain"/>
                             </div>
                         </Link>
                     ))}
                 </div>
-            </div> */}
+            </div>
 
 
             {/* <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-14 sm:mb-0 ">
