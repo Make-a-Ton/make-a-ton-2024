@@ -11,6 +11,7 @@ import Sponsor from "@/sections/sponsor/sponsor";
 import MlhPrizes from "@/sections/MlhPrizes/MlhPrizes";
 import Gallery from "@/sections/Gallery/Gallery";
 import StarATon from "@/sections/StarATon/StarATon";
+import Photogallery from "@/sections/Photogallery/Photogallery";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -51,6 +52,7 @@ export default function Home() {
       <Faq />
       <Join />
       {/* <Gallery /> */}
+      {/* <Photogallery /> */}
       <Footer />
     </main>
   );
