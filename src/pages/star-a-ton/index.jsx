@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Image from "next/image";
 import { db } from "../../lib/firebaseConfig";
@@ -14,7 +14,19 @@ export default function StarredCheckForm() {
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
 
+  // const getUsersData = async () => {
+  //   const usersRef = collection(db, "users");
+  //   const querySnapshot = await getDocs(usersRef);
 
+  //   console.log(
+  //     "Data:",
+  //     querySnapshot.docs.map((doc) => doc.data())
+  //   );
+  // };
+
+  // useEffect(() => {
+  //   getUsersData();
+  // }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -24,6 +36,7 @@ export default function StarredCheckForm() {
 
     try {
       // Check for existing submission
+
       console.log("Checking for existing submission...");
       const q = query(
         collection(db, "users"),
@@ -31,6 +44,7 @@ export default function StarredCheckForm() {
       );
 
       const querySnapshot = await getDocs(q);
+      console.log(querySnapshot);
 
       if (!querySnapshot.empty) {
         setResult("You have already submitted the form.");
