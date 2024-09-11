@@ -5,25 +5,18 @@ const StarATon = () => {
       className="relative w-screen h-max bg-[#204289] md:py-40  flex flex-col md:flex-row gap-10 justify-around items-center overflow-hidden"
       style={{ backgroundImage: "url(/assets/grid.png)" }}
     >
-  <div className="relative md:ml-5" style={{ width: 300, height: 300 }}>
-  <Image
-    src="/assets/staraton.png"
-    alt=""
-    width={300}
-    height={300}
-    style={{ position: 'relative', zIndex: 10 }} // Ensure this is on top
-  />
-  <div className="absolute top-0 left-0 w-full h-full">
-    <Image
-      src="/assets/GodRays.png"
-      alt=""
-      width={600}
-      height={600}
-     
-    />
-  </div>
-</div>
-
+      <div className="relative md:ml-5" style={{ width: 300, height: 300 }}>
+        <Image
+          src="/assets/staraton.png"
+          alt=""
+          width={300}
+          height={300}
+          style={{ position: "relative", zIndex: 10 }} // Ensure this is on top
+        />
+        <div className="absolute top-0 left-0 w-full h-full">
+          <Image src="/assets/GodRays.png" alt="" width={600} height={600} />
+        </div>
+      </div>
 
       <div className="absolute md:-bottom-2 md:right-1/3 left-6 md:left-16 bottom-[38%]">
         <Image src="/assets/search.png" alt="" width={50} height={50} />
@@ -41,7 +34,7 @@ const StarATon = () => {
           </button>
         </div>
         <div className="hidden md:flex  z-10 md:-mt-20 -mr-36 mt">
-          <svg
+          {/* <svg
             width="50"
             height="50"
             viewBox="0 0 241 274"
@@ -78,7 +71,7 @@ const StarATon = () => {
               d="M57.4818 111.708L196.803 23.4286L240.787 53.9804L57.4818 111.708Z"
               fill="#EAAF20"
             />
-          </svg>
+          </svg> */}
         </div>
       </div>
       <div className="flex items-center md:ml-10 md:mb-2 mb-7">
@@ -112,7 +105,7 @@ const StarATon = () => {
           right: -40px;
         }
       `}</style> */}
-    {/* <style jsx>{`
+      {/* <style jsx>{`
   @keyframes slow-pause-spin {
     0% {
       transform: rotate(0deg);
@@ -135,20 +128,20 @@ const StarATon = () => {
     animation: slow-pause-spin 600s steps(4) infinite;
   }
 `}</style> */}
-<style jsx>{`
-  @keyframes slow-pause-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
+      <style jsx>{`
+        @keyframes slow-pause-spin {
+          from {
+            transform: rotate(0deg);
+          }
+          to {
+            transform: rotate(360deg);
+          }
+        }
 
-  .animate-godrays-spin {
-    animation: slow-pause-spin 600s linear infinite;
-  }
-`}</style>
+        .animate-godrays-spin {
+          animation: slow-pause-spin 600s linear infinite;
+        }
+      `}</style>
     </div>
   );
 };

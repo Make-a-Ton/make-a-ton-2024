@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Countdown from "./Countdown";
 
 const Hero = () => {
   return (
@@ -240,6 +241,7 @@ const Hero = () => {
             /> */}
         </div>
       </div>
+      <Countdown />
     </>
   );
 };
