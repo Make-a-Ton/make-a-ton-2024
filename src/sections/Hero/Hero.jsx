@@ -195,8 +195,21 @@ const Hero = () => {
               </a>
             </p>
             <p className="mx-3 block lg:hidden">
-              <a href="" target="_blank">
+              <a
+                href="https://maps.app.goo.gl/ZAgJQ8bnqE7X7x6J8"
+                target="_blank"
+              >
                 CUSAT
+              </a>
+            </p>
+          </div>
+          <div className="py-3">
+            <p className="mx-3  font-satoshi-small text-gray-300 hover:text-gray-50">
+              <a
+                href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
+                target="_blank"
+              >
+                MLH Code of Conduct
               </a>
             </p>
           </div>
