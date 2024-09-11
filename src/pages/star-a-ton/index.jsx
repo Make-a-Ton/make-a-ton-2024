@@ -123,7 +123,7 @@ export default function StarredCheckForm() {
                     </button>
                   </div>
                   <div className="flex justify-end w-full z-10 md: -mt-16 ">
-                    <svg
+                    {/* <svg
                       width="50"
                       height="50"
                       viewBox="0 0 241 274"
@@ -160,7 +160,7 @@ export default function StarredCheckForm() {
                         d="M57.4818 111.708L196.803 23.4286L240.787 53.9804L57.4818 111.708Z"
                         fill="#EAAF20"
                       />
-                    </svg>
+                    </svg> */}
                   </div>
                 </div>
                 <ol className="list-none space-y-4 ml-7 mt-8 text-xl md:text-3xl font-clash-semi text-white tracking-wider">
