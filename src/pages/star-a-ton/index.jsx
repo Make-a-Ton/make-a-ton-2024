@@ -10,6 +10,7 @@ export default function StarredCheckForm() {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [username, setUsername] = useState("");
+  const [couponCode, setCouponCode] = useState("");
   const [hasStarredRepo, setHasStarredRepo] = useState(false);
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -76,6 +77,7 @@ export default function StarredCheckForm() {
           email,
           phone,
           username,
+          couponCode,
           timestamp: new Date(),
         });
         setResult("Data saved successfully!");
@@ -299,6 +301,19 @@ export default function StarredCheckForm() {
                     placeholder="Enter your GitHub Username"
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
+                    required
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#204289]"
+                  />
+                </div>
+                <div>
+                  <label className="block text-gray-700 font-satoshi-bold mb-2">
+                    Coupon Code{`(if any)`}
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="Enter your Coupon code if any"
+                    value={couponCode}
+                    onChange={(e) => setCouponCode(e.target.value)}
                     required
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#204289]"
                   />
