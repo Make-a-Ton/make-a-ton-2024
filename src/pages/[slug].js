@@ -6,6 +6,9 @@ const SocialRedirect = () => {
   const { slug } = router.query;
 
   useEffect(() => {
+    console.log("Router is ready:", router.isReady);
+    console.log("Slug value:", slug);
+
     if (router.isReady && typeof window !== "undefined" && slug) {
       const socialLinks = {
         wa: "https://whatsapp.com/channel/0029ValGCQM60eBjNF5wS10C",
@@ -19,9 +22,12 @@ const SocialRedirect = () => {
       };
 
       const url = socialLinks[slug];
+      console.log("Redirecting to URL:", url);
+
       if (url) {
         window.location.href = url;
       } else {
+        console.log("Unknown slug, redirecting to home.");
         router.push("/");
       }
     }
