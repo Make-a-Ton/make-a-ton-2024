@@ -1,24 +1,12 @@
 import React from "react";
-import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 
 export default function ConductorTrack() {
   return (
     <>
-      <Head>
-        <title>Conductor Track</title>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Satoshi-Medium&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
       <div className="min-h-screen bg-[#204289] p-4 md:p-8 relative">
-        <h1 className="font-['Press_Start_2P'] text-3xl md:text-4xl text-[#EAAE20] mb-8 text-center relative z-10">
+        <h1 className="text-3xl md:text-4xl text-[#EAAE20] mb-8 text-center relative z-10 font-clash-bold">
           Conductor Track
         </h1>
 
@@ -43,23 +31,23 @@ export default function ConductorTrack() {
           <div className="flex flex-col text-left md:w-1/3 md:mr-8 md:-mt-16 w-full">
             {/* Conductor Track Text */}
             <div className="mb-6 text-center md:text-left">
-              <p className="font-['Press_Start_2P'] text-lg md:text-[15px] text-white mb-2 w-full md:w-[560px]">
+              <p className="font-clash-bold text-lg md:text-3xl text-white mb-2 w-full md:w-[560px]">
                 What is the Conductor Track?
               </p>
-              <p className="font-['Satoshi-Medium'] text-base text-white text-[13px]">
+              <p className="font-satoshi-regular text-base text-white text-[13px]">
                 The Conductor Track is a special track sponsored by Orkes for
                 Make-A-Ton. This track offers exclusive prizes and provides
-                dedicated support and mentorship. To participate, it's mandatory
+                dedicated support and mentorship. To participate, its mandatory
                 to register through Star-A-Ton and star the Orkes Conductor
                 GitHub repository.
               </p>
             </div>
             {/* Orkes Conductor Text */}
             <div className="mb-4 md:ml-12 w-full md:w-[480px] text-center md:text-left">
-              <p className="font-['Press_Start_2P'] text-lg md:text-[15px] text-white mb-2">
+              <p className="font-clash-bold text-lg md:text-3xl text-white mb-2">
                 What is Orkes Conductor?
               </p>
-              <p className="font-['Satoshi-Medium'] text-base text-[13px] text-white md:px-12">
+              <p className="font-satoshi-regular text-base text-[13px] text-white md:px-12">
                 Orkes Conductor is a tool that helps you organize and automate
                 tasks in a sequence. Think of it as an automatic to-do list that
                 ensures everything happens in the right order.
@@ -86,14 +74,14 @@ export default function ConductorTrack() {
           {/* Right Side: Exclusive Prizes and Register */}
           <div className="flex flex-col md:w-[618px] md:ml-4 text-center md:-mt-16 mb-8 md:mb-0">
             <div className="mb-12">
-              <h2 className="font-['Press_Start_2P'] text-xl md:text-[23px] text-white">
+              <h2 className="font-clash-bold text-xl md:text-3xl text-white">
                 Exclusive Prizes
               </h2>
-              <h2 className="font-['Press_Start_2P'] text-xl md:text-[23px] text-white">
+              <h2 className="font-clash-bold text-xl md:text-3xl text-white">
                 and Swags
               </h2>
             </div>
-            <div className="pl-8 inline-flex items-center space-x-2">
+            <div className="md:pl-8 inline-flex justify-center items-center space-x-2">
               <Image
                 src="/assets/hammer.png"
                 alt="hammer"
@@ -102,11 +90,11 @@ export default function ConductorTrack() {
                 objectFit="cover"
                 quality={100}
               />
-              <span className="font-['Press_Start_2P'] text-sm md:text-base text-white">
+              <span className="font-clash-bold text-md md:text-3xl text-white">
                 Register{" "}
               </span>
               <Link href="/star-a-ton" passHref>
-                <span className="font-['Press_Start_2P'] text-[#EAAE20] underline cursor-pointer inline-flex items-center">
+                <span className="font-clash-bold text-md md:text-3xl text-[#EAAE20] underline cursor-pointer inline-flex items-center">
                   Here
                 </span>
               </Link>
