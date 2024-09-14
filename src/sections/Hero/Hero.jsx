@@ -91,12 +91,12 @@ const Hero = () => {
           <h1 className="block font-clash-bold text-4xl md:text-6xl leading-10 pt-10">
             Make-A-Ton<sup className="font-satoshi-regular">7.0</sup>
           </h1>
-          <div className="lg:flex gap-4 mb-5">
+          <div className="lg:flex justify-center gap-4 mb-5  w-2/5 md:w-2/5">
             <span className="">powered by </span>
             <Link href={"https://eduport.app/"} target={"_blank"}>
               <svg
-                width="248"
-                height="68"
+                width="100%"
+                height="100%"
                 viewBox="0 0 248 68"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -152,14 +152,14 @@ const Hero = () => {
               </svg>
             </Link>
           </div>
-          <p className="text-center my-5 lg:mt-2 px-2 text-base font-satoshi-small lg:text-lg">
+          <p className="text-center my-5 lg:mt-2 px-2 text-xs font-satoshi-small lg:text-lg">
             A 24 HOUR HACKATHON TO EMBRACE THE SPIRIT OF INNOVATION
           </p>
           <div className="flex justify-center items-center">
             <Link
               href="https://lu.ma/j58nctcm"
               target="_blank"
-              className="rotate-custom -mt-0 mx-2 font-clash-semi rounded-[15px] px-8 py-3 text-[#204289] border-[#EAAF20] border-8 bg-white md:text-gray-700 md:border-gray-500 transition-transform duration-300 hover:bg-white hover:text-[#204289] hover:border-[#EAAF20] custom-cursor"
+              className="rotate-custom mt-2 mx-2 font-clash-semi rounded-[10px] px-6 py-2 text-[#204289] border-[#EAAF20] border-4 bg-white text-sm md:text-base md:border-gray-500 transition-transform duration-300 hover:bg-white hover:text-[#204289] hover:border-[#EAAF20] custom-cursor"
             >
               Register
             </Link>
