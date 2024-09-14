@@ -74,6 +74,17 @@ const StarATon = () => {
           </svg> */}
         </div>
       </div>
+      <div className="flex flex-col items-center gap-8">
+        <div>
+          <button
+            className="font-clash-semi rounded-[15px]"
+            onClick={() => window.open("/conductor-track")}
+          >
+            <span class="button_top">Conductor Track</span>
+          </button>
+        </div>
+        <div className="hidden md:flex  z-10 md:-mt-20 -mr-36 mt"></div>
+      </div>
       <div className="flex items-center md:ml-10 md:mb-2 mb-7">
         <div className="text-white text-3xl font-clash-semi text-center md:text-right md:mt-4 md:mb-2 mb-5">
           <h1 className="text-[#EAAF20]">Star A Repo</h1>
