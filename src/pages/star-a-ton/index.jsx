@@ -15,19 +15,19 @@ export default function StarredCheckForm() {
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  // const getUsersData = async () => {
-  //   const usersRef = collection(db, "users");
-  //   const querySnapshot = await getDocs(usersRef);
+  const getUsersData = async () => {
+    const usersRef = collection(db, "users");
+    const querySnapshot = await getDocs(usersRef);
 
-  //   console.log(
-  //     "Data:",
-  //     querySnapshot.docs.map((doc) => doc.data())
-  //   );
-  // };
+    // console.log(
+    //   "Data:",
+    //   querySnapshot.docs.map((doc) => doc.data())
+    // );
+  };
 
-  // useEffect(() => {
-  //   getUsersData();
-  // }, []);
+  useEffect(() => {
+    getUsersData();
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -45,7 +45,7 @@ export default function StarredCheckForm() {
       );
 
       const querySnapshot = await getDocs(q);
-      console.log(querySnapshot);
+      // console.log(querySnapshot);
 
       if (!querySnapshot.empty) {
         setResult("You have already submitted the form.");
@@ -314,7 +314,6 @@ export default function StarredCheckForm() {
                     placeholder="Enter your Coupon code if any"
                     value={couponCode}
                     onChange={(e) => setCouponCode(e.target.value)}
-                    required
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#204289]"
                   />
                 </div>
