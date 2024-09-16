@@ -26,6 +26,10 @@ const CommunityImages = [
     image: "/assets/gdg-cloud-kochi.webp",
     link: "https://gdg.community.dev/gdg-cloud-kochi/",
   },
+  {
+    image: "/assets/partners/ieeecusatsb.jpg",
+    link: "https://ieeecusatsb.in/",
+  },
   // {image: "/assets/gdsc cusat.png", link: "https://gdsc.community.dev/school-of-engineering-cusat-kochi/"},
 ];
 
