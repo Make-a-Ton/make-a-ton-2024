@@ -16,19 +16,19 @@ export default function StarredCheckForm() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const getUsersData = async () => {
-    const usersRef = collection(db, "users");
-    // const querySnapshot = await getDocs(usersRef);
+  // const getUsersData = async () => {
+  //   const usersRef = collection(db, "users");
+  //   const querySnapshot = await getDocs(usersRef);
 
-    // console.log(
-    //   "Data:",
-    //   querySnapshot.docs.map((doc) => doc.data())
-    // );
-  };
+  //   console.log(
+  //     "Data:",
+  //     querySnapshot.docs.map((doc) => doc.data())
+  //   );
+  // };
 
-  useEffect(() => {
-    getUsersData();
-  }, []);
+  // useEffect(() => {
+  //   getUsersData();
+  // }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -287,7 +287,8 @@ export default function StarredCheckForm() {
                 </div>
                 <div>
                   <label className="block text-gray-700 font-satoshi-bold mb-2">
-                    Coupon Code{`(if any)`}
+                    Coupon Code
+                    {`(For those who knew this through campus ambassadors)`}
                   </label>
                   <input
                     type="text"
