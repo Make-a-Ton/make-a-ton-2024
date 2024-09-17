@@ -14,10 +14,11 @@ export default function StarredCheckForm() {
   const [hasStarredRepo, setHasStarredRepo] = useState(false);
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
   const getUsersData = async () => {
     const usersRef = collection(db, "users");
-    const querySnapshot = await getDocs(usersRef);
+    // const querySnapshot = await getDocs(usersRef);
 
     // console.log(
     //   "Data:",
@@ -31,9 +32,16 @@ export default function StarredCheckForm() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // console.log("name", name);
     setLoading(true);
     setResult(null);
+    setError("");
+
+    // Check if the username contains "github.com/"
+    if (username.includes("github.com/")) {
+      setError("Please enter your GitHub username, not the profile link.");
+      setLoading(false);
+      return;
+    }
 
     try {
       // Check for existing submission
@@ -121,7 +129,9 @@ export default function StarredCheckForm() {
                         )
                       }
                     >
-                      <span class="button_top">Star&nbsp; the&nbsp; Repo</span>
+                      <span className="button_top">
+                        Star&nbsp; the&nbsp; Repo
+                      </span>
                     </button>
                   </div>
                   <div className="flex justify-end w-full z-10 md: -mt-16 "></div>
@@ -235,6 +245,9 @@ export default function StarredCheckForm() {
                     required
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#204289]"
                   />
+                  {error && (
+                    <p className="text-red-500 text-sm mt-1">{error}</p>
+                  )}
                 </div>
                 <div>
                   <label className="block text-gray-700 font-satoshi-bold mb-2">
@@ -269,7 +282,6 @@ export default function StarredCheckForm() {
                     placeholder="Enter your Phone Number"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
-                    required
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#204289]"
                   />
                 </div>
