@@ -19,7 +19,7 @@ const SilverImages = [
 const CommunityImages = [
   { image: "/assets/tinkerhub.png", link: "https://tinkerhub.org/" },
   {
-    image: "/assets/GDG Cochin.png",
+    image: "/assets/GDG-Cochin.png",
     link: "https://gdg.community.dev/gdg-cochin/",
   },
   {
