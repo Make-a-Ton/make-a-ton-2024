@@ -25,14 +25,20 @@ function Number({ count, label }) {
   }, [count]);
 
   return (
-    <div className="text-center">
+    <div className="text-center ">
+      <p className="text-black capitalize font-satoshi-regular pb-2">{label}</p>
+
       {[tens, ones].map((num, index) => (
-        <div className="digit mr-2" data-num={num} key={index}>
+        <div
+          className="digit mr-2 shadow-sm shadow-gray-400"
+          data-num={num}
+          key={index}
+        >
           <span className="base">
             {index === 0 ? Math.floor(next / 10) : next % 10}
           </span>
           <div
-            className={`flap over front ${index === change && flip}`}
+            className={`flap over front ${index === change && flip} `}
             data-content={num}
           ></div>
           <div
@@ -45,7 +51,6 @@ function Number({ count, label }) {
           ></div>
         </div>
       ))}
-      <p className="text-black capitalize font-clash-bold">{label}</p>
     </div>
   );
 }
@@ -78,15 +83,17 @@ export default function Countdown() {
   }, []);
 
   return (
-    <div className="flex flex-col md:flex-row items-center w-full">
-      <div className="font-clash-bold h-full flex  items-center  md:py-2 py-4 text-center md:text-left first-letter text-3xl px-4">
-        Registration ends on 20th September
-      </div>
-      <div className="clock w-full my-5">
+    <div className="flex flex-col-reverse md:flex-row items-center w-full bg-customBlue items-center">
+      <div className="clock md:w-1/2 w-full  bg-white px-5 py-8 gap-2">
         <Number count={date.day} label={"days"} />
         <Number count={date.hour} label={"hours"} />
         <Number count={date.minute} label={"minutes"} />
         <Number count={date.second} label={"seconds"} />
+      </div>
+      <div className="md:w-1/2 md:z-10  font-clash-bold h-full flex justify-center  items-center  md:py-2 py-4 text-center  first-letter text-3xl px-4">
+        <p className="text-white text-center">
+          Registration ends on 20th September
+        </p>
       </div>
     </div>
   );

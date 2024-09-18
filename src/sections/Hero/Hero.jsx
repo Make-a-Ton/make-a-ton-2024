@@ -5,7 +5,7 @@ import Countdown from "./Countdown";
 const Hero = () => {
   return (
     <>
-      <div className="star-container bg-[#204289] pt-20 md:pt-5  relative h-screen">
+      <div className="star-container bg-[#204289] pt-20 md:pt-0  relative h-screen">
         <div className="line" />
         <div className="line hidden lg:block" />
         <div className="line hidden lg:block" />
@@ -49,38 +49,8 @@ const Hero = () => {
           className="absolute top-0 left-0 hidden md:block"
           style={{ transform: "rotate(-180deg)" }}
         />
-        {/* <Link href="/star-a-ton">
-        <Image
-          src={"/assets/staraton1.1.png"}
-          alt={"staraton"}
-          width={300}
-          height={200}
-          className="absolute top-1/3 right-0 hidden md:block cursor-pointer transition-transform duration-300 ease-in-out hover:scale-125"
-        />
-          </Link> */}
 
-        {/* <div className="line"/>
-          <div className="line hidden lg:block" />
-          <div className="line hidden lg:block" />
-          <div className="line" />
-          <div className="line" />
-
-          <div className="line rotated" />
-          <div className="line rotated" />
-          <div className="line rotated" />
-          <div className="line rotated" />
-          <div className="line rotated" />
-        {/* <div className="flex justify-center items-center">
-          <Image
-              src={"/assets/logo.png"}
-              alt={"logo"}
-              width={200}
-              height={200}
-              
-            />
-          </div> */}
-
-        <div className="flex flex-col text-white font-satoshi-regular items-center justify-center -mt-2 md:mt-32 mb-20 md:mb-0">
+        <div className="flex flex-col text-white font-satoshi-regular items-center justify-center -mt-2 md:mt-16 mb-20 md:mb-0">
           <Image
             src={"/assets/logo.png"}
             alt={"logo"}
@@ -216,22 +186,22 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className={"flex justify-between -mt-40 "}>
-          <Image
-            className="  hidden md:block"
-            src={"/assets/makeaton_logo.png"}
-            alt={"logo"}
-            width={200}
-            height={200}
-          />
-          <Image
-            className=" hidden md:block"
-            src={"/assets/hero_effect.png"}
-            alt={"logo"}
-            width={300}
-            height={200}
-          />
-          {/* <Image
+        <Image
+          className="absolute bottom-0 left-0  hidden md:block"
+          src={"/assets/makeaton_logo.png"}
+          alt={"logo"}
+          width={200}
+          height={200}
+        />
+        <Image
+          className=" hidden md:block absolute bottom-0 right-0"
+          src={"/assets/hero_effect.png"}
+          alt={"logo"}
+          width={300}
+          height={200}
+        />
+        {/* <div className={"flex justify-between "}> */}
+        {/* <Image
               className=" hidden z-20 md:block"
               src={"/assets/staraton1.1.png"}
               alt={"logo"}
@@ -239,9 +209,8 @@ const Hero = () => {
               height={200}
               
             /> */}
-        </div>
+        {/* </div> */}
       </div>
-      <Countdown />
     </>
   );
 };

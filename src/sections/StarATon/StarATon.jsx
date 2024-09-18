@@ -30,7 +30,7 @@ const StarATon = () => {
             className="font-clash-semi rounded-[15px]"
             onClick={() => window.open("/star-a-ton")}
           >
-            <span class="button_top">Star&nbsp;Now!</span>
+            <span className="button_top">Star&nbsp;Now!</span>
           </button>
         </div>
         <div className="hidden md:flex  z-10 md:-mt-20 -mr-36 mt">
@@ -80,7 +80,7 @@ const StarATon = () => {
             className="font-clash-semi rounded-[15px]"
             onClick={() => window.open("/conductor-track")}
           >
-            <span class="button_top">Conductor Track</span>
+            <span className="button_top">Conductor Track</span>
           </button>
         </div>
         <div className="hidden md:flex  z-10 md:-mt-20 -mr-36 mt"></div>
