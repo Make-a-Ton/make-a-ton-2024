@@ -14,6 +14,7 @@ module.exports = {
       "satoshi-italic": ["Satoshi-Italic", "sans-serif"],
       "satoshi-medium": ["Satoshi-Medium", "sans-serif"],
       "satoshi-bold": ["Satoshi-Bold", "sans-serif"],
+      "press-start": ["PressStart2P-Regular", "sans-serif"],
     },
     extend: {
       colors: {

@@ -86,6 +86,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "PressStart2P-Regular";
+  src: url("../fonts/pressStart/PressStart2P.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
 .rotate-custom {
   transform: rotate(-8.81deg);
 }
