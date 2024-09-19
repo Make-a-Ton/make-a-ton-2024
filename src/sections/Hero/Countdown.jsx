@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const endDate = new Date("2024-09-20T11:00:00");
+const endDate = new Date("2024-09-20T23:59:00");
 
 function Number({ count, label }) {
   const [flip, setFlip] = useState("block");
@@ -83,7 +83,7 @@ export default function Countdown() {
   }, []);
 
   return (
-    <div className="flex flex-col-reverse md:flex-row items-center w-full bg-customBlue items-center">
+    <div className="flex flex-col-reverse md:flex-row  w-full bg-customBlue items-center">
       <div className="clock md:w-1/2 w-full  bg-white px-5 py-8 gap-2">
         <Number count={date.day} label={"days"} />
         <Number count={date.hour} label={"hours"} />
