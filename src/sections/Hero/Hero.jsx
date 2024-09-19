@@ -23,14 +23,14 @@ const Hero = () => {
         {/* <Link
             href="https://2023.makeaton.in"
             target={"_blank"}
-                className="absolute top-5 right-5 md:top-10 md:right-32 font-satoshi-bold rounded-[15px] px-5 py-3 border-2 border-gray-500 text-white"
+                className="absolute top-5 right-5 md:top-10 md:right-32 font-press-start rounded-[15px] px-5 py-3 border-2 border-gray-500 text-white"
           >
             Last Edition
           </Link>
           <Link
             href="/assets/docs/Sponsorship-Doc.pdf"
             target={"_blank"}
-            className="absolute top-5 left-5 md:top-10 md:left-10 font-satoshi-bold rounded-[15px] px-5 py-3 border-2 border-gray-500 text-white"
+            className="absolute top-5 left-5 md:top-10 md:left-10 font-press-start rounded-[15px] px-5 py-3 border-2 border-gray-500 text-white"
           >
             Sponsor Us
           </Link>  */}
@@ -61,9 +61,13 @@ const Hero = () => {
           <h1 className="block font-clash-bold text-4xl md:text-6xl leading-10 pt-10">
             Make-A-Ton<sup className="font-satoshi-regular">7.0</sup>
           </h1>
-          <div className="lg:flex justify-center gap-4 mb-5  w-2/5 md:w-2/5">
+          <div className="lg:flex justify-center gap-4 mb-5  w-1/3 md:w-2/5 lg:w-1/4">
             <span className="">powered by </span>
-            <Link href={"https://eduport.app/"} target={"_blank"}>
+            <Link
+              href={"https://eduport.app/"}
+              target={"_blank"}
+              className="block md:w-3/6 w-full"
+            >
               <svg
                 width="100%"
                 height="100%"
@@ -137,14 +141,14 @@ const Hero = () => {
             {/* <Link
               href="/assets/docs/Sponsorship-Doc.pdf"
               target={"_blank"}
-              className="mt-3 mx-2 font-satoshi-bold rounded-[15px] px-5 py-3 border-2 border-gray-500"
+              className="mt-3 mx-2 font-press-start rounded-[15px] px-5 py-3 border-2 border-gray-500"
             >
               Sponsor Us
             </Link>
             <Link
               href="https://2023.makeaton.in"
               target={"_blank"}
-              className="mt-3 mx-2 font-satoshi-bold rounded-[15px] px-5 py-3 border-2 border-gray-500"
+              className="mt-3 mx-2 font-press-start rounded-[15px] px-5 py-3 border-2 border-gray-500"
             >
               Last Edition
             </Link> */}
