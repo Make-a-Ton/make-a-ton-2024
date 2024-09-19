@@ -119,6 +119,16 @@ export default function ConductorTrack() {
               tasks in a sequence. Think of it as an automatic to-do list that
               ensures everything happens in the right order.
             </p>
+            <br />
+            <p className="font-satoshi-regular text-md md:text-lg text-white md:px-4">
+              Know more about Conductor{" "}
+              <a
+                href="https://orkes.io/content/"
+                className="text-customYellow underline"
+              >
+                here
+              </a>
+            </p>
           </div>
         </div>
 
