@@ -9,7 +9,7 @@ const Index = () => {
         {/* FAQ Heading on the left for desktop */}
         <div className="w-6/12 lg:w-4/12 ">
           <div className="h-full flex flex-col justify-center items-center">
-            <h1 className="text-white text-4xl font-clash-bold font-bold leading-12 tracking-normal text-left my-5">
+            <h1 className="text-white text-4xl font-press-start font-bold leading-12 tracking-normal text-left my-5">
               FAQ
             </h1>
           </div>
