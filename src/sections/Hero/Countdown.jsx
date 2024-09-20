@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const endDate = new Date("2024-09-20T23:59:00");
+const endDate = new Date("2024-09-23T23:59:00");
 
 function Number({ count, label }) {
   const [flip, setFlip] = useState("block");
@@ -92,7 +92,7 @@ export default function Countdown() {
       </div>
       <div className="md:w-1/2 md:z-10  font-clash-bold h-full flex justify-center  items-center  md:py-2 py-4 text-center  first-letter text-3xl px-4">
         <p className="text-white text-center">
-          Registration ends on 20th September
+          Regsitration extended till 23rd September
         </p>
       </div>
     </div>
