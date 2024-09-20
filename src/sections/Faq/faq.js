@@ -1,4 +1,4 @@
-export const FAQS =[
+export const FAQS = [
   {
     ques: "Is registration free?",
     ans: "Yes, registration is free of charge.",
@@ -18,6 +18,10 @@ export const FAQS =[
   {
     ques: "What is the theme of the hackathon?",
     ans: "Make-a-ton is an open hackathon. Unlike other hackathons, we don't stress too much on the marketing side of things. We believe in creating technology that can positively impact the world.",
+  },
+  {
+    ques: "Is there a separate track for hardware projects?",
+    ans: "No, there is no separate track for hardware projects. However, you are free to work on any project you wish to.",
   },
   {
     ques: "Are premade products allowed?",
@@ -44,8 +48,7 @@ export const FAQS =[
     ans: "Every University student is welcome to learn from each other and work on something you wish to. We believe there is something for everyone.",
   },
   {
-    "ques": "Is there a Code of Conduct?",
-    "ans": "Absolutely! We adhere to the <a href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf' target='_blank' class='underline text-white'>Major League Hacking Code of Conduct</a> to ensure a welcoming and inclusive environment for all participants."
-  }
-  
+    ques: "Is there a Code of Conduct?",
+    ans: "Absolutely! We adhere to the <a href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf' target='_blank' class='underline text-white'>Major League Hacking Code of Conduct</a> to ensure a welcoming and inclusive environment for all participants.",
+  },
 ];

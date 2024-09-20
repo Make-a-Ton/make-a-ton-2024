@@ -137,21 +137,6 @@ const Hero = () => {
             >
               Register
             </Link>
-
-            {/* <Link
-              href="/assets/docs/Sponsorship-Doc.pdf"
-              target={"_blank"}
-              className="mt-3 mx-2 font-press-start rounded-[15px] px-5 py-3 border-2 border-gray-500"
-            >
-              Sponsor Us
-            </Link>
-            <Link
-              href="https://2023.makeaton.in"
-              target={"_blank"}
-              className="mt-3 mx-2 font-press-start rounded-[15px] px-5 py-3 border-2 border-gray-500"
-            >
-              Last Edition
-            </Link> */}
           </div>
 
           <p className="mt-10 text-lg md:text-lg lg:text-2xl font-satoshi-bold">
