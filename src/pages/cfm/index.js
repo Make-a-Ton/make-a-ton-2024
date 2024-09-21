@@ -3,7 +3,7 @@ const index = () => {
     <div className="h-screen ">
       <iframe
         class="airtable-embed"
-        src="https://airtable.com/appbx3uK70QNE5GL3/pagebfc0YgJOoungT/form"
+        src="https://airtable.com/embed/appbx3uK70QNE5GL3/pagebfc0YgJOoungT/form"
         frameborder="0"
         onmousewheel=""
         width="100%"
