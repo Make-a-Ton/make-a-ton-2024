@@ -92,7 +92,7 @@ export default function Countdown() {
       </div>
       <div className="md:w-1/2 md:z-10  font-clash-bold h-full flex justify-center  items-center  md:py-2 py-4 text-center  first-letter text-3xl px-4">
         <p className="text-white text-center">
-          Regsitration extended till 23rd September
+          Regsitration extended till 25th September
         </p>
       </div>
     </div>
