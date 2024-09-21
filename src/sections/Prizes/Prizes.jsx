@@ -266,7 +266,7 @@ const Prizes = () => {
             />
           </div>
         </div>
-        <div className="space-y-16">
+        <div className="space-y-16 z-20">
           <div className="w-full flex justify-between items-center space-y-32">
             <div className="hidden md:flex">
               <WhiteBoxes count={6} size="8" />
