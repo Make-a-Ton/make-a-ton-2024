@@ -28,11 +28,11 @@ const PrizeTextRow = ({ text, color, strokeColor, fontSize, count }) => (
 );
 
 const WhiteBoxes = ({ count, size }) => (
-  <div className="flex flex-col ">
+  <div className="flex flex-wrap w-full">
     {[...Array(count)].map((_, i) => (
       <Fragment key={i}>
         <div className={`w-${size} h-${size} bg-white`} />
-        <div className={`w-${size} h-${size} bg-white ml-${size}`} />
+        <div className={`w-${size} h-${size} bg-customBlue ml-${size}`} />
       </Fragment>
     ))}
   </div>
@@ -102,67 +102,6 @@ const Prizes = () => {
           </div>
         </div>
         <div className="pt-36 bg-customBlue">
-          {/* <div className="absolute bg-white right-0 h-full w-1/2 -z-10"></div>
-          <div className="w-full py-28   hidden md:flex justify-around items-center text-white z-10"></div> */}
-
-          {/* <div className="w-full flex flex-col md:hidden justify-center items-center text-white space-y-16 z-20">
-            <PrizeAmount
-              amount="₹40K"
-              label="BEST PRODUCT"
-              bgColor="white"
-              textColor="customBlue"
-              fontSize="text-6xl"
-              labelSize="text-4xl"
-            />
-            <div className="w-full bg-[#EAAF20] h-max flex items-center justify-center space-x-6">
-              <PrizeTextRow
-                text="PRIZES"
-                color="[#EAAF20]"
-                strokeColor="#204289"
-                fontSize="text-xl"
-                count={4}
-              />
-            </div>
-            <PrizeAmount
-              amount="₹20K"
-              label="RUNNER UP"
-              bgColor="[#F6F5F5]"
-              textColor="[#2E57AC]"
-              fontSize="text-5xl"
-              labelSize="text-4xl"
-            />
-            <div className="flex md:hidden items-center justify-center w-full">
-              <div className="w-full bg-[#F6F5F5] h-max flex items-center justify-center">
-                <PrizeTextRow
-                  text="PRIZES"
-                  color="white"
-                  strokeColor="#204289"
-                  fontSize="text-xl"
-                  count={4}
-                />
-              </div>
-            </div>
-            <PrizeAmount
-              amount="₹15K"
-              label="UI/UX"
-              bgColor="[#EAAF20]"
-              textColor="[#2E57AC]"
-              fontSize="text-4xl"
-              labelSize="text-4xl"
-            />
-            <div className="flex md:hidden items-center justify-center w-full">
-              <div className="w-full bg-[#F6F5F5] h-max flex items-center justify-center">
-                <PrizeTextRow
-                  text="PRIZES"
-                  color="white"
-                  strokeColor="#204289"
-                  fontSize="text-xl"
-                  count={4}
-                />
-              </div>
-            </div>
-          </div> */}
-
           <div className="w-full relative h-full flex justify-between items-end ">
             <div className="flex flex-col w-1/3">
               <p
@@ -220,7 +159,7 @@ const Prizes = () => {
                   ?
                 </p>
                 <span className="tooltiptext font-press-start bg-customBlue py-5 md:text-2xl text-sm ml-1 whitespace-normal">
-                  Something special
+                  Announcing Soon
                 </span>
               </div>
             </div>
@@ -279,8 +218,8 @@ const Prizes = () => {
               Track Prizes Coming Soon
             </h1>
 
-            <div className="hidden md:flex">
-              <WhiteBoxes count={6} size="8" />
+            <div className="hidden md:flex flex-wrap w-1/3">
+              <WhiteBoxes count={23} size="8" />
             </div>
             <div className="flex md:hidden">
               <WhiteBoxes count={2} size="6" />
