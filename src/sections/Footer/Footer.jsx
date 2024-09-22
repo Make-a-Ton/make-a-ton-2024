@@ -10,7 +10,7 @@ const Footer = () => {
       >
         <div className="container  mx-auto text-center flex flex-col space-y-3  mt-7 mb-10">
           <div>
-            <h1 className="uppercase font-bold font-weight: 700 text-3xl font-press-start">
+            <h1 className="uppercase font-bold font-weight: 700 md:text-3xl text-2xl font-press-start">
               Did We Miss Something?
             </h1>
           </div>

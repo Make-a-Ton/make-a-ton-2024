@@ -57,6 +57,37 @@ const PrizeAmount = ({
 );
 
 const Prizes = () => {
+  const hrElements = [];
+
+  const whiteBoxes = [];
+  const whiteBoxesSmall = [];
+
+  for (let i = 0; i < 50; i++) {
+    hrElements.push(
+      <hr key={i} className="w-2 h-[2px] bg-white mx-2" /> // Add mx-2 for horizontal spacing
+    );
+  }
+  for (let i = 0; i < 6; i++) {
+    whiteBoxes.push(
+      <div className="flex flex-col ">
+        <div key={i} className="w-8 h-7 bg-white " />
+        <div key={i} className="w-8 h-7 bg-white ml-8" />
+        <div key={i} className="w-8 h-7 bg-white " />
+        <div key={i} className="w-8 h-7 bg-white ml-8" />
+      </div>
+    );
+  }
+  for (let i = 0; i < 2; i++) {
+    whiteBoxesSmall.push(
+      <div className="flex flex-col ">
+        <div key={i} className="w-6 h-5 bg-white " />
+        <div key={i} className="w-6 h-5 bg-white ml-6" />
+        <div key={i} className="w-6 h-5 bg-white " />
+        <div key={i} className="w-6 h-5 bg-white ml-6" />
+      </div>
+    );
+  }
+
   return (
     <Fragment>
       <div className="bg-customBlue text-white overflow-x-hidden  pt-0 over">
@@ -154,13 +185,13 @@ const Prizes = () => {
               >
                 15K
               </p>
-              <div className=" bg-customBlue flex items-center justify-center h-52 tooltip">
-                <p className="font-press-start text-white text-6xl   whitespace-nowrap md:whitespace-normal ">
-                  ?
+              <div className=" bg-customBlue flex items-center justify-center h-52 ">
+                <p className="font-press-start text-white md:text-4xl text-2xl  whitespace-nowrap md:whitespace-normal  md:rotate-0 -rotate-90">
+                  UI/UX
                 </p>
-                <span className="tooltiptext font-press-start bg-customBlue py-5 md:text-2xl text-sm ml-1 whitespace-normal">
+                {/* <span className="tooltiptext font-press-start bg-customBlue py-5 md:text-2xl text-sm ml-1 whitespace-normal">
                   Announcing Soon
-                </span>
+                </span> */}
               </div>
             </div>
           </div>
@@ -205,25 +236,15 @@ const Prizes = () => {
             />
           </div>
         </div>
-        <div className="space-y-16 z-20">
-          <div className="w-full flex justify-between items-center space-y-32">
-            <div className="hidden md:flex">
-              <WhiteBoxes count={6} size="8" />
-            </div>
-            <div className="flex md:hidden">
-              <WhiteBoxes count={2} size="6" />
-            </div>
-
-            <h1 className="block font-clash-semi text-xl  md:text-4xl leading-10 pt-0 text-center px-5">
+        <div className="space-y-32 z-20">
+          <div className="w-full flex justify-between items-center py-24">
+            <div className=" hidden md:flex">{whiteBoxes}</div>
+            <div className="flex  md:hidden">{whiteBoxesSmall}</div>
+            <h1 className="block font-clash-semi text-xl w-auto  md:text-4xl leading-10 pt-0 text-center px-5 md:whitespace-normal">
               Track Prizes Coming Soon
             </h1>
-
-            <div className="hidden md:flex flex-wrap w-1/3">
-              <WhiteBoxes count={23} size="8" />
-            </div>
-            <div className="flex md:hidden">
-              <WhiteBoxes count={2} size="6" />
-            </div>
+            <div className=" hidden md:flex">{whiteBoxes}</div>
+            <div className="flex  md:hidden">{whiteBoxesSmall}</div>
           </div>
 
           <div className="hidden md:flex items-center">
