@@ -9,11 +9,9 @@ const CloudImages = [
   },
 ];
 
-const SilverImages = [
-  { image: "/assets/foss.svg", link: "https://fossunited.org/" },
-  { image: "/assets/echo.png", link: "https://www.echo3d.com/" },
-  { image: "/assets/seaa.png", link: "https://www.soecusat.in/" },
-  { image: "/assets/wolfram.png", link: "https://www.wolframalpha.com/" },
+const GoldImages = [
+  { image: "/assets/github.png", link: "https://github.com/" }
+  
 ];
 
 const CommunityImages = [
@@ -376,7 +374,7 @@ const sponsor = () => {
         </div>
       </div>
 
-      <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-4 sm:mb-20 ">
+      <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-4 sm:mb-0  ">
         <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-medium text-[30px]">
           Platinum Sponsor
         </div>
@@ -407,22 +405,22 @@ const sponsor = () => {
         </div>
       </div>
 
-      {/* <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-14 sm:mb-0 ">
-                <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-regular text-[30px]">
-                    Silver Sponsors
+      <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-4 sm:mb-20 ">
+                <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-medium text-[30px]">
+                    Gold Sponsor
                 </div>
 
                 <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
-                    {SilverImages.map((data, i) => (
+                    {GoldImages.map((data, i) => (
                         <Link key={i} href={data.link} target={"_blank"}>
                             <div
-                                className={`flex justify-center min-h-[150px] p-10 ${i % 2 !== 0 ? 'bg-[#F6F5F5]' : ''}`}>
+                                className={`flex justify-center min-h-[175px] p-10 md:ml-7 sm:mt-24 ${i % 2 !== 0 ? 'bg-[#F6F5F5]' : ''}`}>
                                 <Image src={data.image} alt="" width={100} height={100} className="object-contain"/>
                             </div>
                         </Link>
                     ))}
                 </div>
-            </div> */}
+            </div>
 
       {/* <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-14 sm:mb-0 ">
                 <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-regular text-[30px]">
