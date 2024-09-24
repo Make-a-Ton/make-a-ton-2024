@@ -236,7 +236,7 @@ const Prizes = () => {
             />
           </div>
         </div>
-        <div className="space-y-32 z-20">
+        <div className="space-y-32 z-20 relative bg-customBlue">
           <div className="w-full flex justify-between items-center py-24">
             <div className=" hidden md:flex">{whiteBoxes}</div>
             <div className="flex  md:hidden">{whiteBoxesSmall}</div>
