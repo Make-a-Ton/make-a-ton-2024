@@ -135,7 +135,7 @@ const Hero = () => {
               target="_blank"
               className="rotate-custom mt-2 mx-2 font-clash-semi rounded-[10px] px-6 py-2 text-[#204289] border-[#EAAF20] border-4 bg-white text-sm md:text-base md:border-gray-500 transition-transform duration-300 hover:bg-white hover:text-[#204289] hover:border-[#EAAF20] custom-cursor"
             >
-              Register
+              Join Waitlist
             </Link>
           </div>
 
