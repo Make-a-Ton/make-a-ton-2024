@@ -43,10 +43,10 @@ const OpenSourceImages = [
 const PlatinumImages = [
   { image: "/assets/orkes.png", link: "https://www.orkes.io/" },
   { image: "/assets/cusat_tech.png", link: "https://tbi.cusat.ac.in/" },
-  {
-    image: "/assets/partners/logitech-mx-logo-black.png",
-    link: "https://www.logitech.com/en-in",
-  },
+  // {
+  //   image: "/assets/partners/logitech-mx-logo-black.png",
+  //   link: "https://www.logitech.com/en-in",
+  // },
   // {image: "/assets/GitHub_Logo.png", link: "https://github.com"},
 ];
 const HardwareImages = [
