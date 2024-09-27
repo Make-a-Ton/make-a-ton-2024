@@ -129,7 +129,7 @@ const Hero = () => {
           <p className="text-center my-5 lg:mt-2 px-2 text-xs font-satoshi-small lg:text-lg">
             A 24 HOUR HACKATHON TO EMBRACE THE SPIRIT OF INNOVATION
           </p>
-          <div className="flex justify-center items-center">
+          {/* <div className="flex justify-center items-center">
             <Link
               href="https://lu.ma/j58nctcm"
               target="_blank"
@@ -137,7 +137,7 @@ const Hero = () => {
             >
               Join Waitlist
             </Link>
-          </div>
+          </div> */}
 
           <p className="mt-10 text-lg md:text-lg lg:text-2xl font-satoshi-bold">
             19th - 20th October, 2024
