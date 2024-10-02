@@ -53,6 +53,10 @@ const HardwareImages = [
   { image: "/assets/makergram.png", link: "https://makergram.com" },
 ];
 
+const KnowledgeImages = [
+  { image: "/assets/geeksforgeeks.svg", link: "https://geeksforgeeks.org/" },
+];
+
 const sponsor = () => {
   return (
     <Fragment>
@@ -400,7 +404,7 @@ const sponsor = () => {
                   alt=""
                   width={100}
                   height={100}
-                  className="object-contain"
+                  className="object-contain"                  
                 />
               </div>
             </Link>
@@ -492,6 +496,33 @@ const sponsor = () => {
           ))}
         </div>
       </div>
+
+      <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-4 sm:mb-20 ">
+        <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-medium text-[30px]">
+          Knowledge Partner
+        </div>
+
+        <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
+          {KnowledgeImages.map((data, i) => (
+            <Link key={i} href={data.link} target={"_blank"}>
+              <div
+                className={`flex   justify-center  min-h-[150px] p-10 ${
+                  i % 2 !== 0 ? "bg-[#F6F5F5]" : ""
+                }`}
+              >
+                <Image
+                  src={data.image}
+                  alt=""
+                  width={125}
+                  height={125}
+                  className="object-contain"
+                />
+              </div>
+            </Link>
+          ))}
+        </div>
+      </div>
+
 
       <div className="flex flex-col gap-10 sm:flex-row items-center justify-center w-full  mb-28">
         <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-medium text-[30px]">
