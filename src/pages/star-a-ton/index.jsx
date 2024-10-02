@@ -16,19 +16,19 @@ export default function StarredCheckForm() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  // const getUsersData = async () => {
-  //   const usersRef = collection(db, "users");
-  //   const querySnapshot = await getDocs(usersRef);
+  const getUsersData = async () => {
+    const usersRef = collection(db, "users");
+    const querySnapshot = await getDocs(usersRef);
 
-  //   console.log(
-  //     "Data:",
-  //     querySnapshot.docs.map((doc) => doc.data())
-  //   );
-  // };
+    console.log(
+      "Data:",
+      querySnapshot.docs.map((doc) => doc.data())
+    );
+  };
 
-  // useEffect(() => {
-  //   getUsersData();
-  // }, []);
+  useEffect(() => {
+    getUsersData();
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
