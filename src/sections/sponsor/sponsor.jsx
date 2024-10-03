@@ -43,10 +43,7 @@ const OpenSourceImages = [
 const PlatinumImages = [
   { image: "/assets/orkes.png", link: "https://www.orkes.io/" },
   { image: "/assets/cusat_tech.png", link: "https://tbi.cusat.ac.in/" },
-  {
-    image: "/assets/partners/logitech-mx-logo-black.png",
-    link: "https://www.logitech.com/en-in",
-  },
+
   // {image: "/assets/GitHub_Logo.png", link: "https://github.com"},
 ];
 const HardwareImages = [
@@ -217,7 +214,7 @@ const sponsor = () => {
         </div>
 
         <div className="flex flex-col flex-grow gap-5 items-center justify-center">
-          <h3 className="block mb-1 text-center text-[#204289] font-satoshi-bold text-4xl ">
+          <h3 className="block mb-1 text-center text-[#204289] font-satoshi-bold md:text-6xl text-5xl">
             Title Sponsor
           </h3>
           <Link href={"https://eduport.app/"} target={"_blank"}>
@@ -381,47 +378,72 @@ const sponsor = () => {
         </div>
       </div>
 
-      <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-4 sm:mb-0  ">
-        <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-medium text-[30px]">
+      <div className="flex flex-col  items-center justify-center w-full mb-4 sm:mb-0  ">
+        <div className="flex justify-center  text-[#204289] font-satoshi-bold md:text-5xl text-4xl">
           Platinum Sponsor
         </div>
 
-        <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
+        <div className="flex md:flex-row flex-col justify-center sm:justify-start md:gap-10 md:ml-32 mx-5">
           {PlatinumImages.map((data, i) => (
+            <>
+              <Link
+                key={i}
+                href={data.link}
+                target={"_blank"}
+                className="items-center"
+              >
+                <div
+                  className={`flex justify-center min-h-[175px] p-10  sm:mt-12 ${
+                    i % 2 === 0 ? "" : "bg-[#F6F5F5]"
+                  }`}
+                >
+                  <Image
+                    src={data.image}
+                    alt=""
+                    width={100}
+                    height={100}
+                    className="object-contain"
+                  />
+                </div>
+              </Link>
+            </>
+          ))}
+
+          <>
+            <Link
+              href="https://www.logitech.com/en-in"
+              target={"_blank"}
+              className="items-center"
+            >
+              <div className="flex justify-center min-h-[175px] p-10   sm:mt-12 ">
+                <Image
+                  src="/assets/partners/logitech.png"
+                  alt=""
+                  width={200}
+                  height={200}
+                  className="object-contain"
+                />
+              </div>
+            </Link>
+          </>
+        </div>
+      </div>
+
+      <div className="flex  flex-col items-center justify-center w-full mb-4 sm:mb-20 md:mt-20">
+        <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-bold text-4xl">
+          Gold Sponsor
+        </div>
+
+        <div className="flex  justify-center sm:justify-start  ">
+          {GoldImages.map((data, i) => (
             <Link
               key={i}
               href={data.link}
               target={"_blank"}
-              className="items-center"
+              className="flex items-center"
             >
               <div
-                className={`flex justify-center min-h-[175px] p-10 md:ml-7 sm:mt-24 ${
-                  i % 2 === 0 ? "bg-[#F6F5F5]" : ""
-                }`}
-              >
-                <Image
-                  src={data.image}
-                  alt=""
-                  width={100}
-                  height={100}
-                  className="object-contain"                  
-                />
-              </div>
-            </Link>
-          ))}
-        </div>
-      </div>
-
-      <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-4 sm:mb-20 ">
-        <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-medium text-[30px]">
-          Gold Sponsor
-        </div>
-
-        <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
-          {GoldImages.map((data, i) => (
-            <Link key={i} href={data.link} target={"_blank"}>
-              <div
-                className={`flex justify-center min-h-[175px] p-10 md:ml-7 sm:mt-24 ${
+                className={`flex justify-center items-center min-h-[175px] p-10  mt-4 ${
                   i % 2 !== 0 ? "bg-[#F6F5F5]" : ""
                 }`}
               >
@@ -443,7 +465,7 @@ const sponsor = () => {
                     Open Source Partners
                 </div>
 
-                <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
+                <div className="flex justify-center sm:justify-start  w-[70%]">
                     {OpenSourceImages.map((data, i) => (
                         <Link key={i} href={data.link} target={"_blank"}>
                             <div
@@ -460,7 +482,7 @@ const sponsor = () => {
                     Cloud Partners
                 </div>
 
-                <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
+                <div className="flex justify-center sm:justify-start  w-[70%]">
                     {CloudImages.map((data, i) => (
                         <Link key={i} href={data.link} target={"_blank"}>
                             <div
@@ -471,12 +493,12 @@ const sponsor = () => {
                     ))}
                 </div>
             </div> */}
-      <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-4 sm:mb-20 ">
-        <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-medium text-[30px]">
+      <div className="flex flex-col  items-center justify-center w-full mb-4 sm:mb-20 ">
+        <div className="flex justify-center  text-[#204289] font-satoshi-bold text-3xl">
           Hackathon Partner
         </div>
 
-        <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
+        <div className="flex justify-center sm:justify-start  ">
           {HackathonImages.map((data, i) => (
             <Link key={i} href={data.link} target={"_blank"}>
               <div
@@ -497,12 +519,12 @@ const sponsor = () => {
         </div>
       </div>
 
-      <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-4 sm:mb-20 ">
-        <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-medium text-[30px]">
+      <div className="flex flex-col  items-center justify-center w-full mb-4 sm:mb-20 ">
+        <div className="flex justify-center  text-[#204289] font-satoshi-medium text-3xl">
           Knowledge Partner
         </div>
 
-        <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
+        <div className="flex flex-col justify-center sm:justify-start ">
           {KnowledgeImages.map((data, i) => (
             <Link key={i} href={data.link} target={"_blank"}>
               <div
@@ -523,13 +545,12 @@ const sponsor = () => {
         </div>
       </div>
 
-
-      <div className="flex flex-col gap-10 sm:flex-row items-center justify-center w-full  mb-28">
-        <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-medium text-[30px]">
+      <div className="flex flex-col gap-10  items-center justify-center w-full  mb-28">
+        <div className="flex justify-center  text-[#204289] font-satoshi-medium text-3xl">
           Community Partners
         </div>
 
-        <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
+        <div className="flex md:flex-row flex-col justify-center sm:justify-start  ">
           {CommunityImages.map((data, i) => (
             <Link key={i} href={data.link} target={"_blank"}>
               <div
@@ -556,7 +577,7 @@ const sponsor = () => {
                     Hardware Partner
                 </div>
 
-                <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
+                <div className="flex justify-center sm:justify-start  w-[70%]">
                     {HardwareImages.map((data, i) => (
                         <Link key={i} href={data.link} target={"_blank"}>
                             <div
