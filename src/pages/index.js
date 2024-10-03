@@ -44,7 +44,7 @@ export default function Home() {
 
       <Hero />
       {/* <Countdown /> */}
-      {/* <About /> */}
+      <About />
       <StarATon />
       <Statistics />
       <Prizes />
