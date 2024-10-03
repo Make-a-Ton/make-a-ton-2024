@@ -129,15 +129,15 @@ const Hero = () => {
           <p className="text-center my-5 lg:mt-2 px-2 text-xs font-satoshi-small lg:text-lg">
             A 24 HOUR HACKATHON TO EMBRACE THE SPIRIT OF INNOVATION
           </p>
-          {/* <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center">
             <Link
               href="https://lu.ma/j58nctcm"
               target="_blank"
               className="rotate-custom mt-2 mx-2 font-clash-semi rounded-[10px] px-6 py-2 text-[#204289] border-[#EAAF20] border-4 bg-white text-sm md:text-base md:border-gray-500 transition-transform duration-300 hover:bg-white hover:text-[#204289] hover:border-[#EAAF20] custom-cursor"
             >
-              Join Waitlist
+              Register Now
             </Link>
-          </div> */}
+          </div>
 
           <p className="mt-10 text-lg md:text-lg lg:text-2xl font-satoshi-bold">
             19th - 20th October, 2024
