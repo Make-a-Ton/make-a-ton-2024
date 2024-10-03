@@ -41,7 +41,6 @@ const OpenSourceImages = [
 ];
 
 const PlatinumImages = [
-  { image: "/assets/orkes.png", link: "https://www.orkes.io/" },
   { image: "/assets/cusat_tech.png", link: "https://tbi.cusat.ac.in/" },
 
   // {image: "/assets/GitHub_Logo.png", link: "https://github.com"},
@@ -391,13 +390,13 @@ const sponsor = () => {
               className="items-center"
             >
               <div
-                className={`flex justify-center min-h-[175px] p-10 md:ml-7 sm:mt-24 `}
+                className={`flex justify-center min-h-[175px] p-2 md:ml-7 sm:mt-24 `}
               >
                 <Image
                   src="/assets/partners/logitech.png"
                   alt=""
-                  width={300}
-                  height={300}
+                  width={250}
+                  height={250}
                   className="object-contain"
                 />
               </div>
@@ -425,6 +424,25 @@ const sponsor = () => {
               </div>
             </Link>
           ))}
+          <>
+            <Link
+              href="https://www.orkes.io/"
+              target={"_blank"}
+              className="items-center"
+            >
+              <div
+                className={`flex justify-center min-h-[175px] p-4 md:ml-7 sm:mt-24 `}
+              >
+                <Image
+                  src="/assets/orkes.png"
+                  alt=""
+                  width={150}
+                  height={150}
+                  className="object-contain"
+                />
+              </div>
+            </Link>
+          </>
         </div>
       </div>
 
