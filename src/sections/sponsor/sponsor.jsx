@@ -59,7 +59,7 @@ const sponsor = () => {
     <Fragment>
       <div className="flex justify-center items-center">
         <div className="text-blue-900 font-clash-bold text-4xl mt-20 mb-14 justify-center items-center">
-          PARTNER
+          OUR PARTNERS
         </div>
       </div>
 
@@ -396,8 +396,8 @@ const sponsor = () => {
                 <Image
                   src="/assets/partners/logitech.png"
                   alt=""
-                  width={200}
-                  height={200}
+                  width={300}
+                  height={300}
                   className="object-contain"
                 />
               </div>
