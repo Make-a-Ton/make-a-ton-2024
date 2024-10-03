@@ -43,12 +43,12 @@ export default function Home() {
       </a>
 
       <Hero />
-      <Countdown />
-      <About />
+      {/* <Countdown /> */}
+      {/* <About /> */}
       <StarATon />
       <Statistics />
       <Prizes />
-      {/* <MlhPrizes/> */}
+      {/* <MlhPrizes /> */}
       {/* <Schedule/> */}
       <Sponsor />
       <Faq />
