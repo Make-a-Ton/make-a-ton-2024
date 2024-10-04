@@ -33,7 +33,7 @@ export const FAQS = [
   },
   {
     ques: "When will prizes and other details be announced?",
-    ans: "Currently the cash prize alone stands at Rs. 50K. More details regarding the schedule, sponsors, main prizes and other category awards will be communicated in a mail to the registered candidates.",
+    ans: "Currently the cash prize alone stands at Rs. 1 Lakh+. More details regarding the schedule, sponsors, main prizes and other category awards will be communicated in a mail to the registered candidates.",
   },
   {
     ques: "Do we get any swag?",
