@@ -17,7 +17,7 @@ export const FAQS = [
   },
   {
     ques: "What is the theme of the hackathon?",
-    ans: "Make-a-ton is an open hackathon. Unlike other hackathons, we don't stress too much on the marketing side of things. We believe in creating technology that can positively impact the world.",
+    ans: "Make-A-Ton is an open hackathon. Unlike other hackathons, we don't stress too much on the marketing side of things. We believe in creating technology that can positively impact the world.",
   },
   {
     ques: "Is there a separate track for hardware projects?",
