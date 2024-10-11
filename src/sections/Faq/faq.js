@@ -17,7 +17,7 @@ export const FAQS = [
   },
   {
     ques: "What is the theme of the hackathon?",
-    ans: "Make-a-ton is an open hackathon. Unlike other hackathons, we don't stress too much on the marketing side of things. We believe in creating technology that can positively impact the world.",
+    ans: "Make-A-Ton is an open hackathon. Unlike other hackathons, we don't stress too much on the marketing side of things. We believe in creating technology that can positively impact the world.",
   },
   {
     ques: "Is there a separate track for hardware projects?",
@@ -33,7 +33,7 @@ export const FAQS = [
   },
   {
     ques: "When will prizes and other details be announced?",
-    ans: "Currently the cash prize alone stands at Rs. 50K. More details regarding the schedule, sponsors, main prizes and other category awards will be communicated in a mail to the registered candidates.",
+    ans: "Currently the cash prize alone stands at Rs. 1 Lakh+. More details regarding the schedule, sponsors, main prizes and other category awards will be communicated in a mail to the registered candidates.",
   },
   {
     ques: "Do we get any swag?",
