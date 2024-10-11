@@ -13,6 +13,7 @@ import Gallery from "@/sections/Gallery/Gallery";
 import StarATon from "@/sections/StarATon/StarATon";
 import Photogallery from "@/sections/Photogallery/Photogallery";
 import Countdown from "@/sections/Hero/Countdown";
+import Logitech from "@/sections/logitechmx/Logitech";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -46,6 +47,7 @@ export default function Home() {
       {/* <Countdown /> */}
       <About />
       <StarATon />
+      <Logitech/>
       <Statistics />
       <Prizes />
       {/* <MlhPrizes/> */}
