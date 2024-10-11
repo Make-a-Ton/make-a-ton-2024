@@ -19,9 +19,7 @@ const Logitech = () => {
       <div className="absolute md:-bottom-2 md:right-1/3 left-6 md:left-16 bottom-[45%] ">
         <Image src="/assets/cursor.png" alt="" width={40} height={50} />
       </div>
-      <div className="absolute hidden md:block  md:top-9 md:right-1/3">
-        <Image src="/assets/click.svg" alt="" width={50} height={50} />
-      </div>
+      
       <div className="flex flex-col items-center gap-8">
        
         <div className="hidden md:flex  z-10 md:-mt-20 -mr-36 mt">
