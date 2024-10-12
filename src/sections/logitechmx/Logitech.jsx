@@ -2,7 +2,7 @@ import Image from "next/image";
 const Logitech = () => {
   return (
     <div
-      className="relative w-screen h-max mt-0.5 bg-[#204289] md:py-40  flex flex-col md:flex-row gap-10 justify-around items-center overflow-hidden"
+      className="relative w-screen h-max bg-[#204289] md:py-40  flex flex-col md:flex-row gap-10 justify-around items-center overflow-hidden"
       style={{ backgroundImage: "url(/assets/grid.png)" }}
     >
       <div className="relative md:ml-5" style={{ width: 350, height: 100 }}>
@@ -16,7 +16,7 @@ const Logitech = () => {
        
       </div>
 
-      <div className="absolute md:-bottom-2 md:right-1/3 left-6 md:left-16 bottom-[45%] ">
+      <div className="absolute md:-bottom-0.5 md:right-1/3 left-6 md:left-16 bottom-[45%] ">
         <Image src="/assets/cursor.png" alt="" width={40} height={50} />
       </div>
       
