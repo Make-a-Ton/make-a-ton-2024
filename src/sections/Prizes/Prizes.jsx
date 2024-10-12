@@ -186,8 +186,8 @@ const Prizes = () => {
                 15K
               </p>
               <div className=" bg-customBlue flex items-center justify-center h-52 ">
-                <p className="font-press-start text-white md:text-4xl text-2xl  whitespace-nowrap md:whitespace-normal  md:rotate-0 -rotate-90">
-                  UI/UX
+                <p className="font-press-start text-white md:text-4xl text-2xl  whitespace-wrap md:whitespace-normal  md:rotate-0 -rotate-90">
+                  Hack For Cusat
                 </p>
                 {/* <span className="tooltiptext font-press-start bg-customBlue py-5 md:text-2xl text-sm ml-1 whitespace-normal">
                   Announcing Soon
