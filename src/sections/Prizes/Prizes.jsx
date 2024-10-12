@@ -187,7 +187,7 @@ const Prizes = () => {
               </p>
               <div className=" bg-customBlue flex items-center justify-center h-52 ">
                 <p className="font-press-start text-white md:text-3xl text-2xl  whitespace-wrap md:whitespace-normal  md:rotate-0 -rotate-90">
-                  Hack For Cusat
+                  Hack For CUSAT
                 </p>
                 {/* <span className="tooltiptext font-press-start bg-customBlue py-5 md:text-2xl text-sm ml-1 whitespace-normal">
                   Announcing Soon
