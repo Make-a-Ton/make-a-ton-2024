@@ -16,7 +16,7 @@ const GoldImages = [
 const GiftingImages = [
   {
     image: "/assets/partners/Fulva-transparent.png",
-    link: "https://www.fulva.in/",
+    link: "https://dalisec.com/",
   },
 ];
 
