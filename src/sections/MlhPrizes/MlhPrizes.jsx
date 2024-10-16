@@ -12,7 +12,7 @@ import Image from "next/image";
 
 const MlhPrizes = () => {
   return (
-    <div className="my-8 bg-red-500 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-0 md:mx-28">
+    <div className="my-8 bg-white grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-0 md:mx-28">
 
     <div className="order-4 sm:order-1">
       <Image
