@@ -16,14 +16,14 @@ const GoldImages = [
 const GiftingImages = [
   {
     image: "/assets/partners/Fulva-transparent.png",
-    link: "https://dalisec.com/",
+    link: "https://www.fulva.in/",
   },
 ];
 
 const DigitalsecImages = [
   {
     image: "/assets/partners/Dalisecblack.png",
-    link: "https://www.fulva.in/",
+    link: "https://dalisec.com/",
   },
 ];
 
