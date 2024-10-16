@@ -91,7 +91,7 @@ const Prizes = () => {
   return (
     <Fragment>
       <div className="bg-customBlue text-white overflow-x-hidden  pt-0 over">
-        <div className="absolute  w-1/2 md:h-full h-2/3 bg-white right-0"></div>
+        <div className="absolute  w-1/2 md:h-full h-2/3 lg:h-1/2 bg-white right-0"></div>
         <div className="hidden md:flex items-center z-20 relative">
           <div className="w-full bg-[#F6F5F5] h-max flex items-center">
             <PrizeTextRow
