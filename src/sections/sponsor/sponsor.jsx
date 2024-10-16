@@ -20,6 +20,13 @@ const GiftingImages = [
   },
 ];
 
+const DigitalsecImages = [
+  {
+    image: "/assets/partners/Dalisecblack.png",
+    link: "https://www.fulva.in/",
+  },
+];
+
 const CommunityImages = [
   { image: "/assets/tinkerhub.png", link: "https://tinkerhub.org/" },
   {
@@ -588,6 +595,34 @@ const sponsor = () => {
           ))}
         </div>
       </div>
+
+      <div className="flex flex-col sm:flex-row items-center justify-center w-full mb-4 sm:mb-20 ">
+        <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-medium text-[30px]">
+          Digital Security Partner
+        </div>
+
+        <div className="flex justify-center sm:justify-start flex-wrap w-[70%]">
+          {DigitalsecImages.map((data, i) => (
+            <Link key={i} href={data.link} target={"_blank"}>
+              <div
+                className={`flex   justify-center  min-h-[150px] p-10 ${
+                  i % 2 !== 0 ? "bg-[#F6F5F5]" : ""
+                }`}
+              >
+                <Image
+                  src={data.image}
+                  alt=""
+                  width={150}
+                  height={150}
+                  className="object-contain"
+                />
+              </div>
+            </Link>
+          ))}
+        </div>
+      </div>
+
+      
 
       <div className="flex flex-col gap-10 sm:flex-row items-center justify-center w-full  mb-28">
         <div className="flex justify-center sm:w-[30%] text-[#204289] font-satoshi-medium text-[30px]">

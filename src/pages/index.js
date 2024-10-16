@@ -47,7 +47,7 @@ export default function Home() {
       {/* <Countdown /> */}
       <About />
       <Logitech/>
-      <StarATon />
+      {/* <StarATon /> */}
       <Statistics />
       <Prizes />
       {/* <MlhPrizes /> */}
