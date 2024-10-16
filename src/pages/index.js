@@ -50,7 +50,7 @@ export default function Home() {
       {/* <StarATon /> */}
       <Statistics />
       <Prizes />
-      {/* <MlhPrizes /> */}
+      <MlhPrizes />
       {/* <Schedule/> */}
       <Sponsor />
       <Faq />
