@@ -6,7 +6,7 @@ export default function Dalisec() {
       className="relative w-screen h-max bg-[#FFFFFF] mt-4 md:py-40 flex flex-col md:flex-row gap-10 justify-around items-center overflow-hidden "
       style={{ backgroundImage: "url(/assets/grid.png)" }}
     >
-      <div className="flex flex-col items-center gap-24  md:items-start md:absolute md:left-10 md:ml-24 md:top-1/2 md:gap-12 md:-translate-y-1/2 z-20">
+      <div className="flex flex-col items-center gap-24  md:items-start md:absolute md:left-16 md:ml-32 md:top-1/2 md:gap-12 md:-translate-y-1/2 z-20">
         <div
           className="relative mb-4 md:mb-8"
           style={{ width: 150, height: 100 }}
