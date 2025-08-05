@@ -126,6 +126,9 @@ const Hero = () => {
               </svg>
             </Link>
           </div>
+          <p className="text-center my-5 lg:mt-2 px-2 text-sm sm:text-base md:text-lg lg:text-xl font-satoshi-small">
+            South India's BIGGEST Hackathon
+          </p>
           <p className="text-center my-5 lg:mt-2 px-2 text-xs font-satoshi-small lg:text-lg">
             A 24 HOUR HACKATHON TO EMBRACE THE SPIRIT OF INNOVATION
           </p>
