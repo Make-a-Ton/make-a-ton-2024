@@ -8,7 +8,7 @@ const AboutLeft = () => {
           ABOUT
         </h1>
         <p className="text-gray-700 text-left text-sm md:my-10 font-satoshi-regular">
-          Welcome to Make-a-ton 7.0: Where Innovation Meets Opportunity!
+          Welcome to Make-a-ton 7.0: South India&apos;s Biggest Hackathon!
           The most exciting hackathon of the year is back with a bang! With a staggering exciting prize pool, cutting-edge gadgets, and coveted internship opportunities up for grabs, we&apos;re to make history. Organized by CITTIC, Make-a-ton is a 24-hour coding marathon that fuels innovation. Get ready for intense coding sessions, groundbreaking solutions, and yes – plenty of coffee!
           Join us and leave your mark on the tech world!
         </p>
